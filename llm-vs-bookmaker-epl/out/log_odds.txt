@@ -1,0 +1,380 @@
+0 Liverpool Bournemouth [38, 32, 30] 7.22
+1 Aston Villa Newcastle [33, 34, 33] 5.85
+2 Brighton Fulham [32, 36, 32] 6.06
+3 Sunderland West Ham [31, 38, 31] 6.66
+4 Tottenham Burnley [30, 40, 30] 5.7
+5 Wolves Man City [16, 47, 37] 5.43
+6 Chelsea Crystal Palace [49, 25, 26] 5.68
+7 Nott'm Forest Brentford [32, 36, 32] 5.41
+8 Man United Arsenal [18, 40, 42] 5.31
+9 Leeds Everton [33, 38, 29] 5.47
+10 West Ham Chelsea [22, 40, 38] 6.2
+11 Man City Tottenham [58, 22, 20] 6.22
+12 Bournemouth Wolves [33, 34, 33] 6.38
+13 Brentford Aston Villa [31, 35, 34] 6.36
+14 Burnley Sunderland [25, 32, 43] 6.69
+15 Arsenal Leeds [74, 20, 16] 6.2
+16 Crystal Palace Nott'm Forest [31, 39, 30] 6.34
+17 Everton Brighton [31, 40, 29] 6.32
+18 Fulham Man United [31, 35, 34] 6.71
+19 Newcastle Liverpool [33, 38, 29] 6.23
+20 Chelsea Fulham [55, 25, 20] 6.24
+21 Man United Burnley [25, 45, 30] 6.76
+22 Sunderland Brentford [33, 38, 29] 6.71
+23 Tottenham Bournemouth [40, 25, 35] 6.48
+24 Wolves Everton [26, 32, 42] 6.43
+25 Leeds Newcastle [31, 40, 29] 6.39
+26 Brighton Man City [25, 40, 35] 6.59
+27 Nott'm Forest West Ham [40, 25, 35] 6.43
+28 Liverpool Arsenal [52, 28, 20] 6.16
+29 Aston Villa Crystal Palace [38, 32, 30] 6.58
+30 Arsenal Nott'm Forest [45, 25, 30] 6.45
+31 Bournemouth Brighton [33, 34, 33] 6.4
+32 Crystal Palace Sunderland [32, 38, 30] 6.5
+33 Everton Aston Villa [33, 34, 33] 6.33
+34 Fulham Leeds [32, 38, 30] 6.38
+35 Newcastle Wolves [30, 35, 35] 6.49
+36 West Ham Tottenham [28, 40, 32] 6.57
+37 Brentford Chelsea [28, 36, 36] 11.92
+38 Burnley Liverpool [15, 35, 50] 15.25
+39 Man City Man United [45, 25, 30] 12.41
+40 Liverpool Everton [65, 15, 20] 12.18
+41 Brighton Tottenham [33, 34, 33] 12.33
+42 Burnley Nott'm Forest [28, 37, 35] 13.22
+43 West Ham Crystal Palace [32, 36, 32] 7.36
+44 Wolves Leeds [28, 40, 32] 6.4
+45 Man United Chelsea [25, 45, 30] 6.41
+46 Fulham Brentford [33, 34, 33] 6.47
+47 Bournemouth Newcastle [34, 37, 29] 6.54
+48 Sunderland Aston Villa [35, 33, 32] 6.4
+49 Arsenal Man City [42, 28, 30] 6.07
+50 Brentford Man United [34, 37, 21] 6.55
+51 Chelsea Brighton [33, 33, 34] 6.51
+52 Crystal Palace Liverpool [28, 37, 35] 6.19
+53 Leeds Bournemouth [32, 34, 34] 6.15
+54 Man City Burnley [52, 22, 26] 6.47
+55 Nott'm Forest Sunderland [35, 30, 35] 6.26
+56 Tottenham Wolves [52, 28, 20] 6.02
+57 Aston Villa Fulham [33, 34, 33] 5.97
+58 Newcastle Arsenal [33, 34, 33] 6.09
+59 Everton West Ham [34, 36, 30] 6.3
+60 Bournemouth Fulham [38, 32, 30] 6.03
+61 Leeds Tottenham [33, 34, 33] 5.91
+62 Arsenal West Ham [40, 25, 35] 6.19
+63 Man United Sunderland [25, 45, 30] 6.08
+64 Chelsea Liverpool [33, 33, 34] 5.86
+65 Aston Villa Burnley [33, 22, 45] 6.04
+66 Everton Crystal Palace [33, 34, 33] 6.18
+67 Newcastle Nott'm Forest [33, 33, 34] 6.07
+68 Wolves Brighton [20, 40, 40] 5.98
+69 Brentford Man City [25, 35, 40] 6.57
+70 Nott'm Forest Chelsea [31, 39, 30] 6.23
+71 Brighton Newcastle [32, 38, 30] 6.02
+72 Burnley Leeds [30, 40, 30] 5.93
+73 Crystal Palace Bournemouth [33, 34, 33] 6.22
+74 Man City Everton [45, 25, 30] 6.38
+75 Sunderland Wolves [33, 34, 33] 6.23
+76 Fulham Arsenal [18, 36, 46] 6.33
+77 Tottenham Aston Villa [34, 35, 31] 6.2
+78 Liverpool Man United [55, 25, 20] 5.99
+79 West Ham Brentford [32, 38, 30] 6.22
+80 Leeds West Ham [34, 33, 33] 6.24
+81 Chelsea Sunderland [49, 28, 23] 6.12
+82 Newcastle Fulham [38, 28, 34] 6.2
+83 Man United Brighton [28, 42, 30] 6.38
+84 Brentford Liverpool [28, 31, 41] 6.23
+85 Arsenal Crystal Palace [65, 15, 20] 6.52
+86 Aston Villa Man City [30, 35, 35] 6.26
+87 Bournemouth Nott'm Forest [40, 25, 35] 6.68
+88 Wolves Burnley [32, 33, 35] 6.2
+89 Everton Tottenham [32, 38, 30] 6.33
+90 Brighton Leeds [34, 32, 34] 6.48
+91 Burnley Arsenal [16, 36, 48] 6.67
+92 Crystal Palace Brentford [32, 38, 30] 7.79
+93 Fulham Wolves [32, 34, 34] 6.62
+94 Nott'm Forest Man United [25, 35, 40] 6.56
+95 Tottenham Chelsea [33, 35, 32] 6.93
+96 Liverpool Aston Villa [43, 27, 30] 6.72
+97 West Ham Newcastle [22, 40, 38] 6.88
+98 Man City Bournemouth [52, 28, 20] 6.61
+99 Sunderland Everton [33, 34, 33] 6.64
+100 Tottenham Man United [33, 35, 32] 6.47
+101 Everton Fulham [30, 40, 30] 6.66
+102 West Ham Burnley [32, 34, 34] 6.33
+103 Sunderland Arsenal [25, 35, 40] 6.3
+104 Chelsea Wolves [49, 22, 29] 6.4
+105 Aston Villa Bournemouth [34, 32, 34] 6.98
+106 Brentford Newcastle [33, 34, 33] 6.8
+107 Crystal Palace Brighton [34, 35, 31] 6.63
+108 Nott'm Forest Leeds [31, 34, 35] 6.63
+109 Man City Liverpool [45, 25, 30] 6.61
+110 Burnley Chelsea [15, 40, 45] 6.88
+111 Bournemouth West Ham [32, 28, 40] 185.09
+112 Brighton Brentford [34, 32, 34] 6.8
+113 Fulham Sunderland [33, 33, 34] 6.79
+114 Liverpool Nott'm Forest [40, 25, 35] 6.74
+115 Wolves Crystal Palace [20, 40, 40] 6.76
+116 Newcastle Man City [30, 40, 30] 6.53
+117 Leeds Aston Villa [33, 38, 29] 6.7
+118 Arsenal Tottenham [52, 28, 20] 6.48
+119 Man United Everton [35, 30, 35] 6.78
+120 Brentford Burnley [38, 28, 34] 6.66
+121 Man City Leeds [71, 27, 2] 6.46
+122 Sunderland Bournemouth [34, 37, 29] 6.7
+123 Everton Newcastle [33, 34, 33] 6.64
+124 Tottenham Fulham [33, 34, 33] 6.66
+125 Crystal Palace Man United [32, 35, 33] 6.71
+126 Aston Villa Wolves [56, 24, 20] 6.59
+127 Nott'm Forest Brighton [33, 34, 33] 6.67
+128 West Ham Liverpool [28, 38, 34] 6.4
+129 Chelsea Arsenal [37, 35, 28] 6.31
+130 Bournemouth Everton [34, 32, 34] 7.01
+131 Fulham Man City [25, 40, 35] 6.66
+132 Newcastle Tottenham [40, 30, 30] 6.6
+133 Arsenal Brentford [52, 28, 20] 6.72
+134 Brighton Aston Villa [33, 34, 33] 6.59
+135 Burnley Crystal Palace [25, 40, 35] 6.47
+136 Wolves Nott'm Forest [22, 44, 34] 6.5
+137 Leeds Chelsea [22, 35, 43] 6.28
+138 Liverpool Sunderland [52, 28, 20] 6.43
+139 Man United West Ham [35, 30, 35] 6.59
+140 Aston Villa Arsenal [34, 28, 38] 7.28
+141 Bournemouth Chelsea [31, 37, 32] 7.62
+142 Everton Nott'm Forest [33, 34, 33] 6.83
+143 Man City Sunderland [32, 38, 30] 7.09
+144 Newcastle Burnley [30, 35, 35] 6.9
+145 Tottenham Brentford [34, 34, 32] 7.15
+146 Leeds Liverpool [22, 38, 40] 6.46
+147 Brighton West Ham [34, 32, 34] 6.31
+148 Fulham Crystal Palace [33, 34, 33] 6.44
+149 Wolves Man United [20, 40, 40] 6.37
+150 Chelsea Everton [55, 25, 20] 6.3
+151 Liverpool Brighton [43, 28, 29] 5.96
+152 Burnley Fulham [31, 34, 35] 6.07
+153 Arsenal Wolves [45, 25, 30] 5.89
+154 Crystal Palace Man City [28, 32, 40] 6.25
+155 Nott'm Forest Tottenham [32, 34, 34] 6.05
+156 Sunderland Newcastle [32, 33, 35] 6.1
+157 West Ham Aston Villa [30, 40, 30] 6.29
+158 Brentford Leeds [34, 32, 34] 6.29
+159 Man United Bournemouth [35, 30, 35] 6.27
+160 Newcastle Chelsea [30, 35, 35] 6.23
+161 Bournemouth Burnley [32, 38, 30] 6.31
+162 Brighton Sunderland [42, 28, 30] 6.45
+163 Man City West Ham [33, 33, 34] 6.09
+164 Wolves Brentford [20, 40, 40] 6.11
+165 Tottenham Liverpool [33, 37, 30] 6.24
+166 Everton Arsenal [20, 40, 40] 6.03
+167 Leeds Crystal Palace [33, 33, 34] 6.07
+168 Aston Villa Man United [33, 36, 31] 6.36
+169 Fulham Nott'm Forest [33, 34, 33] 6.72
+170 Man United Newcastle [35, 35, 30] 6.65
+171 Nott'm Forest Man City [25, 35, 40] 6.25
+172 Arsenal Brighton [58, 22, 20] 6.26
+173 Brentford Bournemouth [33, 34, 33] 7.58
+174 Burnley Everton [30, 35, 35] 6.15
+175 Liverpool Wolves [84, 12, 4] 6.02
+176 West Ham Fulham [28, 34, 38] 6.14
+177 Chelsea Aston Villa [49, 25, 26] 6.33
+178 Sunderland Leeds [34, 36, 29] 6.16
+179 Crystal Palace Tottenham [33, 33, 34] 6.37
+180 Burnley Newcastle [20, 40, 40] 6.49
+181 Chelsea Bournemouth [49, 25, 26] 13.2
+182 Nott'm Forest Everton [31, 34, 35] 6.37
+183 West Ham Brighton [31, 37, 32] 6.58
+184 Arsenal Aston Villa [58, 22, 20] 6.31
+185 Man United Wolves [35, 30, 35] 6.45
+186 Crystal Palace Fulham [31, 34, 35] 6.78
+187 Liverpool Leeds [58, 22, 20] 6.31
+188 Brentford Tottenham [32, 34, 34] 6.49
+189 Sunderland Man City [18, 45, 37] 6.48
+190 Aston Villa Nott'm Forest [56, 24, 20] 6.86
+191 Brighton Burnley [32, 35, 33] 6.82
+192 Wolves West Ham [25, 45, 30] 6.96
+193 Bournemouth Arsenal [25, 35, 40] 6.54
+194 Leeds Man United [33, 34, 33] 7.24
+195 Everton Brentford [31, 32, 37] 6.35
+196 Newcastle Crystal Palace [44, 28, 28] 6.45
+197 Tottenham Sunderland [35, 35, 30] 6.4
+198 Fulham Liverpool [32, 36, 32] 6.36
+199 Man City Chelsea [52, 28, 20] 6.27
+200 West Ham Nott'm Forest [22, 44, 34] 6.47
+201 Bournemouth Tottenham [31, 36, 33] 6.75
+202 Brentford Sunderland [38, 32, 30] 6.45
+203 Crystal Palace Aston Villa [31, 34, 35] 6.89
+204 Everton Wolves [34, 35, 31] 6.97
+205 Fulham Chelsea [31, 35, 34] 6.68
+206 Man City Brighton [48, 22, 30] 6.64
+207 Burnley Man United [22, 38, 40] 6.58
+208 Newcastle Leeds [40, 25, 35] 6.32
+209 Arsenal Liverpool [62, 25, 13] 6.38
+210 Man United Man City [28, 38, 34] 6.53
+211 Chelsea Brentford [40, 25, 35] 6.35
+212 Leeds Fulham [33, 33, 34] 6.39
+213 Liverpool Burnley [33, 33, 34] 6.54
+214 Sunderland Crystal Palace [33, 34, 33] 6.84
+215 Tottenham West Ham [33, 28, 39] 6.73
+216 Nott'm Forest Arsenal [25, 35, 40] 6.62
+217 Wolves Newcastle [20, 40, 40] 6.33
+218 Aston Villa Everton [43, 28, 29] 6.12
+219 Brighton Bournemouth [34, 32, 34] 6.29
+220 West Ham Sunderland [22, 45, 33] 6.31
+221 Burnley Tottenham [32, 38, 30] 6.36
+222 Fulham Brighton [33, 34, 33] 6.43
+223 Man City Wolves [71, 28, 1] 6.64
+224 Bournemouth Liverpool [28, 38, 34] 6.38
+225 Brentford Nott'm Forest [38, 32, 30] 6.69
+226 Crystal Palace Chelsea [25, 40, 35] 6.54
+227 Newcastle Aston Villa [33, 34, 33] 6.7
+228 Arsenal Man United [58, 24, 18] 6.25
+229 Everton Leeds [32, 36, 32] 6.43
+230 Brighton Everton [35, 30, 35] 6.55
+231 Leeds Arsenal [20, 40, 40] 6.69
+232 Wolves Bournemouth [23, 43, 34] 6.66
+233 Chelsea West Ham [49, 45, 6] 6.07
+234 Liverpool Newcastle [44, 28, 28] 6.16
+235 Aston Villa Brentford [33, 34, 33] 6.45
+236 Man United Fulham [30, 35, 35] 6.37
+237 Nott'm Forest Crystal Palace [32, 34, 34] 6.58
+238 Tottenham Man City [23, 38, 39] 6.55
+239 Sunderland Burnley [33, 34, 33] 6.62
+240 Leeds Nott'm Forest [33, 34, 33] 6.65
+241 Man United Tottenham [35, 30, 35] 6.83
+242 Arsenal Sunderland [58, 22, 20] 6.99
+243 Bournemouth Aston Villa [33, 36, 31] 7.09
+244 Burnley West Ham [28, 35, 37] 6.64
+245 Fulham Everton [33, 34, 33] 6.72
+246 Wolves Chelsea [20, 45, 35] 6.51
+247 Newcastle Brentford [33, 35, 32] 6.52
+248 Brighton Crystal Palace [32, 36, 32] 6.34
+249 Liverpool Man City [44, 28, 28] 6.41
+250 Chelsea Leeds [55, 28, 17] 6.47
+251 Everton Bournemouth [32, 38, 30] 6.57
+252 Tottenham Newcastle [25, 45, 30] 6.37
+253 West Ham Man United [22, 38, 40] 6.47
+254 Aston Villa Brighton [42, 28, 30] 60.28
+255 Crystal Palace Burnley [33, 33, 34] 6.77
+256 Man City Fulham [58, 22, 20] 6.89
+257 Nott'm Forest Wolves [35, 25, 40] 6.72
+258 Sunderland Liverpool [22, 38, 30] 6.62
+259 Brentford Arsenal [25, 35, 40] 7.05
+260 Wolves Arsenal [16, 48, 36] 6.96
+261 Aston Villa Leeds [40, 30, 30] 6.64
+262 Brentford Brighton [34, 37, 29] 6.69
+263 Chelsea Burnley [75, 15, 10] 6.9
+264 West Ham Bournemouth [33, 37, 30] 6.9
+265 Man City Newcastle [43, 24, 33] 6.22
+266 Crystal Palace Wolves [32, 39, 29] 6.39
+267 Nott'm Forest Liverpool [25, 40, 35] 6.41
+268 Sunderland Fulham [33, 34, 33] 6.51
+269 Tottenham Arsenal [16, 39, 45] 6.49
+270 Everton Man United [31, 37, 32] 6.39
+271 Wolves Aston Villa [20, 40, 40] 6.55
+272 Bournemouth Sunderland [40, 25, 35] 6.29
+273 Burnley Brentford [22, 38, 40] 6.21
+274 Liverpool West Ham [45, 25, 30] 6.24
+275 Newcastle Everton [33, 28, 39] 6.18
+276 Leeds Man City [20, 45, 35] 6.24
+277 Brighton Nott'm Forest [31, 35, 34] 6.49
+278 Fulham Tottenham [33, 34, 33] 6.35
+279 Man United Crystal Palace [30, 35, 35] 6.28
+280 Arsenal Chelsea [55, 25, 20] 6.14
+281 Bournemouth Brentford [33, 34, 33] 6.72
+282 Everton Burnley [33, 34, 33] 6.23
+283 Leeds Sunderland [32, 36, 32] 6.57
+284 Wolves Liverpool [20, 40, 40] 6.16
+285 Aston Villa Chelsea [33, 35, 32] 6.19
+286 Brighton Arsenal [28, 39, 33] 6.2
+287 Fulham West Ham [33, 34, 33] 6.3
+288 Man City Nott'm Forest [51, 24, 25] 6.42
+289 Newcastle Man United [34, 33, 33] 6.39
+290 Tottenham Crystal Palace [28, 40, 32] 6.4
+291 Burnley Bournemouth [22, 38, 40] 6.56
+292 Sunderland Brighton [28, 41, 31] 6.2
+293 Arsenal Everton [52, 28, 20] 6.24
+294 Chelsea Newcastle [48, 24, 28] 6.33
+295 West Ham Man City [22, 38, 30] 6.46
+296 Crystal Palace Leeds [34, 35, 31] 6.43
+297 Man United Aston Villa [35, 25, 40] 6.46
+298 Nott'm Forest Fulham [32, 34, 34] 6.6
+299 Liverpool Tottenham [32, 38, 30] 6.14
+300 Brentford Wolves [33, 28, 39] 6.3
+301 Bournemouth Man United [30, 40, 30] 6.42
+302 Brighton Liverpool [30, 40, 30] 6.49
+303 Fulham Burnley [33, 28, 39] 6.54
+304 Everton Chelsea [33, 35, 32] 6.29
+305 Leeds Brentford [32, 38, 30] 6.41
+306 Newcastle Sunderland [38, 28, 34] 6.68
+307 Aston Villa West Ham [37, 32, 31] 6.4
+308 Tottenham Nott'm Forest [28, 40, 32] 6.26
+309 West Ham Wolves [31, 37, 32] 6.52
+310 Arsenal Bournemouth [65, 15, 20] 6.49
+311 Brentford Everton [33, 33, 34] 6.44
+312 Burnley Brighton [20, 40, 40] 6.51
+313 Liverpool Fulham [55, 25, 20] 6.74
+314 Crystal Palace Newcastle [30, 35, 35] 6.56
+315 Nott'm Forest Aston Villa [32, 33, 35] 6.87
+316 Sunderland Tottenham [33, 34, 33] 6.52
+317 Chelsea Man City [33, 33, 34] 6.46
+318 Man United Leeds [35, 30, 35] 7.2
+319 Brentford Fulham [34, 32, 34] 6.82
+320 Leeds Wolves [40, 30, 30] 6.41
+321 Newcastle Bournemouth [32, 38, 30] 6.66
+322 Tottenham Brighton [32, 36, 32] 6.6
+323 Chelsea Man United [40, 30, 30] 6.75
+324 Aston Villa Sunderland [40, 25, 35] 6.79
+325 Everton Liverpool [31, 34, 35] 6.66
+326 Nott'm Forest Burnley [33, 33, 34] 6.86
+327 Man City Arsenal [52, 28, 20] 6.47
+328 Crystal Palace West Ham [33, 32, 35] 6.63
+329 Brighton Chelsea [32, 36, 32] 6.6
+330 Bournemouth Leeds [33, 34, 33] 6.37
+331 Burnley Man City [15, 45, 40] 6.29
+332 Sunderland Nott'm Forest [33, 31, 36] 6.65
+333 Fulham Aston Villa [33, 35, 32] 6.6
+334 Liverpool Crystal Palace [56, 24, 20] 6.74
+335 West Ham Everton [33, 34, 33] 6.65
+336 Wolves Tottenham [20, 40, 40] 6.6
+337 Arsenal Newcastle [56, 22, 22] 6.29
+338 Man United Brentford [35, 30, 35] 6.6
+339 Leeds Burnley [34, 50, 16] 6.51
+340 Brentford West Ham [34, 36, 30] 6.75
+341 Newcastle Brighton [30, 40, 30] 6.78
+342 Wolves Sunderland [34, 35, 31] 6.92
+343 Arsenal Fulham [58, 22, 20] 6.8
+344 Bournemouth Crystal Palace [34, 32, 34] 6.59
+345 Man United Liverpool [34, 32, 34] 6.47
+346 Aston Villa Tottenham [34, 35, 31] 6.56
+347 Chelsea Nott'm Forest [48, 24, 28] 6.83
+348 Everton Man City [13, 46, 41] 6.73
+349 Liverpool Chelsea [45, 25, 30] 6.46
+350 Brighton Wolves [32, 40, 28] 6.8
+351 Fulham Bournemouth [33, 37, 30] 6.57
+352 Sunderland Man United [28, 37, 35] 6.52
+353 Man City Brentford [45, 25, 30] 7.02
+354 Burnley Aston Villa [15, 35, 50] 7.21
+355 Crystal Palace Everton [34, 32, 34] 6.86
+356 Nott'm Forest Newcastle [33, 34, 33] 7.59
+357 West Ham Arsenal [22, 38, 30] 6.6
+358 Tottenham Leeds [35, 30, 35] 6.82
+359 Man City Crystal Palace [71, 27, 2] 6.24
+360 Aston Villa Liverpool [33, 34, 33] 6.5
+361 Man United Nott'm Forest [36, 28, 36] 6.69
+362 Brentford Crystal Palace [35, 25, 40] 6.7
+363 Everton Sunderland [33, 33, 34] 6.72
+364 Leeds Brighton [33, 35, 32] 6.49
+365 Wolves Fulham [20, 40, 40] 6.33
+366 Newcastle West Ham [33, 34, 33] 6.27
+367 Arsenal Burnley [32, 36, 32] 6.28
+368 Bournemouth Man City [25, 40, 35] 6.24
+369 Chelsea Tottenham [49, 28, 23] 6.17
+370 Brighton Man United [34, 28, 38] 6.31
+371 Burnley Wolves [31, 39, 30] 6.68
+372 Crystal Palace Arsenal [30, 35, 35] 6.43
+373 Fulham Newcastle [32, 36, 32] 6.51
+374 Liverpool Brentford [52, 28, 20] 6.38
+375 Man City Aston Villa [71, 28, 11] 6.36
+376 Nott'm Forest Bournemouth [31, 37, 32] 6.78
+377 Sunderland Chelsea [34, 36, 29] 6.41
+378 Tottenham Everton [32, 36, 32] 8.07
+379 West Ham Leeds [32, 38, 30] 6.59
