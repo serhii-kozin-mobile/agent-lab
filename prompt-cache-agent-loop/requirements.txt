@@ -1,0 +1,5 @@
+huggingface_hub==2.3.0
+matplotlib==3.11.2
+pandas==3.1.0
+pyarrow==26.0.0
+tiktoken==0.14.0
