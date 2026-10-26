@@ -1,0 +1,5 @@
+llama-cpp-python==0.3.36   # CPU wheel: --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+huggingface_hub
+pandas
+numpy
+matplotlib
