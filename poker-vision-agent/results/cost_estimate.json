@@ -1,0 +1,31 @@
+{
+  "kind": "ESTIMATE (not a run)",
+  "decisions_per_hand_measured": 3.7656666666666667,
+  "frames_per_decision_guarded_realistic_mix": 1.7047597665020207,
+  "frames_per_hand_guarded_realistic_mix": 5.062,
+  "assumptions": {
+    "image_tokens": 1120,
+    "prompt_tokens": 400,
+    "output_tokens": 150,
+    "image_tokens_source": "Gemini API docs, media_resolution: default/high = 1120 tokens per image for Gemini 3/4 models",
+    "note": "no thinking tokens assumed; thinking would add output-priced tokens"
+  },
+  "estimates": {
+    "gemini-3.8-flash (standard, through 2026-12-31)": {
+      "usd_per_call": 0.0017025,
+      "usd_per_1000_hands_one_frame": 6.4110475000000005,
+      "usd_per_1000_hands_guarded": 8.618055000000002
+    },
+    "gemini-3.8-flash (standard, from 2027-01-01)": {
+      "usd_per_call": 0.003405,
+      "usd_per_1000_hands_one_frame": 12.822095000000001,
+      "usd_per_1000_hands_guarded": 17.236110000000004
+    },
+    "gemini-3.5-flash-lite (standard)": {
+      "usd_per_call": 0.000831,
+      "usd_per_1000_hands_one_frame": 3.129269,
+      "usd_per_1000_hands_guarded": 4.2065220000000005
+    }
+  },
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing (read 2026-10-26)"
+}

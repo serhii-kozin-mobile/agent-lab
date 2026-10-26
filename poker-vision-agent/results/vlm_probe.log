@@ -1,0 +1,101 @@
+Loading weights:   0%|          | 0/471 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 79/471 [00:00<00:00, 789.74it/s]Loading weights:  34%|███▎      | 158/471 [00:00<00:00, 788.53it/s]Loading weights:  56%|█████▌    | 263/471 [00:00<00:00, 907.54it/s]Loading weights:  80%|████████  | 379/471 [00:00<00:00, 959.43it/s]Loading weights: 100%|██████████| 471/471 [00:00<00:00, 912.16it/s]
+clean 0 19044ms {     "hero_cards": [         {             "hero_card": "Ah",             "hero_stack": "Ah",             "hero_bet": "
+clean 1 18711ms Here is the JSON data: {     "hero_cards": [         {             "name": "A",             "value": "200"         },   
+clean 2 18147ms Here is the JSON data: {     "hero_cards": [         {             "name": "A",             "value": "2**8"         },  
+clean 3 18460ms Here is the JSON data: {     "hero_cards": [         {             "name": "A",             "value": "2*950"         }, 
+clean 4 18421ms Here is the JSON representation of the image: {     "hero_cards": [         {             "name": "Ah",             "val
+clean 5 18403ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "K",             "valu
+clean 6 18517ms Here is the step-by-step process you can follow to play a game of poker:  1. The player at the bottom is the hero. 2. Th
+clean 7 16838ms Here is the javascript to generate the image: function generate_poker_cards(hero_cards, villain_cards) {     let hero_ca
+clean 8 18801ms {     "hero_cards": [         {             "name": "Ah",             "value": "12,300"         },         {            
+clean 9 20235ms Here is the JSON representation of the hero cards: {     "hero_cards": [         {             "name": "K",             
+clean 10 19200ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "Ah",             "val
+clean 11 18033ms {     "hero_cards": [         {             "hero_stack": "3,000",             "villain_stack": "10,850"         },     
+clean 12 28689ms {     "hero_cards": [         {             "hero_stack": "14,470",             "hero_bet": "0",             "villain_st
+clean 13 22448ms {     "hero_cards": [         {             "name": "Ah",             "value": "14,470"         },         {            
+clean 14 18989ms const hero_cards = [14,340,3,5,9,8] const hero_stack = 11 const villain_stack = 11 const hero_bet = 460 const villain_be
+clean 15 19104ms const hero_cards = [14,340,8,5,9,8,A] const hero_stack = 11 const villain_stack = 11 const hero_bet = 460 const villain_
+clean 16 15874ms {     "hero_cards": [         {             "hero_stack": "0",             "villain_stack": "50",             "hero_bet"
+clean 17 18220ms {     "hero_cards": [         {             "name": "ace",             "value": "13,990"         },         {           
+clean 18 18785ms {     "hero_cards": [         {             "name": "ace",             "value": "9",             "symbol": "j",         
+clean 19 17697ms {     "hero_cards": [         {             "hero": "ace",             "value": "100"         },         {             "
+clean 20 17266ms The hero cards are 10, the villain cards are 10, the hero stack is 0, the villain stack is 10, the hero bet is 0, the vi
+clean 21 18921ms Here is the JSON representation of the table: {     "hero_cards": [         {             "hero_name": "J",             
+clean 22 18297ms Here is the JSON representation of the table: {     "hero_cards": [         {             "hero_stack": [               
+clean 23 17716ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "JA",             "val
+clean 24 17410ms {     "hero_cards": [         {             "hero_stack": "11,420",             "hero_bet": "0",             "villain_st
+clean 25 17675ms {     "hero_cards": [         {             "hero_stack": "1200",             "hero_bet": "0",             "villain_stac
+clean 26 17394ms {     "hero_cards": [         {             "hero_stack": 11300,             "hero_bet": 440,             "villain_stack
+clean 27 17603ms Here is the JSON representation of the hero cards: {     "hero_cards": [         {             "hero_name": "L,20",     
+clean 28 16834ms Here is the JSON representation of the hero cards: {     "hero_cards": [         {             "hero_name": "Ah",       
+clean 29 18603ms {     "hero_cards": [         {             "id": "100",             "value": "0"         },         {             "id":
+clean 30 16865ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "Ah",             "val
+clean 31 17678ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "Ah",             "val
+clean 32 16884ms Here is the JSON representation of the hero cards: {     "hero_cards": [         {             "name": "Ah",            
+clean 33 17162ms {     "hero_cards": [         {             "hero_stack": "6,320",             "villain_stack": "7,473",             "he
+clean 34 17265ms {     "hero_cards": [         {             "hero_card": "120",             "hero_stack": "120",             "hero_bet":
+clean 35 17183ms {     "hero_cards": [         {             "hero_stack": "100",             "hero_bet": "0",             "villain_stack
+clean 36 16947ms {     "hero_cards": [         {             "hero_stack": "200",             "hero_bet": "3,020",             "villain_s
+clean 37 17184ms {     "hero_cards": [         {             "name": "A",             "value": "A*5"         },         {             "na
+clean 38 16448ms {     "hero_cards": [         {             "hero_stack": "9,230",             "hero_bet": "0",             "villain_sta
+clean 39 16698ms {     "hero_cards": [         {             "hero_card": "K",             "hero_stack": "4",             "villain_card":
+clean 40 17323ms {     "hero_cards": [["Ah", "Td"], ["K", "4"], ["7", "4"], ["A", "4"], ["*", "7"], ["*", "4"], ["*", "7"], ["*", "4"], [
+clean 41 18023ms {     "hero_cards": [         {             "name": "Ah",             "value": "3,340"         },         {             
+clean 42 17507ms {     "hero_cards": [         {             "hero_stack": "13,240",             "hero_bet": "0"         },         {    
+clean 43 18402ms Here is the JSON representation of the hero_cards list: {     "hero_cards": [         {             "name": "J",        
+clean 44 17718ms Here is the JSON data: {     "hero_cards": [         {             "name": "Ah",             "value": "13,240"         }
+clean 45 13094ms The hero cards are 3,860.
+clean 46 17104ms {     "hero_cards": [         {             "hero_stack": "4,420",             "villain_stack": "100",             "hero
+clean 47 14964ms The hero_cards list the cards that the player has at the top of the pot. The villain_stack lists the cards that the play
+clean 48 13628ms The hero_cards is 3600.
+clean 49 13912ms const_200 = 4420;
+realistic_mix 0 17715ms {     "hero_cards": [         {             "name": "Ah",             "cards": [                 {                     "
+realistic_mix 1 18041ms {     "hero_cards": [         {             "name": "A",             "value": "8"         },         {             "name
+realistic_mix 2 17696ms {     "hero_cards": [         {             "name": "A",             "value": "8"         },         {             "name
+realistic_mix 3 16245ms hero_cards = [2,950] board = [13,880] pot = 10 hero_stack = 1 villain_stack = 3 hero_bet = 10 villain_stack = 3 hero_sta
+realistic_mix 4 17934ms {     "hero_cards": [         {             "name": "Ah",             "value": "4,560"         },         {             
+realistic_mix 5 17585ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "K",             "valu
+realistic_mix 6 17945ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "K",             "valu
+realistic_mix 7 16720ms Here is the javascript to generate the image:  ``` let hero_cards = [12,250, 'K', '3', '2', '3', '4', '5', '6', '7', '8'
+realistic_mix 8 21720ms {     "hero_cards": [         {             "hero_stack": "12,300",             "villain_stack": "13,000",             "
+realistic_mix 9 22267ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "K",             "valu
+realistic_mix 10 18207ms Here is the JSON representation of the table: {     "hero_cards": [         {             "characters": [               
+realistic_mix 11 17796ms {     "hero_cards": [         {             "hero_stack": "5",             "villain_stack": "10,850"         },         
+realistic_mix 12 17447ms hero_cards = [14,470] board = [11,720] pot = 100 hero_stack = 10 villain_stack = 5 hero_bet = 1 villain_bet = 5 button =
+realistic_mix 13 16994ms hero_cards = [14,470] board = [3,5,6] pot = 200 hero_stack = [hero_cards[0], hero_stack[1], hero_stack[2], pot] villain_
+realistic_mix 14 19169ms {     "hero_cards": [         {             "id": "11590",             "name": "Ah",             "value": "Td"         }
+realistic_mix 15 23276ms {     "hero_cards": [         {             "name": "Ah",             "value": "Td"         },         {             "na
+realistic_mix 16 19407ms {     "hero_cards": [         {             "hero_stack": "14,040",             "villain_stack": "50"         },        
+realistic_mix 17 19679ms {     "hero_cards": [         {             "hero": {                 "hero_stack": "13,990",                 "hero_bet"
+realistic_mix 18 18070ms {     "hero_cards": [["Ah", "Td"], ["9", "J"], ["6", "K"], ["8", "K"], ["200", "D"], ["13,990", "D"], ["13,990", "D"]]}
+realistic_mix 19 18564ms {     "hero_cards": [         {             "hero_stack": "13,990",             "villain_stack": "8,510"         },     
+realistic_mix 20 20455ms {     "hero_cards": [         {             "hero_stack": "1300",             "hero_bet": "100",             "villain_st
+realistic_mix 21 16473ms Here is the JSON data converted to a table: {     "hero_cards": [         {             "name": "Ah",             "value
+realistic_mix 22 18994ms hero_cards = [13600] hero_stack = 9 villain_stack = 10 hero_bet = 10 villain_bet = 10 button = "hero" print(json.fromstr
+realistic_mix 23 21454ms hero_cards = [13,470] hero_stack = 460 villain_stack = 10 hero_bet = 460 villain_bet = 7370 button = "hero" print(json.f
+realistic_mix 24 20184ms {     "hero_cards": [         {             "id": "11,420",             "value": "11,420"         },         {          
+realistic_mix 25 18104ms {     "hero_cards": [         {             "hero_stack": "12,100",             "hero_bet": "0",             "villain_st
+realistic_mix 26 19761ms {     "hero_cards": [         {             "id": "440",             "value": "440"         },         {             "id
+realistic_mix 27 18234ms {     "hero_cards": [         {             "hero_stack": "11,690",             "hero_bet": "0",             "villain_st
+realistic_mix 28 18843ms {     "hero_cards": [         {             "hero_stack": 2, "hero_bet": 10, "villain_stack": 11, "hero_bet": "Ah", "but
+realistic_mix 29 19411ms Here is the JSON data converted to a table: {     "hero_cards": [         {             "hero_stack": "11,460",         
+realistic_mix 30 23615ms Here is the JSON data converted to a table: {     "hero_cards": [         {             "name": "Ah",             "value
+realistic_mix 31 18205ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "Ah",             "val
+realistic_mix 32 18858ms Here is the JSON representation of the table: {     "hero_cards": [         {             "name": "Ah",             "val
+realistic_mix 33 18296ms {     "hero_cards": [         {             "name": "Ah",             "value": "13,070"         },         {            
+realistic_mix 34 18149ms {     "hero_cards": [         {             "name": "Ah",             "value": "Td"         },         {             "na
+realistic_mix 35 18253ms {     "hero_cards": [         {             "hero_stack": "100",             "villain_stack": "8",             "hero_bet
+realistic_mix 36 18851ms {     "hero_cards": [         {             "name": "A♠",             "value": "8"         },         {             "nam
+realistic_mix 37 18410ms {     "hero_cards": [         {             "name": "A♠",             "value": "8"         },         {             "nam
+realistic_mix 38 17991ms {     "hero_cards": [         {             "id": "0",             "name": "K"         },         {             "id": "5
+realistic_mix 39 17727ms {     "hero_cards": [         {             "id": "9,180",             "value": "200"         },         {             "
+realistic_mix 40 19291ms {     "hero_cards": [         {             "hero_stack": "8,620",             "villain_stack": "560",             "hero
+realistic_mix 41 19951ms {     "hero_cards": [         {             "hero_stack": "3,340",             "villain_stack": "3,340"         },      
+realistic_mix 42 17937ms The hero_cards list the cards that the player has at the top of the pot. The pot is 13,240.
+realistic_mix 43 17976ms Here's a jumbled list of cards, with the hero cards and the villain cards: - 13,240 - 8 - 6
+realistic_mix 44 24120ms {     "hero_cards": [         {             "name": "Ah",             "value": "Td"         },         {             "na
+realistic_mix 45 20264ms {     "hero_cards": [         {             "hero_stack": "3,860",             "villain_stack": "50",             "hero_
+realistic_mix 46 17731ms {     "hero_cards": [         {             "hero": "Ah",             "cost": "4,420"         },         {             "
+realistic_mix 47 13369ms The hero cards are 4,420.
+realistic_mix 48 14059ms The hero cards are 200.
+realistic_mix 49 17306ms {     "hero_cards": [         {             "name": "A",             "value": "100"         },         {             "na

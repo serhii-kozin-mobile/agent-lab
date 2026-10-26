@@ -1,0 +1,119 @@
+{
+ "guardrail_anchoring": {
+  "hardened_guarded__realistic_mix": {
+   "decisions": 8908,
+   "fallbacks": 2721,
+   "fallbacks_on_correct_frame": 1819,
+   "of_which_anchor_was_a_misread": 1307,
+   "fallbacks_after_misread_anchor_any": 1604,
+   "first_acted_decision_wrong_share": 0.29295154185022027,
+   "frames_per_hand": 5.089142091152815
+  },
+  "hardened_guarded__scale_0.5": {
+   "decisions": 8390,
+   "fallbacks": 2314,
+   "fallbacks_on_correct_frame": 1498,
+   "of_which_anchor_was_a_misread": 694,
+   "fallbacks_after_misread_anchor_any": 741,
+   "first_acted_decision_wrong_share": 0.14447884416924664,
+   "frames_per_hand": 4.362600536193029
+  },
+  "hardened_guarded__chip_overlap": {
+   "decisions": 11020,
+   "fallbacks": 317,
+   "fallbacks_on_correct_frame": 34,
+   "of_which_anchor_was_a_misread": 7,
+   "fallbacks_after_misread_anchor_any": 12,
+   "first_acted_decision_wrong_share": 0.0013508949679162446,
+   "frames_per_hand": 4.924932975871314
+  },
+  "hardened_guarded__blur_1.5": {
+   "decisions": 7133,
+   "fallbacks": 6253,
+   "fallbacks_on_correct_frame": 445,
+   "of_which_anchor_was_a_misread": 26,
+   "fallbacks_after_misread_anchor_any": 254,
+   "first_acted_decision_wrong_share": 0.6957494407158836,
+   "frames_per_hand": 6.581434316353888
+  },
+  "hardened_guarded__clean": {
+   "decisions": 11135,
+   "fallbacks": 131,
+   "fallbacks_on_correct_frame": 8,
+   "of_which_anchor_was_a_misread": 0,
+   "fallbacks_after_misread_anchor_any": 0,
+   "first_acted_decision_wrong_share": 0.0,
+   "frames_per_hand": 3.8193699731903483
+  }
+ },
+ "naive_realistic_tail": {
+  "total_gap_bb": -2203.84,
+  "worst30_bb": -3183.3,
+  "best30_bb": 1735.8400000000004,
+  "other_2970_bb": 979.46,
+  "other_2970_bb100": 32.97845117845118,
+  "hands_with_nonzero_gap": 518
+ },
+ "naive_realistic_changed_click_misreads_top": [
+  [
+   "villain_bet:100->106:street0",
+   249
+  ],
+  [
+   "hero_bet:100->106:street0",
+   69
+  ],
+  [
+   "villain_bet:100->109:street0",
+   58
+  ],
+  [
+   "villain_bet:100->106:street5",
+   7
+  ],
+  [
+   "villain_bet:100->106:street3",
+   6
+  ]
+ ],
+ "naive_realistic_changed_clicks": 628,
+ "slumbot_diff": {
+  "diff": -382.4157303370787,
+  "ci95": 304.36859435749966
+ },
+ "slumbot_bet_sizes_top": [
+  [
+   200,
+   1320
+  ],
+  [
+   300,
+   310
+  ],
+  [
+   100,
+   80
+  ],
+  [
+   260,
+   52
+  ],
+  [
+   130,
+   39
+  ],
+  [
+   800,
+   34
+  ],
+  [
+   400,
+   33
+  ],
+  [
+   600,
+   31
+  ]
+ ],
+ "slumbot_bets_with_digit_2_share": 0.6996027805362462
+}

@@ -1,0 +1,20 @@
+{
+  "hands_used_per_mode": 534,
+  "gt": {
+    "hands": 534,
+    "bb100": 15.617977528089888,
+    "bb100_ci95": 181.2715277763528,
+    "decisions": 1827
+  },
+  "vision": {
+    "hands": 534,
+    "bb100": -366.7977528089888,
+    "bb100_ci95": 244.50127698804997,
+    "decisions": 1749,
+    "wrong_state_rate": 0.30989136649514004,
+    "action_mismatch_vs_gt": 0.04974271012006861,
+    "hardened_wrong_state_rate": 0.3184676958261864,
+    "hardened_action_mismatch_vs_gt": 0.13664951400800457,
+    "perceive_ms_mean": 20.705671812464267
+  }
+}

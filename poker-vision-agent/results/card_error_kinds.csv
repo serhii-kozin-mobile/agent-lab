@@ -1,0 +1,17 @@
+mode,condition,error_kind,n
+hardened,blur_1.5,suit,62
+hardened,chip_overlap,rank,69
+hardened,chip_overlap,suit,61
+hardened,chip_overlap,rank+suit,6
+hardened,realistic_mix,rank,29
+hardened,realistic_mix,suit,42
+hardened,realistic_mix,rank+suit,4
+naive,chip_overlap,rank,44
+naive,chip_overlap,suit,66
+naive,chip_overlap,rank+suit,5
+naive,realistic_mix,rank,29
+naive,realistic_mix,suit,47
+naive,realistic_mix,rank+suit,4
+naive,theme_dark,rank+suit,8390
+naive,theme_dark,suit,459
+naive,theme_dark,rank,644

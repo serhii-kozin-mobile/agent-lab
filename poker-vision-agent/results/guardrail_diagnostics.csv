@@ -1,0 +1,9 @@
+run,decisions,fallback_rate,acted_on_wrong_state,wrong_given_acted,fallback_but_last_frame_was_right,flag_low_number_conf,flag_chips_not_conserved,flag_duplicate_card,flag_low_card_conf,flag_board_count
+hardened_guarded__blur_1.5,7133,0.8766,0.0857,0.6943,0.0712,6112.0000,353,13.0000,,
+hardened_guarded__chip_overlap,11020,0.0288,0.0169,0.0174,0.1073,1900.0000,1376,107.0000,1100.0000,5.0000
+hardened_guarded__clean,11135,0.0118,0.0000,0.0000,0.0611,,123,,8.0000,
+hardened_guarded__jpeg_q20,11173,0.0088,0.0000,0.0000,0.0204,5.0000,96,,,
+hardened_guarded__realistic_mix,8908,0.3055,0.0917,0.1321,0.6685,1855.0000,2151,50.0000,514.0000,4.0000
+hardened_guarded__scale_0.5,8390,0.2758,0.0390,0.0538,0.6474,1366.0000,1038,,,
+hardened_guarded__theme_dark,11140,0.0110,0.0000,0.0000,0.0000,,123,,,
+hardened_guarded__theme_four_color,11138,0.0118,0.0000,0.0000,0.0611,,123,,8.0000,

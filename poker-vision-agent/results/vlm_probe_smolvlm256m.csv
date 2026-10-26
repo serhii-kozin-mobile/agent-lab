@@ -1,0 +1,1758 @@
+condition,k,ms,raw,ok_hero_cards,ok_board,ok_pot,ok_hero_stack,ok_villain_stack,ok_hero_bet,ok_villain_bet,ok_button,cards_total,cards_correct,state_correct
+clean,0,19043.82710700156,"{
+    ""hero_cards"": [
+        {
+            ""hero_card"": ""Ah"",
+            ""hero_stack"": ""Ah"",
+            ""hero_bet"": ""13,930"",
+            ""villain_card"": ""Td""
+        },
+        {
+            ""hero_card"": ""Td"",
+            ""hero_stack"": ""Td"",
+            ""hero_bet"": ""10"",
+            ""villain_card"": ""D""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_card"": ""Ah"",
+            ""board",False,False,False,False,False,False,False,False,2,0,False
+clean,1,18710.781563000637,"Here is the JSON data:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""200""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""P"",
+            ""value"": ""10""
+        }
+    ],
+    ""hero_stack"": [
+        {
+            ""name"": ""13"",
+            ""value"": ""880""
+        },
+        {
+            ""name"": ""D"",
+    ",False,False,False,False,False,False,False,False,5,0,False
+clean,2,18147.17850400484,"Here is the JSON data:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""2**8""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""2**8""
+        },
+        {
+            ""name"": ""2"",
+            ""value"": ""8**2""
+        },
+        {
+            ""name"": ""1"",
+            ""value"": ""8**2""
+        },
+        {
+            ""name"": ""9"",
+            ""value"": ""10",False,False,False,False,False,False,False,False,6,0,False
+clean,3,18459.778626995103,"Here is the JSON data:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""2*950""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""2*8""
+        },
+        {
+            ""name"": ""B"",
+            ""value"": ""2*8""
+        },
+        {
+            ""name"": ""C"",
+            ""value"": ""1*9""
+        },
+        {
+            ""name"": ""D"",
+            ""value"": ""10*1",False,False,False,False,False,False,False,False,7,0,False
+clean,4,18421.050958000706,"Here is the JSON representation of the image:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""0""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""Td"",
+  ",False,False,False,False,False,False,False,False,2,0,False
+clean,5,18402.628289004497,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""C"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""P"",
+            ""value"": ""2""
+        }
+    ],
+    ""hero_stack"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""3""
+        },
+        {
+            ",False,False,False,False,False,False,False,False,5,0,False
+clean,6,18516.688587005774,"Here is the step-by-step process you can follow to play a game of poker:
+
+1. The player at the bottom is the hero.
+2. The hero has two red cards.
+3. The hero has three black cards.
+4. The hero has a pot of 4,560.
+5. The hero has a villain's pot of 10.
+6. The villain has a pot of 10.
+7. The villain has a button that says ""hero"" or ""villain"".
+8. The hero has a",False,False,False,False,False,False,False,False,6,0,False
+clean,7,16837.942053003644,"Here is the javascript to generate the image:
+function generate_poker_cards(hero_cards, villain_cards) {
+    let hero_cards = [hero_cards[0], hero_cards[1], hero_cards[2], hero_cards[3], hero_cards[4], hero_cards[5], hero_cards[6], hero_cards[7], hero_cards[8], hero_cards[9], hero_cards[10], hero_cards[11], hero_cards[12], hero_",False,False,False,False,False,False,False,False,7,0,False
+clean,8,18800.548867002362,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""12,300""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""50""
+        },
+        {
+            ""name"": ""Dd"",
+            ""value"": ""0""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""H"",
+            ""value"": ""8,690""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""100",False,False,False,False,False,False,False,False,2,0,False
+clean,9,20235.15371200483,"Here is the JSON representation of the hero cards:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""K"",
+            ""symbol"": ""K"",
+            ""value_in_card"": ""5""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""K"",
+            ""symbol"": ""K"",
+            ""value_in_card"": ""5""
+        },
+        {
+            ""name"": ""5"",
+            ""value"": ""5"",
+  ",False,False,False,False,False,False,False,False,5,0,False
+clean,10,19199.532218997774,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Ah""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""5"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""6"",
+            ""value"": ""6""
+        },
+        {
+            ""name"": ""J"",
+         ",False,False,False,False,False,False,False,False,6,0,False
+clean,11,18032.817594001244,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""3,000"",
+            ""villain_stack"": ""10,850""
+        },
+        {
+            ""hero_bet"": ""1,800"",
+            ""villain_bet"": ""1,0,850""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_card"": ""K"",
+            ""villain_card"": ""5"",
+            ""bet"": ""3,000""
+        },
+        {
+            ""hero_",False,False,False,False,False,False,False,False,7,0,False
+clean,12,28688.699735997943,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""14,470"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""100""
+        },
+        {
+            ""hero_stack"": ""100"",
+            ""villain_stack"": ""5""
+        },
+        {
+            ""hero_stack"": ""11,720"",
+            ""villain_stack"": ""11,720""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"":",False,False,False,False,False,False,False,False,2,0,False
+clean,13,22448.035667999648,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""14,470""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""5"",
+            ""unit"": ""9"",
+            ""price"": ""11,720""
+        },
+        {
+            ""name"": ""5"",
+            ""value"": ""6"",
+            ""unit"": ""9"",
+            ""price"": ""11,720""
+        },
+        {
+            ""name"": ""plan"",
+        ",False,False,False,False,False,False,False,False,5,0,False
+clean,14,18988.820878003025,"const hero_cards = [14,340,3,5,9,8]
+const hero_stack = 11
+const villain_stack = 11
+const hero_bet = 460
+const villain_bet = 11
+const button = ""hero""
+const hero_stack = hero_cards[hero_stack - 1]
+const villain_stack = villain_stack
+const hero_bet = hero_bet
+const villain_bet = villain_bet
+const button = ""villain""
+const hero",False,False,False,False,False,False,False,False,6,0,False
+clean,15,19103.691596996214,"const hero_cards = [14,340,8,5,9,8,A]
+const hero_stack = 11
+const villain_stack = 11
+const hero_bet = 460
+const villain_bet = 11
+const button = ""hero""
+const hero_stack = hero_cards[button - 1]
+const villain_stack = villain_stack
+const hero_bet = hero_stack
+const villain_bet = villain_stack
+const button = ""villain""
+const hero",False,False,False,False,False,False,False,False,7,0,False
+clean,16,15873.781917995075,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""0"",
+            ""villain_stack"": ""50"",
+            ""hero_bet"": ""14,040""
+        },
+        {
+            ""hero_stack"": ""8"",
+            ""villain_stack"": ""100""
+        }
+}",False,False,False,False,False,False,False,False,2,0,False
+clean,17,18219.897088005382,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""ace"",
+            ""value"": ""13,990""
+        },
+        {
+            ""name"": ""joker"",
+            ""value"": ""8""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""200""
+        },
+        {
+            ""name"": ""K""
+        }
+    ],
+    ""pot"": {
+        ""name"": ""13,990""
+    },
+    ""hero_stack"": [
+        {
+            ""name"": ""13,9",False,False,False,False,False,False,False,False,5,0,False
+clean,18,18785.118710999086,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""ace"",
+            ""value"": ""9"",
+            ""symbol"": ""j"",
+            ""unitprice"": ""13,990""
+        },
+        {
+            ""name"": ""jack"",
+            ""value"": ""7"",
+            ""symbol"": ""k"",
+            ""unitprice"": ""8"",
+            ""unitvalue"": ""100""
+        },
+        {
+            ""name"": ""elephant"",
+            ""value"": ""8"",
+            ",False,False,False,False,False,False,False,False,6,0,False
+clean,19,17697.174193002866,"{
+    ""hero_cards"": [
+        {
+            ""hero"": ""ace"",
+            ""value"": ""100""
+        },
+        {
+            ""hero"": ""j"",
+            ""value"": ""7*""
+        },
+        {
+            ""hero"": ""k"",
+            ""value"": ""8*""
+        }
+    ],
+    ""board"": {
+        ""board"": [
+            {
+                ""value"": ""13,990""
+            },
+            {
+                ""value"": ""100""
+           ",False,False,False,False,False,False,False,False,7,0,False
+clean,20,17265.74691499991,"The hero cards are 10, the villain cards are 10, the hero stack is 0, the villain stack is 10, the hero bet is 0, the villain bet is 10, the button is ""hero"", and the board is green.",False,False,False,False,False,False,False,False,2,0,False
+clean,21,18921.29052499513,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""hero_name"": ""J"",
+            ""hero_value"": ""200""
+        },
+        {
+            ""hero_name"": ""J"",
+            ""hero_value"": ""2""
+        },
+        {
+            ""hero_name"": ""J"",
+            ""hero_value"": ""2""
+        },
+        {
+            ""hero_name"": ""J"",
+            ""hero_value"": ""2""
+        },
+      ",False,False,False,False,False,False,False,False,5,0,False
+clean,22,18297.314250994532,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": [
+                {
+                    ""hero_stack_name"": ""Ah"",
+                    ""hero_bet"": ""10""
+                },
+                {
+                    ""hero_stack_name"": ""Td"",
+                    ""hero_bet"": ""2""
+                }
+            ]
+        },
+        {
+            ""hero_stack",False,False,False,False,False,False,False,False,6,0,False
+clean,23,17716.188115999103,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""JA"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""JA"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""JA"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""JA"",
+            ""value"": ""9""
+        },
+        {
+            ""name"": ""JA"",
+        ",False,False,False,False,False,False,False,False,7,0,False
+clean,24,17410.001917000045,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""11,420"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""100"",
+            ""hero_bet_color"": ""black""
+        },
+        {
+            ""hero_stack"": ""50"",
+            ""villain_stack"": ""6"",
+            ""villain_bet"": ""4"",
+            ""hero_bet_color"": ""white""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [",False,False,False,False,False,False,False,False,2,0,False
+clean,25,17675.38027500268,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""1200"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""100"",
+            ""hero_bet_color"": ""D""
+        },
+        {
+            ""hero_stack"": ""11300"",
+            ""hero_bet"": ""220"",
+            ""villain_stack"": ""220""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero",False,False,False,False,False,False,False,False,2,0,False
+clean,26,17394.42065700132,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": 11300,
+            ""hero_bet"": 440,
+            ""villain_stack"": 11980,
+            ""villain_bet"": 11980
+        },
+        {
+            ""hero_stack"": 4,
+            ""villain_stack"": 7,
+            ""villain_bet"": 477,
+            ""button"": ""hero""
+        },
+        {
+            ""hero_stack"": 6,
+            ""villain",False,False,False,False,False,False,False,False,5,0,False
+clean,27,17603.138229998876,"Here is the JSON representation of the hero cards:
+{
+    ""hero_cards"": [
+        {
+            ""hero_name"": ""L,20"",
+            ""hero_stack"": [
+                ""1,020"",
+                ""11,690""
+            ],
+            ""bet"": ""1,020""
+        },
+        {
+            ""hero_name"": ""D"",
+            ""hero_stack"": [
+                ""11,690"",
+                ""11,690""
+            ],
+            ""bet"": ",False,False,False,False,False,False,False,False,6,0,False
+clean,28,16834.173049996025,"Here is the JSON representation of the hero cards:
+{
+    ""hero_cards"": [
+        {
+            ""hero_name"": ""Ah"",
+            ""hero_value"": ""1,340"",
+            ""hero_stack"": ""2,360""
+        },
+        {
+            ""hero_name"": ""Td"",
+            ""hero_value"": ""11,020"",
+            ""hero_stack"": ""11,020""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_name"": ""Ah"",
+            """,False,False,False,False,False,False,False,False,7,0,False
+clean,29,18602.75632000412,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""100"",
+            ""value"": ""0""
+        },
+        {
+            ""id"": ""4"",
+            ""value"": ""100""
+        }
+    ],
+    ""board"": [
+        {
+            ""id"": ""11,460"",
+            ""value"": ""11,460""
+        }
+    ],
+    ""pot"": [
+        {
+            ""id"": ""0"",
+            ""value"": ""0""
+        },
+        {
+            ""id"": ""4"",
+            ""va",False,False,False,False,False,False,False,False,2,0,False
+clean,30,16865.43461999827,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""11,460""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""8""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""5"",
+            ""value"": ""200""
+        },
+        {
+            ""name"": ""3"",
+            ""value"": ""4""
+        }
+    ],
+    ""pot"": {",False,False,False,False,False,False,False,False,5,0,False
+clean,31,17678.207242999633,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""11,460""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""4""
+        },
+        {
+            ""name"": ""5"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""2""
+        }
+    ],
+    ""board"": [
+        {
+          ",False,False,False,False,False,False,False,False,6,0,False
+clean,32,16884.43451600324,"Here is the JSON representation of the hero cards:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""P"",
+            ""value"": ""9""
+        }
+    ],
+    ""hero_stack"": [
+        {
+            ""name"": ""4"",
+            ""value"": ""11,460""
+        },
+        {",False,False,False,False,False,False,False,False,7,0,False
+clean,33,17162.00679999747,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""6,320"",
+            ""villain_stack"": ""7,473"",
+            ""hero_bet"": ""0""
+        },
+        {
+            ""hero_stack"": ""4"",
+            ""villain_stack"": ""7,473"",
+            ""villain_bet"": ""0""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""13,070"",
+              ",False,False,False,False,False,False,False,False,2,0,False
+clean,34,17264.78593199863,"{
+    ""hero_cards"": [
+        {
+            ""hero_card"": ""120"",
+            ""hero_stack"": ""120"",
+            ""hero_bet"": ""120""
+        },
+        {
+            ""hero_card"": ""9"",
+            ""hero_stack"": ""9"",
+            ""hero_bet"": ""10""
+        },
+        {
+            ""hero_card"": ""200"",
+            ""hero_stack"": ""4"",
+            ""hero_bet"": ""6,270""
+        }
+    ],
+    ""board"":",False,False,False,False,False,False,False,False,5,0,False
+clean,35,17182.930846996896,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""100"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""100""
+        },
+        {
+            ""hero_stack"": ""8"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""8""
+        },
+        {
+            ""hero_stack"": ""9"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""9""
+        }
+    ],
+    ""board"": [
+        {
+ ",False,False,False,False,False,False,False,False,2,0,False
+clean,36,16946.85440199828,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""200"",
+            ""hero_bet"": ""3,020"",
+            ""villain_stack"": ""5"",
+            ""villain_bet"": ""4"",
+            ""button"": ""hero""
+        },
+        {
+            ""hero_stack"": ""8"",
+            ""hero_bet"": ""4"",
+            ""villain_stack"": ""8"",
+            ""villain_bet"": ""4""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_c",False,False,False,False,False,False,False,False,5,0,False
+clean,37,17183.67397399561,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""A*5""
+        },
+        {
+            ""name"": ""Q"",
+            ""value"": ""Q*5""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""A*5""
+        },
+        {
+            ""name"": ""S"",
+            ""value"": ""S*5""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""A*5"",
+            ""value"": ""200""
+ ",False,False,False,False,False,False,False,False,5,0,False
+clean,38,16448.269255000923,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""9,230"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""50""
+        },
+        {
+            ""hero_stack"": ""9,230"",
+            ""villain_stack"": ""50""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                ""Ah"",
+                ""Td""
+            ],
+            ""board_stack"": ""9,230""
+        },
+      ",False,False,False,False,False,False,False,False,2,0,False
+clean,39,16698.25725100236,"{
+    ""hero_cards"": [
+        {
+            ""hero_card"": ""K"",
+            ""hero_stack"": ""4"",
+            ""villain_card"": ""7"",
+            ""villain_bet"": ""4""
+        },
+        {
+            ""hero_card"": ""K"",
+            ""hero_stack"": ""4"",
+            ""villain_card"": ""4"",
+            ""villain_bet"": ""4""
+        },
+        {
+            ""hero_card"": ""A"",
+            ""hero_stack"": ""7"",
+            ""vi",False,False,False,False,False,False,False,False,5,0,False
+clean,40,17323.189356000512,"{
+    ""hero_cards"": [[""Ah"", ""Td""], [""K"", ""4""], [""7"", ""4""], [""A"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"", ""7""], [""*"", ""4""], [""*"",",False,False,False,False,False,False,False,False,5,0,False
+clean,41,18022.52618700004,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""3,340""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""3,340""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""4"",
+            ""unit"": ""7"",
+            ""value"": ""4""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""5,840""
+        },
+        {
+            ""name"":",False,False,False,False,False,False,False,False,5,0,False
+clean,42,17506.914854006027,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""13,240"",
+            ""hero_bet"": ""0""
+        },
+        {
+            ""hero_stack"": ""13,240"",
+            ""hero_bet"": ""100""
+        }
+    ],
+    ""hero_stack"": [
+        ""4,450""
+    ],
+    ""villain_stack"": [
+        ""100""
+    ],
+    ""villain_stack"": [
+        ""8""
+    ],
+    ""hero_stack"": [",False,False,False,False,False,False,False,False,2,0,False
+clean,43,18401.85810300318,"Here is the JSON representation of the hero_cards list:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""J"",
+            ""value"": ""13,240""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""10"",
+            ""unit"": ""10""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""6""
+        }
+    ]
+ ",False,False,False,False,False,False,False,False,5,0,False
+clean,44,17717.620256000373,"Here is the JSON data:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""13,240""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""13,240""
+        },
+        {
+            ""name"": ""Jp"",
+            ""value"": ""200""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""Jp"",
+            ""value"": ""13,240""
+        },
+        {
+            ""name"":",False,False,False,False,False,False,False,False,5,0,False
+clean,45,13094.491646996175,"The hero cards are 3,860.",False,False,False,False,False,False,False,False,2,0,False
+clean,46,17104.347567998047,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""4,420"",
+            ""villain_stack"": ""100"",
+            ""hero_bet"": ""0"",
+            ""villain_bet"": ""100""
+        },
+        {
+            ""hero_stack"": ""d"",
+            ""villain_stack"": ""100"",
+            ""hero_bet"": ""0"",
+            ""villain_bet"": ""100""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [",False,False,False,False,False,False,False,False,2,0,False
+clean,47,14964.113996000378,The hero_cards list the cards that the player has at the top of the pot. The villain_stack lists the cards that the player has at the bottom of the pot. The villain_stack lists the cards that the player has at the top of the pot.,False,False,False,False,False,False,False,False,5,0,False
+clean,48,13628.444958005275,The hero_cards is 3600.,False,False,False,False,False,False,False,False,6,0,False
+clean,49,13912.338803995226,const_200 = 4420;,False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,0,17715.29516499868,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""cards"": [
+                {
+                    ""name"": ""Td""
+                },
+                {
+                    ""name"": ""Td""
+                }
+            ]
+        },
+        {
+            ""name"": ""Td""
+        },
+        {
+            ""name"": ""Td""
+        },
+        {
+            ""name"": ""Td""
+        },
+        {
+       ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,1,18040.50411800563,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""B"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""C"",
+            ""value"": ""10""
+        },
+        {
+            ""name"": ""D"",
+            ""value"": ""10""
+        }
+    ],
+    ""board"": [
+",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,2,17695.674331996997,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""B"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""C"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""D"",
+            ""value"": ""10""
+        }
+    ],
+    ""board"": [
+ ",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,3,16245.211804001883,"hero_cards = [2,950]
+board = [13,880]
+pot = 10
+hero_stack = 1
+villain_stack = 3
+hero_bet = 10
+villain_stack = 3
+hero_stack = 10
+hero_bet = 10
+button = ""hero""
+print(json.fromstring(board, sort=True))",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,4,17934.48829800036,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""4,560""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""100""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""Hero"",
+            ""value"": ""0""
+        },
+        {
+            ""name"": ""Villain"",
+            ""value",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,5,17584.549653998693,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""2""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""2"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""1""
+        },
+        {
+            ""name"": ""C"",
+            """,False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,6,17944.567498998367,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""K""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""A""
+        },
+        {
+            ""name"": ""C"",
+            ""value"": ""C""
+        },
+        {
+            ""name"": ""3"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""5"",
+            """,False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,7,16720.079289996647,"Here is the javascript to generate the image:
+
+```
+let hero_cards = [12,250, 'K', '3', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+let hero_stack = 0;
+let villain_stack = 0;
+let hero_bet = 4560;
+let villain_bet = 4560;
+let button = 'hero';
+let hero_cards = hero",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,8,21720.07201800443,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""12,300"",
+            ""villain_stack"": ""13,000"",
+            ""hero_bet"": ""12,300""
+        },
+        {
+            ""hero_stack"": ""50"",
+            ""villain_stack"": ""6,600""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                ""Ah"",
+                ""Td""
+            ],
+            ""villain_cards"": [
+           ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,9,22267.093529000704,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""K"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""S"",
+            """,False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,10,18206.722326998715,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""characters"": [
+                ""Ah"",
+                ""Td""
+            ],
+            ""characters_position"": ""k"",
+            ""characters_value"": ""5"",
+            ""characters_position_value"": ""5"",
+            ""characters_position_value_value"": ""5"",
+            ""characters_position_value_value"": ""5"",
+         ",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,11,17795.819721002772,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""5"",
+            ""villain_stack"": ""10,850""
+        },
+        {
+            ""hero_stack"": ""K"",
+            ""villain_stack"": ""5"",
+            ""bet"": ""3,000""
+        },
+        {
+            ""hero_stack"": ""K"",
+            ""villain_stack"": ""5"",
+            ""bet"": ""5"",
+            ""pot"": ""3,000""
+        }
+    ],
+    ""board"": [
+        {",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,12,17446.69357100065,"hero_cards = [14,470]
+board = [11,720]
+pot = 100
+hero_stack = 10
+villain_stack = 5
+hero_bet = 1
+villain_bet = 5
+button = ""hero""
+print(hero_stack, villain_stack, hero_bet, villain_bet, button)",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,13,16993.81785999867,"hero_cards = [14,470]
+board = [3,5,6]
+pot = 200
+hero_stack = [hero_cards[0], hero_stack[1], hero_stack[2], pot]
+villain_stack = [villain_stack[0], villain_stack[1], villain_stack[2], pot]
+button = ""hero""
+print(json.fromstring(button))",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,14,19169.31474699959,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""11590"",
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""id"": ""460"",
+            ""value"": ""5""
+        }
+    ],
+    ""board"": [
+        {
+            ""id"": ""11590"",
+            ""name"": ""Ah""
+        },
+        {
+            ""id"": ""3"",
+            ""value"": ""5""
+        },
+        {
+            ""id"": ""8"",
+           ",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,15,23275.56057000038,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""A""
+        }
+    ],
+    ""hero_stack"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""460""
+ ",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,16,19406.83599100157,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""14,040"",
+            ""villain_stack"": ""50""
+        },
+        {
+            ""hero_bet"": ""14,040"",
+            ""villain_bet"": ""50""
+        }
+    ],
+    ""board"": [
+        ""8,610"",
+        ""100""
+    ],
+    ""pot"": ""14,040""
+}",False,True,False,False,False,False,False,False,2,0,False
+realistic_mix,17,19679.2295799969,"{
+    ""hero_cards"": [
+        {
+            ""hero"": {
+                ""hero_stack"": ""13,990"",
+                ""hero_bet"": ""100""
+            },
+            ""villain"": {
+                ""villain_stack"": ""8,610""
+            }
+        },
+        {
+            ""hero"": {
+                ""hero_stack"": ""K"",
+                ""villain"": ""K""
+            }
+        }
+    ],
+    ""board"": {
+        ""board_color"":",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,18,18070.196351996856,"{
+    ""hero_cards"": [[""Ah"", ""Td""], [""9"", ""J""], [""6"", ""K""], [""8"", ""K""], [""200"", ""D""], [""13,990"", ""D""], [""13,990"", ""D""]]}",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,19,18564.16798599821,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""13,990"",
+            ""villain_stack"": ""8,510""
+        },
+        {
+            ""hero_bet"": ""100"",
+            ""villain_bet"": ""100""
+        }
+    ],
+    ""board"": {
+        ""hero_cards"": [
+            {
+                ""hero_stack"": ""8"",
+                ""villain_stack"": ""100""
+            },
+            {
+                ""hero_stack"": ""9"",
+  ",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,20,20454.609348002123,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""1300"",
+            ""hero_bet"": ""100"",
+            ""villain_stack"": ""100""
+        },
+        {
+            ""hero_stack"": ""9"",
+            ""villain_stack"": ""9""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""100""
+                },
+                {
+                  ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,21,16472.975242999382,"Here is the JSON data converted to a table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Ah""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""J""
+        },
+        {
+            ""name"": ""7"",
+            ""value"": ""7""
+        },
+        {
+            ""name"": ""2"",
+           ",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,22,18994.309146997693,"hero_cards = [13600]
+hero_stack = 9
+villain_stack = 10
+hero_bet = 10
+villain_bet = 10
+button = ""hero""
+print(json.fromstring(button))",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,23,21453.533485000662,"hero_cards = [13,470]
+hero_stack = 460
+villain_stack = 10
+hero_bet = 460
+villain_bet = 7370
+button = ""hero""
+print(json.fromstring(button))",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,24,20183.564156999637,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""11,420"",
+            ""value"": ""11,420""
+        },
+        {
+            ""id"": ""100"",
+            ""value"": ""50""
+        }
+    ],
+    ""board"": [
+        {
+            ""id"": ""12,150"",
+            ""value"": ""0""
+        },
+        {
+            ""id"": ""11,420"",
+            ""value"": ""11,420""
+        }
+    ],
+    ""pot",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,25,18103.939423002885,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""12,100"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""11,300"",
+            ""hero_bet_score"": ""0""
+        },
+        {
+            ""hero_stack"": ""11,300"",
+            ""villain_stack"": ""220""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""11,3",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,26,19761.14942600543,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""440"",
+            ""value"": ""440""
+        },
+        {
+            ""id"": ""5"",
+            ""value"": ""7""
+        },
+        {
+            ""id"": ""6"",
+            ""value"": ""4""
+        }
+    ],
+    ""board"": [
+        {
+            ""id"": ""11980"",
+            ""value"": ""11,980""
+        },
+        {
+            ""id"": ""440"",
+            ""value"": ""440""",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,27,18234.066936995077,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""11,690"",
+            ""hero_bet"": ""0"",
+            ""villain_stack"": ""11,690""
+        },
+        {
+            ""hero_stack"": ""L"",
+            ""villain_stack"": ""L""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                ""Ah"",
+                ""Td""
+            ],
+            ""hero_stack"": ""L"",
+            ""villain_",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,28,18843.438780000724,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": 2, ""hero_bet"": 10, ""villain_stack"": 11, ""hero_bet"": ""Ah"", ""button"": ""hero""
+        },
+        {
+            ""hero_stack"": 4, ""hero_bet"": 4, ""villain_stack"": 7, ""villain_bet"": ""Td"", ""button"": ""villain""
+        },
+        {
+            ""hero_stack"": 6, ""hero_bet"": 4,",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,29,19411.25738700066,"Here is the JSON data converted to a table:
+{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""11,460"",
+            ""villain_stack"": ""10,690""
+        },
+        {
+            ""hero_bet"": ""0"",
+            ""villain_bet"": ""0""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""10,690""
+                },
+                {
+ ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,30,23615.202580003825,"Here is the JSON data converted to a table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""11,460""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""3""
+        },
+        {
+            ""name"": ""Jd"",
+            ""value"": ""5""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""5"",
+            ""value"": ""2""
+        },
+        {
+           ",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,31,18204.94341700396,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""11,460""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""2""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""5"",
+            ""value"": ""4""
+        },
+        {
+         ",False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,32,18858.16080299992,"Here is the JSON representation of the table:
+{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""11,460""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""9""
+        },
+        {
+            ""name"": ""P"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""J"",
+     ",False,False,False,False,False,False,False,False,7,0,False
+realistic_mix,33,18296.335639999597,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""13,070""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""50""
+        },
+        {
+            ""name"": ""7"",
+            ""value"": ""4""
+        }
+    ],
+    ""board"": {
+        ""potion"": ""6,320""
+    },
+    ""pot"": {
+        ""hero_stack"": ""6,320"",
+        ""villain_stack"": ""50""",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,34,18149.076025001705,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""120""
+        },
+        {
+            ""name"": ""9"",
+            ""value"": ""10""
+        },
+        {
+            ""name"": ""ace"",
+            ""value"": ""11""
+        },
+        {
+            ""name"": ""7"",
+            ""value"": ""200""
+        }
+    ],
+    ""b",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,35,18253.37332399795,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""100"",
+            ""villain_stack"": ""8"",
+            ""hero_bet"": ""3,020""
+        },
+        {
+            ""hero_stack"": ""100"",
+            ""villain_stack"": ""8"",
+            ""villain_bet"": ""5""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""6,670""
+                },
+ ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,36,18850.830158000463,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A♠"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A♠"",
+            ""value"": ""5""
+        },
+        {
+            ""name"": ""Q♥"",
+            ""value"": ""4""
+        },
+        {
+            ""name"": ""♥"",
+            ""value"": ""4""
+        },
+        {
+            ""name"": ""♥"",
+            ""value"": ""5""
+        }
+    ],
+    ""board"": [",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,37,18409.564089000924,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A♠"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A♠"",
+            ""value"": ""9""
+        },
+        {
+            ""name"": ""Q♥"",
+            ""value"": ""8""
+        },
+        {
+            ""name"": ""A♥"",
+            ""value"": ""7""
+        },
+        {
+            ""name"": ""♥"",
+            ""value"": ""5""
+        },
+        {
+         ",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,38,17990.705169999273,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""0"",
+            ""name"": ""K""
+        },
+        {
+            ""id"": ""50"",
+            ""name"": ""A""
+        },
+        {
+            ""id"": ""9,230"",
+            ""name"": ""K""
+        }
+    ],
+    ""board"": [
+        {
+            ""id"": ""9,230"",
+            ""color"": ""brown""
+        },
+        {
+            ""id"": ""8"",
+            ""color"": ""red""
+        }
+ ",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,39,17726.598312001443,"{
+    ""hero_cards"": [
+        {
+            ""id"": ""9,180"",
+            ""value"": ""200""
+        },
+        {
+            ""id"": ""9,180"",
+            ""value"": ""120""
+        }
+    ],
+    ""board"": {
+        ""id"": ""200"",
+        ""value"": ""9,180""
+    },
+    ""pot"": {
+        ""value"": ""200""
+    },
+    ""hero_stack"": [
+        {
+            ""id"": ""9,180",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,40,19290.65481300495,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""8,620"",
+            ""villain_stack"": ""560"",
+            ""hero_bet"": ""8,620""
+        },
+        {
+            ""hero_stack"": ""200"",
+            ""villain_stack"": ""560""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""hero_stack"": ""7"",
+                    ""villain_stack"": ""4""
+        ",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,41,19950.59411600232,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""3,340"",
+            ""villain_stack"": ""3,340""
+        },
+        {
+            ""hero_bet"": ""5,840"",
+            ""villain_bet"": ""3,340""
+        }
+    ],
+    ""board"": {
+        ""hero_cards"": [
+            {
+                ""hero_stack"": ""K"",
+                ""villain_stack"": ""K""
+            },
+            {
+                ""hero_stack"": ""4"",
+ ",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,42,17937.091952997434,"The hero_cards list the cards that the player has at the top of the pot. The pot is 13,240.",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,43,17975.78755200084,"Here's a jumbled list of cards, with the hero cards and the villain cards:
+- 13,240
+- 8
+- 6",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,44,24120.091259006585,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Td""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""13,240""
+        },
+        {
+            ""name"": ""J"",
+            ""value"": ""6""
+        }
+    ],
+    ""board"": [
+        {
+            ""name"": ""Ah"",
+            ""value"": ""Ah""
+        },
+        {
+            ""name"": ""Td"",
+            ""value"": ""13,24",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,45,20263.546868998674,"{
+    ""hero_cards"": [
+        {
+            ""hero_stack"": ""3,860"",
+            ""villain_stack"": ""50"",
+            ""hero_bet"": ""0"",
+            ""villain_bet"": ""50""
+        },
+        {
+            ""hero_stack"": ""3,860"",
+            ""villain_stack"": ""50"",
+            ""villain_bet"": ""3,860""
+        }
+    ],
+    ""board"": [
+        {
+            ""hero_cards"": [
+                {
+                    ""he",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,46,17730.900454997027,"{
+    ""hero_cards"": [
+        {
+            ""hero"": ""Ah"",
+            ""cost"": ""4,420""
+        },
+        {
+            ""hero"": ""Td"",
+            ""cost"": ""0""
+        },
+        {
+            ""hero"": ""Ah"",
+            ""cost"": ""4,420""
+        }
+    ],
+    ""board"": {
+        ""board_color"": ""green"",
+        ""potion"": ""d""
+    },
+    ""pot"": {
+        ""hero_stack"": ""100"",
+        ""villain_stack"":",False,False,False,False,False,False,False,False,2,0,False
+realistic_mix,47,13368.76209500042,"The hero cards are 4,420.",False,False,False,False,False,False,False,False,5,0,False
+realistic_mix,48,14059.471119995578,The hero cards are 200.,False,False,False,False,False,False,False,False,6,0,False
+realistic_mix,49,17306.11704299372,"{
+    ""hero_cards"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""100""
+        },
+        {
+            ""name"": ""A"",
+            ""value"": ""6""
+        }
+    ],
+    ""hero_stack"": [
+        {
+            ""name"": ""A"",
+            ""value"": ""4,420""
+        },
+        {
+            ""name"": ""K"",
+            ""value"": ""4,4",False,False,False,False,False,False,False,False,6,0,False

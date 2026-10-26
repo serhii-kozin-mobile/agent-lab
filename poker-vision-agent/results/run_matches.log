@@ -1,0 +1,17 @@
+gt: 3000 hands in 104s
+naive__clean: 3000 hands in 211s
+naive__chip_overlap: 3000 hands in 113s
+naive__jpeg_q20: 3000 hands in 242s
+naive__scale_0.5: 3000 hands in 282s
+naive__theme_four_color: 3000 hands in 94s
+naive__blur_1.5: 3000 hands in 365s
+naive__theme_dark: 3000 hands in 151s
+hardened_guarded__clean: 3000 hands in 115s
+hardened_guarded__jpeg_q20: 3000 hands in 154s
+naive__realistic_mix: 3000 hands in 291s
+hardened_guarded__chip_overlap: 3000 hands in 159s
+hardened_guarded__theme_four_color: 3000 hands in 114s
+hardened_guarded__scale_0.5: 3000 hands in 222s
+hardened_guarded__theme_dark: 3000 hands in 114s
+hardened_guarded__blur_1.5: 3000 hands in 449s
+hardened_guarded__realistic_mix: 3000 hands in 406s
