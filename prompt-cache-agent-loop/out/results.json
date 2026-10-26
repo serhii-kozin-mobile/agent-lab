@@ -1,0 +1,162 @@
+{
+  "min_prefix": 1024,
+  "out_ratio": 5.0,
+  "harness": {
+    "openhands": {
+      "runs": 491,
+      "calls_median": 16.0,
+      "calls_p90": 33.0,
+      "input_tokens_per_run_median": 163186.0,
+      "output_tokens_per_run_median": 2095.0,
+      "input_to_output_ratio_aggregate": 102.60999314497042,
+      "resent_share_of_input_aggregate": 0.9342617271508539,
+      "input_share_of_bill_no_cache": 0.9535359137764828,
+      "scenarios": {
+        "no_cache": {
+          "input_cost_vs_no_cache": 1.0,
+          "total_bill_vs_no_cache": 1.0
+        },
+        "cache_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.1751,
+          "total_bill_vs_no_cache": 0.2135
+        },
+        "cache_read0.05_write1.25": {
+          "input_cost_vs_no_cache": 0.1284,
+          "total_bill_vs_no_cache": 0.1689
+        },
+        "cache_read0.10_write2.00_1h": {
+          "input_cost_vs_no_cache": 0.2241,
+          "total_bill_vs_no_cache": 0.2602
+        },
+        "legacy_read0.50_write1.00": {
+          "input_cost_vs_no_cache": 0.5327,
+          "total_bill_vs_no_cache": 0.5544
+        },
+        "miss5pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.2289,
+          "total_bill_vs_no_cache": 0.2647
+        },
+        "miss10pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.2826,
+          "total_bill_vs_no_cache": 0.3159
+        },
+        "miss25pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.4438,
+          "total_bill_vs_no_cache": 0.4697
+        },
+        "model_switch_mid_read0.10": {
+          "input_cost_vs_no_cache": 0.2273,
+          "total_bill_vs_no_cache": 0.2632
+        },
+        "volatile_prefix_write1.25": {
+          "input_cost_vs_no_cache": 1.25,
+          "total_bill_vs_no_cache": 1.2384
+        }
+      }
+    },
+    "swe-agent": {
+      "runs": 1999,
+      "calls_median": 16.0,
+      "calls_p90": 51.0,
+      "input_tokens_per_run_median": 89390.0,
+      "output_tokens_per_run_median": 1583.0,
+      "input_to_output_ratio_aggregate": 108.00737326895391,
+      "resent_share_of_input_aggregate": 0.9504350075509381,
+      "input_share_of_bill_no_cache": 0.9557550993765676,
+      "scenarios": {
+        "no_cache": {
+          "input_cost_vs_no_cache": 1.0,
+          "total_bill_vs_no_cache": 1.0
+        },
+        "cache_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.1566,
+          "total_bill_vs_no_cache": 0.1939
+        },
+        "cache_read0.05_write1.25": {
+          "input_cost_vs_no_cache": 0.1091,
+          "total_bill_vs_no_cache": 0.1485
+        },
+        "cache_read0.10_write2.00_1h": {
+          "input_cost_vs_no_cache": 0.1935,
+          "total_bill_vs_no_cache": 0.2292
+        },
+        "legacy_read0.50_write1.00": {
+          "input_cost_vs_no_cache": 0.5246,
+          "total_bill_vs_no_cache": 0.5456
+        },
+        "miss5pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.2113,
+          "total_bill_vs_no_cache": 0.2462
+        },
+        "miss10pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.2659,
+          "total_bill_vs_no_cache": 0.2984
+        },
+        "miss25pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.43,
+          "total_bill_vs_no_cache": 0.4552
+        },
+        "model_switch_mid_read0.10": {
+          "input_cost_vs_no_cache": 0.1841,
+          "total_bill_vs_no_cache": 0.2202
+        },
+        "volatile_prefix_write1.25": {
+          "input_cost_vs_no_cache": 1.25,
+          "total_bill_vs_no_cache": 1.2389
+        }
+      }
+    },
+    "all": {
+      "runs": 2490,
+      "calls_median": 16.0,
+      "calls_p90": 48.0,
+      "input_tokens_per_run_median": 108645.5,
+      "output_tokens_per_run_median": 1719.0,
+      "input_to_output_ratio_aggregate": 106.97439064481284,
+      "resent_share_of_input_aggregate": 0.9474659544547207,
+      "input_share_of_bill_no_cache": 0.9553469327119609,
+      "scenarios": {
+        "no_cache": {
+          "input_cost_vs_no_cache": 1.0,
+          "total_bill_vs_no_cache": 1.0
+        },
+        "cache_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.16,
+          "total_bill_vs_no_cache": 0.1975
+        },
+        "cache_read0.05_write1.25": {
+          "input_cost_vs_no_cache": 0.1126,
+          "total_bill_vs_no_cache": 0.1522
+        },
+        "cache_read0.10_write2.00_1h": {
+          "input_cost_vs_no_cache": 0.1991,
+          "total_bill_vs_no_cache": 0.2349
+        },
+        "legacy_read0.50_write1.00": {
+          "input_cost_vs_no_cache": 0.5261,
+          "total_bill_vs_no_cache": 0.5473
+        },
+        "miss5pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.2145,
+          "total_bill_vs_no_cache": 0.2496
+        },
+        "miss10pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.269,
+          "total_bill_vs_no_cache": 0.3016
+        },
+        "miss25pct_read0.10_write1.25": {
+          "input_cost_vs_no_cache": 0.4325,
+          "total_bill_vs_no_cache": 0.4578
+        },
+        "model_switch_mid_read0.10": {
+          "input_cost_vs_no_cache": 0.1921,
+          "total_bill_vs_no_cache": 0.2281
+        },
+        "volatile_prefix_write1.25": {
+          "input_cost_vs_no_cache": 1.25,
+          "total_bill_vs_no_cache": 1.2388
+        }
+      }
+    }
+  }
+}
