@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-*/
+venv/
+.ipynb_checkpoints/
+
+# Secrets (never commit)
+.env
+.env.*
+*.key
+*.pem
+.secrets/
+
+# Large or third-party data: downloaded by each study's fetch script
+data/
+models/
+*.gguf
+*.safetensors
+*.bin
+*.parquet
+
+# Regenerated raw outputs (too large to commit)
+prompt-cache-agent-loop/out/calls.csv
+prompt-cache-agent-loop/out/costs_per_run.csv
+poker-vision-agent/results/decisions.csv.gz
+poker-vision-agent/results/perception_bench.csv
+llm-vs-bookmaker-epl/out/matches_2526.json
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
