@@ -1,0 +1,9 @@
+pokerkit==0.7.7
+opencv-python-headless==5.0.0.93
+treys==0.1.8
+pillow==13.0.0
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+requests==2.34.2
+websockets==17.3
