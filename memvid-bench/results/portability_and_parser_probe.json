@@ -1,0 +1,10 @@
+{
+ "copied_mv2_alone_query_hits": 5,
+ "files_after_open": [
+  "memvid_ctx_shard1.mv2"
+ ],
+ "and_probe_hits_k30": 2,
+ "or_probe_hits_k30": 30,
+ "python": "3.13.5",
+ "sqlite": "3.46.1"
+}

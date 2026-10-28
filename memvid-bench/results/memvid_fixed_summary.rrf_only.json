@@ -1,0 +1,67 @@
+{
+  "system": "memvid",
+  "variant": "fixed",
+  "reused_build": true,
+  "build_s": 0.12,
+  "open_s": 0.114,
+  "mv2_bytes": 137385366,
+  "lex_index_bytes": 29969324,
+  "vec_index_bytes": 12605560,
+  "frame_count": 8148,
+  "peak_rss_bytes": 239284224,
+  "lex-raw": {
+    "n": 110,
+    "hit@1": 0.0,
+    "hit@5": 0.0,
+    "hit@10": 0.0,
+    "mrr@10": 0.0,
+    "p50_ms": 7.62,
+    "p95_ms": 10.33,
+    "sanitized_retries": 9,
+    "query_errors": 1
+  },
+  "lex-or": {
+    "n": 110,
+    "hit@1": 0.082,
+    "hit@5": 0.318,
+    "hit@10": 0.455,
+    "mrr@10": 0.174,
+    "p50_ms": 36.42,
+    "p95_ms": 52.4,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "sem": {
+    "n": 110,
+    "hit@1": 0.291,
+    "hit@5": 0.555,
+    "hit@10": 0.691,
+    "mrr@10": 0.41,
+    "p50_ms": 2.63,
+    "p95_ms": 3.63,
+    "sanitized_retries": 0,
+    "query_errors": 0
+  },
+  "hybrid-raw": {
+    "n": 110,
+    "hit@1": 0.155,
+    "hit@5": 0.5,
+    "hit@10": 0.636,
+    "mrr@10": 0.292,
+    "p50_ms": 9.84,
+    "p95_ms": 12.25,
+    "sanitized_retries": 9,
+    "query_errors": 1
+  },
+  "hybrid-or": {
+    "n": 110,
+    "hit@1": 0.082,
+    "hit@5": 0.318,
+    "hit@10": 0.455,
+    "mrr@10": 0.174,
+    "p50_ms": 17.68,
+    "p95_ms": 24.11,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  }
+}

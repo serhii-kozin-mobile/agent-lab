@@ -1,0 +1,92 @@
+variant=fixed chunks=8112 emb=(8112, 384) queries=110
+memvid_sdk version: unknown
+  shard 0 done: 2028 chunks, 34306378 bytes
+  shard 1 done: 2028 chunks, 34295411 bytes
+  shard 2 done: 2028 chunks, 34377011 bytes
+  shard 3 done: 2028 chunks, 34400065 bytes
+build_s=303.83 total_mv2_bytes=137378865 stats={'frame_count': 8148, 'lex_index_bytes': 29966750, 'vec_index_bytes': 12605560}
+mode lex-raw done
+mode lex-or done
+mode sem done
+mode hybrid-raw done
+mode hybrid-or done
+mode lex-or-score done
+{
+  "system": "memvid",
+  "variant": "fixed",
+  "reused_build": false,
+  "build_s": 303.83,
+  "open_s": 0.14,
+  "mv2_bytes": 137378865,
+  "lex_index_bytes": 29966750,
+  "vec_index_bytes": 12605560,
+  "frame_count": 8148,
+  "peak_rss_bytes": 497659904,
+  "lex-raw": {
+    "n": 110,
+    "hit@1": 0.0,
+    "hit@5": 0.0,
+    "hit@10": 0.0,
+    "mrr@10": 0.0,
+    "p50_ms": 6.18,
+    "p95_ms": 10.29,
+    "sanitized_retries": 9,
+    "query_errors": 1
+  },
+  "lex-or": {
+    "n": 110,
+    "hit@1": 0.082,
+    "hit@5": 0.318,
+    "hit@10": 0.455,
+    "mrr@10": 0.174,
+    "p50_ms": 33.9,
+    "p95_ms": 49.43,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "sem": {
+    "n": 110,
+    "hit@1": 0.291,
+    "hit@5": 0.555,
+    "hit@10": 0.691,
+    "mrr@10": 0.41,
+    "p50_ms": 2.95,
+    "p95_ms": 4.58,
+    "sanitized_retries": 0,
+    "query_errors": 0
+  },
+  "hybrid-raw": {
+    "n": 110,
+    "hit@1": 0.155,
+    "hit@5": 0.5,
+    "hit@10": 0.636,
+    "mrr@10": 0.292,
+    "p50_ms": 8.3,
+    "p95_ms": 11.32,
+    "sanitized_retries": 9,
+    "query_errors": 1
+  },
+  "hybrid-or": {
+    "n": 110,
+    "hit@1": 0.082,
+    "hit@5": 0.318,
+    "hit@10": 0.455,
+    "mrr@10": 0.174,
+    "p50_ms": 15.96,
+    "p95_ms": 22.27,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "lex-or-score": {
+    "n": 110,
+    "hit@1": 0.164,
+    "hit@5": 0.436,
+    "hit@10": 0.473,
+    "mrr@10": 0.27,
+    "p50_ms": 35.22,
+    "p95_ms": 54.07,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  }
+}
+DONE

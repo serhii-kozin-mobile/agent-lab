@@ -1,0 +1,418 @@
+{
+ "ctx|baseline-bm25|multihop": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|baseline-bm25|neardup": {
+  "n": 12,
+  "hit@5": 1.0
+ },
+ "ctx|baseline-bm25|single": {
+  "n": 70,
+  "hit@5": 0.686
+ },
+ "ctx|baseline-bm25|table": {
+  "n": 16,
+  "hit@5": 0.812
+ },
+ "ctx|baseline-dense|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "ctx|baseline-dense|neardup": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|baseline-dense|single": {
+  "n": 70,
+  "hit@5": 0.614
+ },
+ "ctx|baseline-dense|table": {
+  "n": 16,
+  "hit@5": 0.75
+ },
+ "ctx|baseline-hybrid|multihop": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|baseline-hybrid|neardup": {
+  "n": 12,
+  "hit@5": 1.0
+ },
+ "ctx|baseline-hybrid|single": {
+  "n": 70,
+  "hit@5": 0.7
+ },
+ "ctx|baseline-hybrid|table": {
+  "n": 16,
+  "hit@5": 0.75
+ },
+ "ctx|memvid-hybrid-or|multihop": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|memvid-hybrid-or|neardup": {
+  "n": 12,
+  "hit@5": 0.167
+ },
+ "ctx|memvid-hybrid-or|single": {
+  "n": 70,
+  "hit@5": 0.4
+ },
+ "ctx|memvid-hybrid-or|table": {
+  "n": 16,
+  "hit@5": 0.375
+ },
+ "ctx|memvid-hybrid-raw|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "ctx|memvid-hybrid-raw|neardup": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|memvid-hybrid-raw|single": {
+  "n": 70,
+  "hit@5": 0.5
+ },
+ "ctx|memvid-hybrid-raw|table": {
+  "n": 16,
+  "hit@5": 0.688
+ },
+ "ctx|memvid-lex-or|multihop": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|memvid-lex-or|neardup": {
+  "n": 12,
+  "hit@5": 0.167
+ },
+ "ctx|memvid-lex-or|single": {
+  "n": 70,
+  "hit@5": 0.4
+ },
+ "ctx|memvid-lex-or|table": {
+  "n": 16,
+  "hit@5": 0.375
+ },
+ "ctx|memvid-lex-or-score|multihop": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|memvid-lex-or-score|neardup": {
+  "n": 12,
+  "hit@5": 0.333
+ },
+ "ctx|memvid-lex-or-score|single": {
+  "n": 70,
+  "hit@5": 0.471
+ },
+ "ctx|memvid-lex-or-score|table": {
+  "n": 16,
+  "hit@5": 0.562
+ },
+ "ctx|memvid-lex-or-score-deep|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "ctx|memvid-lex-or-score-deep|neardup": {
+  "n": 12,
+  "hit@5": 0.583
+ },
+ "ctx|memvid-lex-or-score-deep|single": {
+  "n": 70,
+  "hit@5": 0.643
+ },
+ "ctx|memvid-lex-or-score-deep|table": {
+  "n": 16,
+  "hit@5": 0.688
+ },
+ "ctx|memvid-lex-raw|multihop": {
+  "n": 12,
+  "hit@5": 0.0
+ },
+ "ctx|memvid-lex-raw|neardup": {
+  "n": 12,
+  "hit@5": 0.0
+ },
+ "ctx|memvid-lex-raw|single": {
+  "n": 70,
+  "hit@5": 0.014
+ },
+ "ctx|memvid-lex-raw|table": {
+  "n": 16,
+  "hit@5": 0.062
+ },
+ "ctx|memvid-sem|multihop": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "ctx|memvid-sem|neardup": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|memvid-sem|single": {
+  "n": 70,
+  "hit@5": 0.571
+ },
+ "ctx|memvid-sem|table": {
+  "n": 16,
+  "hit@5": 0.75
+ },
+ "ctx|sqlite-fts|multihop": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|sqlite-fts|neardup": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|sqlite-fts|single": {
+  "n": 70,
+  "hit@5": 0.786
+ },
+ "ctx|sqlite-fts|table": {
+  "n": 16,
+  "hit@5": 0.812
+ },
+ "ctx|sqlite-hybrid|multihop": {
+  "n": 12,
+  "hit@5": 0.917
+ },
+ "ctx|sqlite-hybrid|neardup": {
+  "n": 12,
+  "hit@5": 1.0
+ },
+ "ctx|sqlite-hybrid|single": {
+  "n": 70,
+  "hit@5": 0.729
+ },
+ "ctx|sqlite-hybrid|table": {
+  "n": 16,
+  "hit@5": 0.75
+ },
+ "ctx|sqlite-vec|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "ctx|sqlite-vec|neardup": {
+  "n": 12,
+  "hit@5": 0.667
+ },
+ "ctx|sqlite-vec|single": {
+  "n": 70,
+  "hit@5": 0.614
+ },
+ "ctx|sqlite-vec|table": {
+  "n": 16,
+  "hit@5": 0.75
+ },
+ "fixed|baseline-bm25|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|baseline-bm25|neardup": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|baseline-bm25|single": {
+  "n": 70,
+  "hit@5": 0.671
+ },
+ "fixed|baseline-bm25|table": {
+  "n": 16,
+  "hit@5": 0.938
+ },
+ "fixed|baseline-dense|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|baseline-dense|neardup": {
+  "n": 12,
+  "hit@5": 0.583
+ },
+ "fixed|baseline-dense|single": {
+  "n": 70,
+  "hit@5": 0.543
+ },
+ "fixed|baseline-dense|table": {
+  "n": 16,
+  "hit@5": 0.562
+ },
+ "fixed|baseline-hybrid|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|baseline-hybrid|neardup": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "fixed|baseline-hybrid|single": {
+  "n": 70,
+  "hit@5": 0.671
+ },
+ "fixed|baseline-hybrid|table": {
+  "n": 16,
+  "hit@5": 0.875
+ },
+ "fixed|memvid-hybrid-or|multihop": {
+  "n": 12,
+  "hit@5": 0.5
+ },
+ "fixed|memvid-hybrid-or|neardup": {
+  "n": 12,
+  "hit@5": 0.167
+ },
+ "fixed|memvid-hybrid-or|single": {
+  "n": 70,
+  "hit@5": 0.286
+ },
+ "fixed|memvid-hybrid-or|table": {
+  "n": 16,
+  "hit@5": 0.438
+ },
+ "fixed|memvid-hybrid-raw|multihop": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "fixed|memvid-hybrid-raw|neardup": {
+  "n": 12,
+  "hit@5": 0.417
+ },
+ "fixed|memvid-hybrid-raw|single": {
+  "n": 70,
+  "hit@5": 0.486
+ },
+ "fixed|memvid-hybrid-raw|table": {
+  "n": 16,
+  "hit@5": 0.438
+ },
+ "fixed|memvid-lex-or|multihop": {
+  "n": 12,
+  "hit@5": 0.5
+ },
+ "fixed|memvid-lex-or|neardup": {
+  "n": 12,
+  "hit@5": 0.167
+ },
+ "fixed|memvid-lex-or|single": {
+  "n": 70,
+  "hit@5": 0.286
+ },
+ "fixed|memvid-lex-or|table": {
+  "n": 16,
+  "hit@5": 0.438
+ },
+ "fixed|memvid-lex-or-score|multihop": {
+  "n": 12,
+  "hit@5": 0.583
+ },
+ "fixed|memvid-lex-or-score|neardup": {
+  "n": 12,
+  "hit@5": 0.167
+ },
+ "fixed|memvid-lex-or-score|single": {
+  "n": 70,
+  "hit@5": 0.4
+ },
+ "fixed|memvid-lex-or-score|table": {
+  "n": 16,
+  "hit@5": 0.688
+ },
+ "fixed|memvid-lex-or-score-deep|multihop": {
+  "n": 12,
+  "hit@5": 0.5
+ },
+ "fixed|memvid-lex-or-score-deep|neardup": {
+  "n": 12,
+  "hit@5": 0.25
+ },
+ "fixed|memvid-lex-or-score-deep|single": {
+  "n": 70,
+  "hit@5": 0.471
+ },
+ "fixed|memvid-lex-or-score-deep|table": {
+  "n": 16,
+  "hit@5": 0.688
+ },
+ "fixed|memvid-lex-raw|multihop": {
+  "n": 12,
+  "hit@5": 0.0
+ },
+ "fixed|memvid-lex-raw|neardup": {
+  "n": 12,
+  "hit@5": 0.0
+ },
+ "fixed|memvid-lex-raw|single": {
+  "n": 70,
+  "hit@5": 0.0
+ },
+ "fixed|memvid-lex-raw|table": {
+  "n": 16,
+  "hit@5": 0.0
+ },
+ "fixed|memvid-sem|multihop": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "fixed|memvid-sem|neardup": {
+  "n": 12,
+  "hit@5": 0.583
+ },
+ "fixed|memvid-sem|single": {
+  "n": 70,
+  "hit@5": 0.514
+ },
+ "fixed|memvid-sem|table": {
+  "n": 16,
+  "hit@5": 0.562
+ },
+ "fixed|sqlite-fts|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|sqlite-fts|neardup": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|sqlite-fts|single": {
+  "n": 70,
+  "hit@5": 0.629
+ },
+ "fixed|sqlite-fts|table": {
+  "n": 16,
+  "hit@5": 0.875
+ },
+ "fixed|sqlite-hybrid|multihop": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "fixed|sqlite-hybrid|neardup": {
+  "n": 12,
+  "hit@5": 0.75
+ },
+ "fixed|sqlite-hybrid|single": {
+  "n": 70,
+  "hit@5": 0.629
+ },
+ "fixed|sqlite-hybrid|table": {
+  "n": 16,
+  "hit@5": 0.875
+ },
+ "fixed|sqlite-vec|multihop": {
+  "n": 12,
+  "hit@5": 0.833
+ },
+ "fixed|sqlite-vec|neardup": {
+  "n": 12,
+  "hit@5": 0.583
+ },
+ "fixed|sqlite-vec|single": {
+  "n": 70,
+  "hit@5": 0.543
+ },
+ "fixed|sqlite-vec|table": {
+  "n": 16,
+  "hit@5": 0.562
+ }
+}

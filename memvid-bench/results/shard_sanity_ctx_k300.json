@@ -1,0 +1,13 @@
+{
+ "n_questions_reachable_in_shard0": 27,
+ "memvid": {
+  "hit@1": 0.185,
+  "hit@5": 0.741,
+  "hit@10": 0.852
+ },
+ "sqlite": {
+  "hit@1": 0.741,
+  "hit@5": 0.926,
+  "hit@10": 1.0
+ }
+}

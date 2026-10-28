@@ -1,0 +1,114 @@
+{
+ "fixed:memvid-lex-or-score-sqlite-fts": {
+  "diff": -0.273,
+  "ci95": [
+   -0.373,
+   -0.173
+  ]
+ },
+ "fixed:memvid-lex-or-score-deep-sqlite-fts": {
+  "diff": -0.227,
+  "ci95": [
+   -0.318,
+   -0.145
+  ]
+ },
+ "fixed:memvid-lex-or-score-baseline-bm25": {
+  "diff": -0.309,
+  "ci95": [
+   -0.418,
+   -0.2
+  ]
+ },
+ "fixed:memvid-lex-raw-sqlite-fts": {
+  "diff": -0.709,
+  "ci95": [
+   -0.791,
+   -0.627
+  ]
+ },
+ "fixed:memvid-sem-sqlite-vec": {
+  "diff": -0.027,
+  "ci95": [
+   -0.064,
+   0.0
+  ]
+ },
+ "fixed:memvid-sem-baseline-dense": {
+  "diff": -0.027,
+  "ci95": [
+   -0.064,
+   0.0
+  ]
+ },
+ "fixed:memvid-hybrid-raw-sqlite-hybrid": {
+  "diff": -0.191,
+  "ci95": [
+   -0.273,
+   -0.109
+  ]
+ },
+ "fixed:sqlite-fts-baseline-bm25": {
+  "diff": -0.036,
+  "ci95": [
+   -0.1,
+   0.027
+  ]
+ },
+ "ctx:memvid-lex-or-score-sqlite-fts": {
+  "diff": -0.3,
+  "ci95": [
+   -0.4,
+   -0.2
+  ]
+ },
+ "ctx:memvid-lex-or-score-deep-sqlite-fts": {
+  "diff": -0.155,
+  "ci95": [
+   -0.236,
+   -0.073
+  ]
+ },
+ "ctx:memvid-lex-or-score-baseline-bm25": {
+  "diff": -0.245,
+  "ci95": [
+   -0.355,
+   -0.136
+  ]
+ },
+ "ctx:memvid-lex-raw-sqlite-fts": {
+  "diff": -0.8,
+  "ci95": [
+   -0.873,
+   -0.718
+  ]
+ },
+ "ctx:memvid-sem-sqlite-vec": {
+  "diff": -0.036,
+  "ci95": [
+   -0.073,
+   -0.009
+  ]
+ },
+ "ctx:memvid-sem-baseline-dense": {
+  "diff": -0.036,
+  "ci95": [
+   -0.073,
+   -0.009
+  ]
+ },
+ "ctx:memvid-hybrid-raw-sqlite-hybrid": {
+  "diff": -0.2,
+  "ci95": [
+   -0.273,
+   -0.127
+  ]
+ },
+ "ctx:sqlite-fts-baseline-bm25": {
+  "diff": 0.055,
+  "ci95": [
+   -0.009,
+   0.118
+  ]
+ }
+}

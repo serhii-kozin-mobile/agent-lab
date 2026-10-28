@@ -1,0 +1,4 @@
+variant=fixed chunks=8112 emb=(8112, 384) queries=110
+memvid_sdk version: unknown
+  shard 0 done: 2028 chunks, 34307162 bytes
+  shard 1 done: 2028 chunks, 34294976 bytes

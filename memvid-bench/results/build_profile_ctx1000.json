@@ -1,0 +1,8 @@
+{
+ "chunks": 1000,
+ "create_s": 0.018,
+ "put_many_s": 34.21,
+ "seal_s": 0.0,
+ "rss_mb": 192,
+ "onnx_libs_mapped": 0
+}

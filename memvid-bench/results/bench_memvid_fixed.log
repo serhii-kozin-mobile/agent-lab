@@ -1,0 +1,62 @@
+variant=fixed chunks=8112 emb=(8112, 384) queries=110
+memvid_sdk version: unknown
+  put 100/8112
+  put 200/8112
+  put 300/8112
+  put 400/8112
+  put 500/8112
+  put 600/8112
+  put 700/8112
+  put 800/8112
+  put 900/8112
+  put 1000/8112
+  put 1100/8112
+  put 1200/8112
+  put 1300/8112
+  put 1400/8112
+  put 1500/8112
+  put 1600/8112
+  put 1700/8112
+  put 1800/8112
+  put 1900/8112
+  put 2000/8112
+  put 2100/8112
+  put 2200/8112
+  put 2300/8112
+  put 2400/8112
+  put 2500/8112
+  put 2600/8112
+  put 2700/8112
+  put 2800/8112
+  put 2900/8112
+  put 3000/8112
+  put 3100/8112
+  put 3200/8112
+  put 3300/8112
+  put 3400/8112
+  put 3500/8112
+  put 3600/8112
+  put 3700/8112
+  put 3800/8112
+  put 3900/8112
+  put 4000/8112
+  put 4100/8112
+  put 4200/8112
+  put 4300/8112
+  put 4400/8112
+  put 4500/8112
+  put 4600/8112
+  put 4700/8112
+  put 4800/8112
+  put 4900/8112
+  put 5000/8112
+Traceback (most recent call last):
+  File "./scripts/bench_memvid.py", line 165, in <module>
+    main()
+    ~~~~^^
+  File "./scripts/bench_memvid.py", line 100, in main
+    mv.put_many(docs, embeddings=emb[s:s + BATCH].tolist())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.13/site-packages/memvid_sdk/__init__.py", line 1884, in put_many
+    frame_ids = self._core.put_many(validated_requests, embeddings, opts_dict if opts_dict else None)
+memvid_sdk.CapacityExceededError: MV001: Capacity exceeded. Current: 52887631 bytes, Limit: 52428800 bytes, Required: 298 bytes

@@ -1,0 +1,99 @@
+variant=ctx chunks=8901 emb=(8901, 384) queries=110
+memvid_sdk version: unknown
+build_s=0.15 total_mv2_bytes=131115098 stats={'frame_count': 8927, 'lex_index_bytes': 27500978, 'vec_index_bytes': 13831592}
+mode lex-raw done
+mode lex-or done
+mode sem done
+mode hybrid-raw done
+mode hybrid-or done
+mode lex-or-score done
+mode lex-or-score-deep done
+{
+  "system": "memvid",
+  "variant": "ctx",
+  "reused_build": true,
+  "build_s": 0.15,
+  "open_s": 0.103,
+  "mv2_bytes": 131115098,
+  "lex_index_bytes": 27500978,
+  "vec_index_bytes": 13831592,
+  "frame_count": 8927,
+  "peak_rss_bytes": 259727360,
+  "lex-raw": {
+    "n": 110,
+    "hit@1": 0.009,
+    "hit@5": 0.018,
+    "hit@10": 0.018,
+    "mrr@10": 0.014,
+    "p50_ms": 6.8,
+    "p95_ms": 10.77,
+    "sanitized_retries": 8,
+    "query_errors": 0
+  },
+  "lex-or": {
+    "n": 110,
+    "hit@1": 0.045,
+    "hit@5": 0.4,
+    "hit@10": 0.536,
+    "mrr@10": 0.195,
+    "p50_ms": 29.89,
+    "p95_ms": 45.71,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "sem": {
+    "n": 110,
+    "hit@1": 0.418,
+    "hit@5": 0.627,
+    "hit@10": 0.7,
+    "mrr@10": 0.504,
+    "p50_ms": 2.42,
+    "p95_ms": 3.67,
+    "sanitized_retries": 0,
+    "query_errors": 0
+  },
+  "hybrid-raw": {
+    "n": 110,
+    "hit@1": 0.136,
+    "hit@5": 0.582,
+    "hit@10": 0.664,
+    "mrr@10": 0.289,
+    "p50_ms": 7.84,
+    "p95_ms": 11.99,
+    "sanitized_retries": 8,
+    "query_errors": 0
+  },
+  "hybrid-or": {
+    "n": 110,
+    "hit@1": 0.045,
+    "hit@5": 0.4,
+    "hit@10": 0.536,
+    "mrr@10": 0.195,
+    "p50_ms": 13.56,
+    "p95_ms": 18.4,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "lex-or-score": {
+    "n": 110,
+    "hit@1": 0.255,
+    "hit@5": 0.518,
+    "hit@10": 0.564,
+    "mrr@10": 0.367,
+    "p50_ms": 29.93,
+    "p95_ms": 42.08,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  },
+  "lex-or-score-deep": {
+    "n": 110,
+    "hit@1": 0.209,
+    "hit@5": 0.664,
+    "hit@10": 0.782,
+    "mrr@10": 0.422,
+    "p50_ms": 183.13,
+    "p95_ms": 335.15,
+    "sanitized_retries": 1,
+    "query_errors": 1
+  }
+}
