@@ -1,0 +1,709 @@
+{
+ "ctx": {
+  "dup": {
+   "30": {
+    "total_hits": 13080,
+    "unique_chunks": 8729,
+    "uris_with_#page": 58
+   },
+   "100": {
+    "total_hits": 43600,
+    "unique_chunks": 27927,
+    "uris_with_#page": 209
+   },
+   "300": {
+    "total_hits": 130800,
+    "unique_chunks": 78639,
+    "uris_with_#page": 628
+   }
+  },
+  "errors": {
+   "30": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ],
+   "100": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ],
+   "300": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ]
+  },
+  "determinism_mismatch": 0,
+  "rank1_changes_k": 56,
+  "top1_examples": [
+   {
+    "qid": "q000",
+    "k30_top3": [
+     [
+      6620,
+      43.3679
+     ],
+     [
+      6620,
+      43.3679
+     ],
+     [
+      6300,
+      41.9533
+     ]
+    ],
+    "k300_top3": [
+     [
+      6696,
+      43.3679
+     ],
+     [
+      6696,
+      43.3679
+     ],
+     [
+      6620,
+      43.3679
+     ]
+    ]
+   },
+   {
+    "qid": "q002",
+    "k30_top3": [
+     [
+      1428,
+      21.0603
+     ],
+     [
+      3340,
+      16.7776
+     ],
+     [
+      3296,
+      16.7776
+     ]
+    ],
+    "k300_top3": [
+     [
+      1452,
+      21.0603
+     ],
+     [
+      1428,
+      21.0603
+     ],
+     [
+      3348,
+      19.1345
+     ]
+    ]
+   },
+   {
+    "qid": "q003",
+    "k30_top3": [
+     [
+      8392,
+      21.7213
+     ],
+     [
+      8392,
+      21.7213
+     ],
+     [
+      8296,
+      20.6354
+     ]
+    ],
+    "k300_top3": [
+     [
+      8396,
+      22.068
+     ],
+     [
+      8304,
+      22.068
+     ],
+     [
+      8392,
+      21.7213
+     ]
+    ]
+   }
+  ],
+  "raw_errors": [
+   [
+    "q009",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ]
+  ],
+  "knn_vs_sem_shard0": {
+   "n": 110,
+   "top1_agree": 106,
+   "mean_overlap@10": 9.42
+  }
+ },
+ "fixed": {
+  "dup": {
+   "30": {
+    "total_hits": 13080,
+    "unique_chunks": 8389,
+    "uris_with_#page": 99
+   },
+   "100": {
+    "total_hits": 43600,
+    "unique_chunks": 26751,
+    "uris_with_#page": 356
+   },
+   "300": {
+    "total_hits": 130800,
+    "unique_chunks": 75102,
+    "uris_with_#page": 945
+   }
+  },
+  "errors": {
+   "30": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ],
+   "100": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ],
+   "300": [
+    [
+     "q009",
+     0,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     1,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     2,
+     "MV999: Invalid query: unexpected token Or"
+    ],
+    [
+     "q009",
+     3,
+     "MV999: Invalid query: unexpected token Or"
+    ]
+   ]
+  },
+  "determinism_mismatch": 0,
+  "rank1_changes_k": 53,
+  "top1_examples": [
+   {
+    "qid": "q002",
+    "k30_top3": [
+     [
+      3280,
+      21.6786
+     ],
+     [
+      3280,
+      19.7446
+     ],
+     [
+      3236,
+      19.7446
+     ]
+    ],
+    "k300_top3": [
+     [
+      3240,
+      23.4042
+     ],
+     [
+      3324,
+      21.6786
+     ],
+     [
+      3280,
+      21.6786
+     ]
+    ]
+   },
+   {
+    "qid": "q005",
+    "k30_top3": [
+     [
+      1028,
+      27.4754
+     ],
+     [
+      1028,
+      23.2009
+     ],
+     [
+      1004,
+      21.143
+     ]
+    ],
+    "k300_top3": [
+     [
+      1048,
+      27.4754
+     ],
+     [
+      1028,
+      27.4754
+     ],
+     [
+      1028,
+      23.2009
+     ]
+    ]
+   },
+   {
+    "qid": "q006",
+    "k30_top3": [
+     [
+      452,
+      27.9258
+     ],
+     [
+      436,
+      27.9258
+     ],
+     [
+      3600,
+      15.1718
+     ]
+    ],
+    "k300_top3": [
+     [
+      460,
+      30.201
+     ],
+     [
+      444,
+      30.201
+     ],
+     [
+      452,
+      27.9258
+     ]
+    ]
+   }
+  ],
+  "raw_errors": [
+   [
+    "q009",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q009",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q014",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q017",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q031",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q049",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q072",
+    0,
+    "MV004: Lexical index is not enabled"
+   ],
+   [
+    "q087",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q087",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q090",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    0,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    1,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    2,
+    "MV999: Invalid query: unexpected token RParen"
+   ],
+   [
+    "q096",
+    3,
+    "MV999: Invalid query: unexpected token RParen"
+   ]
+  ],
+  "knn_vs_sem_shard0": {
+   "n": 110,
+   "top1_agree": 103,
+   "mean_overlap@10": 9.45
+  }
+ }
+}

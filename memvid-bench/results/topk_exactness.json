@@ -1,0 +1,14 @@
+{
+ "ctx": {
+  "n": 109,
+  "higher_top_at_300": 38,
+  "same_top_score_diff_chunk": 18,
+  "same_top": 53
+ },
+ "fixed": {
+  "n": 109,
+  "higher_top_at_300": 32,
+  "same_top_score_diff_chunk": 21,
+  "same_top": 56
+ }
+}

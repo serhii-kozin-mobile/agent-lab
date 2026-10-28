@@ -1,0 +1,16 @@
+{
+ "3": {
+  "shard_chunks": 2967,
+  "ingested_before_stop": 2967,
+  "error": null,
+  "bytes": 50000741,
+  "seconds": 141.6
+ },
+ "2": {
+  "shard_chunks": 4451,
+  "ingested_before_stop": 4451,
+  "error": null,
+  "bytes": 67276878,
+  "seconds": 223.4
+ }
+}
