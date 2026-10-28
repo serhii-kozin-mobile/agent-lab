@@ -1,0 +1,2398 @@
+[
+ {
+  "category": "single",
+  "question": "In the MCP Streamable HTTP specification, why are certain JSON-RPC fields reflected in HTTP request headers?",
+  "answer": "Selected JSON-RPC body fields are duplicated in HTTP headers so intermediate entities like load balancers and gateways can route and inspect requests without having to parse the request body.",
+  "evidence": [
+   "The Streamable HTTP transport mirrors selected JSON-RPC body fields into HTTP\nheaders so that intermediaries (load balancers, gateways, observability\ntooling) can route and inspect requests without parsing the body."
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/transports/streamable-http.mdx#s8",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/basic/transports/streamable-http.mdx",
+     9988,
+     10203
+    ]
+   ]
+  ],
+  "qid": "q000"
+ },
+ {
+  "category": "single",
+  "question": "In Python's xmlrpc.server module, what is achieved by setting the bind_and_activate parameter to false during initialization?",
+  "answer": "Setting bind_and_activate to false allows the program to modify the allow_reuse_address class variable prior to address binding.",
+  "evidence": [
+   "Setting it to false allows code to manipulate\nthe allow_reuse_address class variable before the address is bound."
+  ],
+  "seed_chunk": "py:library/xmlrpc.server.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/xmlrpc.server.html",
+     1506,
+     1619
+    ]
+   ]
+  ],
+  "qid": "q001"
+ },
+ {
+  "category": "single",
+  "question": "In Python's sqlite3 connection object, how can a user clear a previously registered handler in set_progress_handler?",
+  "answer": "To remove a previously installed progress handler, call set_progress_handler passing None as the progress_handler argument.",
+  "evidence": [
+   "If you want to clear any previously installed progress handler, call the\nmethod with None for progress_handler."
+  ],
+  "seed_chunk": "py:library/sqlite3.html#s21",
+  "gold_spans": [
+   [
+    [
+     "py:library/sqlite3.html",
+     26588,
+     26699
+    ]
+   ]
+  ],
+  "qid": "q002"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-37 Rev. 2, what is the primary goal of Task P-12?",
+  "answer": "Task P-12 requires identifying all types of information that will be processed, stored, and transmitted by the system.",
+  "evidence": [
+   "TASK P-12 Identify the types of information to be processed, stored, and transmitted by the system."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-37r2.pdf#s199",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-37r2.pdf",
+     183408,
+     183507
+    ]
+   ]
+  ],
+  "qid": "q003"
+ },
+ {
+  "category": "single",
+  "question": "In Python's os module, what scenario does the exit code os.EX_NOINPUT indicate?",
+  "answer": "It signifies that an input file was either missing or could not be read.",
+  "evidence": [
+   "Exit code that means an input file did not exist or was not readable."
+  ],
+  "seed_chunk": "py:library/os.html#s107",
+  "gold_spans": [
+   [
+    [
+     "py:library/os.html",
+     127544,
+     127613
+    ]
+   ]
+  ],
+  "qid": "q004"
+ },
+ {
+  "category": "single",
+  "question": "In Python's decimal module, which prototype object provides default settings when getcontext automatically initializes a thread context?",
+  "answer": "When getcontext() automatically generates a context for a thread, it copies from the DefaultContext prototype.",
+  "evidence": [
+   "The new context is copied from a prototype context called DefaultContext."
+  ],
+  "seed_chunk": "py:library/decimal.html#s48",
+  "gold_spans": [
+   [
+    [
+     "py:library/decimal.html",
+     55530,
+     55603
+    ]
+   ]
+  ],
+  "qid": "q005"
+ },
+ {
+  "category": "single",
+  "question": "In Python's cmath module, what output type is returned when a mathematical result has no imaginary component?",
+  "answer": "Functions in the cmath module always return a complex number, even when the value can be represented purely as a real number.",
+  "evidence": [
+   "functions defined in cmath always return a complex number, even if the answer can be expressed as a real number"
+  ],
+  "seed_chunk": "py:library/cmath.html#s11",
+  "gold_spans": [
+   [
+    [
+     "py:library/cmath.html",
+     8791,
+     8902
+    ]
+   ]
+  ],
+  "qid": "q006"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP specification, how are execution failures within tools indicated in the returned results?",
+  "answer": "Tool execution errors are returned inside the tool result payload with the `isError` flag set to true.",
+  "evidence": [
+   "They are reported in tool results with `isError: true`:"
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/tools.mdx#s21",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/tools.mdx",
+     20523,
+     20578
+    ]
+   ]
+  ],
+  "qid": "q007"
+ },
+ {
+  "category": "single",
+  "question": "According to NIST AI 600-1, what potential supply chain threats should be evaluated under action item MG-3.1-002?",
+  "answer": "Action item MG-3.1-002 requires testing value chain risks including data poisoning, malware, software and hardware weaknesses, labor practices, compliance with privacy/localization laws, and geopolitical alignment.",
+  "evidence": [
+   "Test GAI system value chain risks (e.g., data poisoning, malware, other software and hardware vulnerabilities; labor practices; data privacy and localization compliance; geopolitical alignment)."
+  ],
+  "seed_chunk": "nist:NIST.AI.600-1.pdf#s112",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.AI.600-1.pdf",
+     112908,
+     113104
+    ]
+   ]
+  ],
+  "qid": "q008"
+ },
+ {
+  "category": "single",
+  "question": "In Python's datetime module, what value is returned by tzinfo.tzname() if the timezone name is not recognized?",
+  "answer": "It returns None if a string name is not known.",
+  "evidence": [
+   "Return None if a string name isn\u2019t known."
+  ],
+  "seed_chunk": "py:library/datetime.html#s53",
+  "gold_spans": [
+   [
+    [
+     "py:library/datetime.html",
+     61310,
+     61351
+    ]
+   ]
+  ],
+  "qid": "q009"
+ },
+ {
+  "category": "single",
+  "question": "In Python's decimal module, which functions should be invoked to execute standard-compliant NaN comparisons?",
+  "answer": "To maintain strict standards compliance during comparison operations with NaNs, the compare() and compare_signal() methods should be used.",
+  "evidence": [
+   "To ensure strict standards-compliance, use the compare()\nand compare_signal() methods instead."
+  ],
+  "seed_chunk": "py:library/decimal.html#s46",
+  "gold_spans": [
+   [
+    [
+     "py:library/decimal.html",
+     54280,
+     54374
+    ]
+   ]
+  ],
+  "qid": "q010"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-63-3, what modification was made regarding email use for out-of-band authentication?",
+  "answer": "Email was removed as an acceptable transmission channel for out-of-band authenticators.",
+  "evidence": [
+   "Removal of email as a valid channel for out-of-band authenticators."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-63-3.pdf#s46",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-63-3.pdf",
+     45702,
+     45769
+    ]
+   ]
+  ],
+  "qid": "q011"
+ },
+ {
+  "category": "single",
+  "question": "In Python's pathlib library, why does removing a trailing separator during path normalization alter operating system path resolution?",
+  "answer": "Without a trailing separator, operating system APIs may resolve the path as either a regular file or a directory instead of strictly enforcing a directory.",
+  "evidence": [
+   "Specifically, the absence of a trailing separator\nmay allow the path to be resolved as either a file or directory, rather\nthan a directory only."
+  ],
+  "seed_chunk": "py:library/pathlib.html#s43",
+  "gold_spans": [
+   [
+    [
+     "py:library/pathlib.html",
+     47884,
+     48028
+    ]
+   ]
+  ],
+  "qid": "q012"
+ },
+ {
+  "category": "single",
+  "question": "In Python's logging module network receiver, which method should be overridden to customize data serialization away from pickle?",
+  "answer": "The makePickle() method should be overridden to implement an alternative serialization strategy.",
+  "evidence": [
+   "you can use an alternative serialization scheme by overriding the makePickle() method and implementing your alternative there"
+  ],
+  "seed_chunk": "py:howto/logging-cookbook.html#s20",
+  "gold_spans": [
+   [
+    [
+     "py:howto/logging-cookbook.html",
+     22721,
+     22846
+    ]
+   ]
+  ],
+  "qid": "q013"
+ },
+ {
+  "category": "single",
+  "question": "In Python's ttk.Progressbar widget, what default timer interval in milliseconds is used if start() is called without arguments?",
+  "answer": "When omitted, the interval defaults to 50 milliseconds.",
+  "evidence": [
+   "schedules a recurring timer event that calls\nProgressbar.step() every interval milliseconds. If omitted,\ninterval defaults to 50 milliseconds."
+  ],
+  "seed_chunk": "py:library/tkinter.ttk.html#s26",
+  "gold_spans": [
+   [
+    [
+     "py:library/tkinter.ttk.html",
+     18755,
+     18897
+    ]
+   ]
+  ],
+  "qid": "q014"
+ },
+ {
+  "category": "single",
+  "question": "In Python's lzma package, what behavior does decompress exhibit when provided input containing several chained compressed streams?",
+  "answer": "It decompresses all the individual streams and returns the concatenated uncompressed outputs.",
+  "evidence": [
+   "If data is the concatenation of multiple distinct compressed streams, decompress all of these streams, and return the concatenation of the results."
+  ],
+  "seed_chunk": "py:library/lzma.html#s9",
+  "gold_spans": [
+   [
+    [
+     "py:library/lzma.html",
+     9808,
+     9955
+    ]
+   ]
+  ],
+  "qid": "q015"
+ },
+ {
+  "category": "single",
+  "question": "According to NIST SP 800-63-3, what approval is necessary regarding claimant attributes before an assertion is issued?",
+  "answer": "The claimant must be asked to grant consent for the release of their attributes before the assertion is generated and released.",
+  "evidence": [
+   "In addition, the claimant should be requested to consent to the release of those \nattributes prior to generation and release of an assertion."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-63-3.pdf#s56",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-63-3.pdf",
+     53280,
+     53421
+    ]
+   ]
+  ],
+  "qid": "q016"
+ },
+ {
+  "category": "single",
+  "question": "In Python's tkinter module, what exception occurs when building a widget lacking a specified master parent after calling NoDefaultRoot()?",
+  "answer": "It raises a RuntimeError.",
+  "evidence": [
+   "and operations that rely on one \u2014 such as constructing a widget without an explicit master \u2014 raise a RuntimeError."
+  ],
+  "seed_chunk": "py:library/tkinter.html#s184",
+  "gold_spans": [
+   [
+    [
+     "py:library/tkinter.html",
+     194637,
+     194751
+    ]
+   ]
+  ],
+  "qid": "q017"
+ },
+ {
+  "category": "single",
+  "question": "In Python's C API, what does PyRun_SimpleString return upon successful execution versus when an exception occurs?",
+  "answer": "The PyRun_SimpleString function returns 0 when execution succeeds and -1 if an exception is thrown.",
+  "evidence": [
+   "returns 0 for success and -1 when an exception occurred (including SyntaxError)."
+  ],
+  "seed_chunk": "py:faq/extending.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:faq/extending.html",
+     1982,
+     2062
+    ]
+   ]
+  ],
+  "qid": "q018"
+ },
+ {
+  "category": "single",
+  "question": "Under the MCP Sampling protocol, how does a server indicate that it wants to request LLM generation with tool capabilities?",
+  "answer": "A server specifies tool capability requirements by placing tools and optionally toolChoice inside the request message.",
+  "evidence": [
+   "To request LLM generation with tool use capabilities, servers include `tools` and optionally `toolChoice` in the request:"
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/sampling.mdx#s5",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-11-25/client/sampling.mdx",
+     4624,
+     4745
+    ],
+    [
+     "mcp:2026-07-28/client/sampling.mdx",
+     6133,
+     6254
+    ]
+   ]
+  ],
+  "qid": "q019"
+ },
+ {
+  "category": "single",
+  "question": "In Python's sqlite3 module, what statement type does the module use whenever it opens a new transaction under PEP 249-compliant mode?",
+  "answer": "Under PEP 249-compliant transaction control, sqlite3 opens new transactions using BEGIN DEFERRED statements.",
+  "evidence": [
+   "sqlite3 uses BEGIN DEFERRED statements when opening transactions."
+  ],
+  "seed_chunk": "py:library/sqlite3.html#s59",
+  "gold_spans": [
+   [
+    [
+     "py:library/sqlite3.html",
+     66811,
+     66876
+    ]
+   ]
+  ],
+  "qid": "q020"
+ },
+ {
+  "category": "single",
+  "question": "In Python's unittest framework docs, which script inside the source distribution provides a graphical interface for discovering and running test suites?",
+  "answer": "The script is Tools/unittestgui/unittestgui.py.",
+  "evidence": [
+   "The script Tools/unittestgui/unittestgui.py in the Python source distribution is a GUI tool for test discovery and execution."
+  ],
+  "seed_chunk": "py:library/unittest.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/unittest.html",
+     2014,
+     2139
+    ]
+   ]
+  ],
+  "qid": "q021"
+ },
+ {
+  "category": "single",
+  "question": "Under the MCP Roots spec, what format constraint is imposed on a root definition's uri field?",
+  "answer": "In the current specification, the `uri` property of a root definition must strictly be a `file://` URI.",
+  "evidence": [
+   "Unique identifier for the root. This **MUST** be a `file://` URI in the current\n specification."
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/roots.mdx#s3",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/client/roots.mdx",
+     2107,
+     2202
+    ],
+    [
+     "mcp:2025-11-25/client/roots.mdx",
+     2107,
+     2202
+    ],
+    [
+     "mcp:2026-07-28/client/roots.mdx",
+     2707,
+     2802
+    ]
+   ]
+  ],
+  "qid": "q022"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP Elicitation specification, what security requirement applies to identity validation against URL manipulation?",
+  "answer": "The server must ensure its mechanism for identifying the user is resilient against attacks that modify the elicitation URL.",
+  "evidence": [
+   "the server **MUST** ensure that the mechanism to determine the user's identity is resilient to attacks where an attacker can modify the elicitation URL."
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/elicitation.mdx#s25",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-11-25/client/elicitation.mdx",
+     28154,
+     28306
+    ],
+    [
+     "mcp:2026-07-28/client/elicitation.mdx",
+     26201,
+     26353
+    ]
+   ]
+  ],
+  "qid": "q023"
+ },
+ {
+  "category": "single",
+  "question": "According to NIST SP 800-63-3, what prior Special Publication does this document replace?",
+  "answer": "NIST SP 800-63-3 supersedes the earlier NIST Special Publication 800-63-2.",
+  "evidence": [
+   "federation, and related assertions. This publication supersedes NIST Special Publication 800-63-2."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-63-3.pdf#s7",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-63-3.pdf",
+     6902,
+     7001
+    ]
+   ]
+  ],
+  "qid": "q024"
+ },
+ {
+  "category": "single",
+  "question": "In Python's ssl module, what exception is raised when calling SSLSocket.get_channel_binding with an invalid binding type?",
+  "answer": "A ValueError will be raised if an unsupported or invalid channel binding type is specified.",
+  "evidence": [
+   "ValueError will be raised if an unsupported channel binding type is requested."
+  ],
+  "seed_chunk": "py:library/ssl.html#s30",
+  "gold_spans": [
+   [
+    [
+     "py:library/ssl.html",
+     37799,
+     37877
+    ]
+   ]
+  ],
+  "qid": "q025"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-61r3 under ID.AM-03, what advantage is provided by maintaining mappings of network data traffic?",
+  "answer": "Maintaining network data flow representations enhances the accuracy with which security teams can identify malicious data flows and communication.",
+  "evidence": [
+   "Maintaining network data flow representations can improve the accuracy of detecting malicious data flows and communication."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-61r3.pdf#s60",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-61r3.pdf",
+     50126,
+     50252
+    ]
+   ]
+  ],
+  "qid": "q026"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SP 800-37r2, what prerequisite must an organization establish to adopt an ongoing authorization framework?",
+  "answer": "Organizations must implement continuous monitoring processes at both the system and organizational levels to routinely evaluate implemented controls.",
+  "evidence": [
+   "organizations must have in place, an organization-level and system-level continuous monitoring process to assess implemented controls on an ongoing basis."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-37r2.pdf#s590",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-37r2.pdf",
+     557267,
+     557423
+    ]
+   ]
+  ],
+  "qid": "q027"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP core specification, what serves as the foundation for authoritative protocol requirements?",
+  "answer": "The authoritative protocol requirements are based on the TypeScript schema defined in schema.ts.",
+  "evidence": [
+   "This specification defines the authoritative protocol requirements, based on the\nTypeScript schema in\n[schema.ts](https://github.com/modelcontextprotocol/specification/blob/main/schema/2026-07-28/schema.ts)."
+  ],
+  "seed_chunk": "mcp:2026-07-28/index.mdx#s0",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/index.mdx",
+     398,
+     605
+    ]
+   ]
+  ],
+  "qid": "q028"
+ },
+ {
+  "category": "single",
+  "question": "In Python's asyncio SubprocessProtocol, what does the fd argument represent in pipe_data_received?",
+  "answer": "The fd argument specifies the integer file descriptor corresponding to the pipe.",
+  "evidence": [
+   "fd is the integer file descriptor of the pipe."
+  ],
+  "seed_chunk": "py:library/asyncio-protocol.html#s19",
+  "gold_spans": [
+   [
+    [
+     "py:library/asyncio-protocol.html",
+     18800,
+     18846
+    ]
+   ]
+  ],
+  "qid": "q029"
+ },
+ {
+  "category": "single",
+  "question": "According to the MCP authorization specification, what requirement exists regarding access token placement across client-to-server HTTP transmissions?",
+  "answer": "Authorization details must be present in every HTTP request sent from a client to a server.",
+  "evidence": [
+   "Note that authorization **MUST** be included in every HTTP request from client to server."
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/authorization/index.mdx#s13",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/basic/authorization/index.mdx",
+     16039,
+     16128
+    ]
+   ]
+  ],
+  "qid": "q030"
+ },
+ {
+  "category": "single",
+  "question": "In Python's subprocess module, how can both standard output and error streams be merged into a single channel when calling run()?",
+  "answer": "To aggregate both output streams into a single one, set stdout to PIPE and stderr to STDOUT rather than setting capture_output.",
+  "evidence": [
+   "If you wish to capture and combine both streams into one,\nset stdout to PIPE\nand stderr to STDOUT,\ninstead of using capture_output."
+  ],
+  "seed_chunk": "py:library/subprocess.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/subprocess.html",
+     1757,
+     1888
+    ]
+   ]
+  ],
+  "qid": "q031"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-218 (SSDF v1.1), what practices are specified under the SCFPSSD reference mapping?",
+  "answer": "The SCFPSSD reference lists establishing log requirements and audit practices, using code analysis tools to find security issues early, handling data safely, handling errors, and using safe functions only.",
+  "evidence": [
+   "SCFPSSD: Establish Log Requirements and Audit Practices, Use Code Analysis Tools to \nFind Security Issues Early, Handle Data Safely, Handle Errors, Use Safe Functions Only"
+  ],
+  "seed_chunk": "nist:NIST.SP.800-218.pdf#s81",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-218.pdf",
+     71775,
+     71946
+    ]
+   ]
+  ],
+  "qid": "q032"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SSDF v1.1, what approach should an organization take when deciding which practices to implement?",
+  "answer": "Organizations should utilize a risk-based methodology to evaluate which security practices are relevant, appropriate, and effective for addressing threats to their software development processes.",
+  "evidence": [
+   "organizations should adopt a risk-based approach to determine what practices are relevant, appropriate, and effective to mitigate the threats to their software development practices."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-218.pdf#s16",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-218.pdf",
+     14142,
+     14326
+    ]
+   ]
+  ],
+  "qid": "q033"
+ },
+ {
+  "category": "single",
+  "question": "Under MCP sampling rules, what content restriction applies to user messages when responding after a toolUse stopReason?",
+  "answer": "When responding to a toolUse stop reason, the user message must consist exclusively of tool results and contain no other content types.",
+  "evidence": [
+   "and that the user message contains only tool results (no other content types)"
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/sampling.mdx#s21",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-11-25/client/sampling.mdx",
+     15341,
+     15418
+    ],
+    [
+     "mcp:2026-07-28/client/sampling.mdx",
+     19561,
+     19638
+    ]
+   ]
+  ],
+  "qid": "q034"
+ },
+ {
+  "category": "single",
+  "question": "In Python's tkinter.ttk Treeview widget, what string is returned by the parent method for an item located at the root level?",
+  "answer": "The parent method returns an empty string ('' or \u2018\u2019) when invoked on an item at the top level of the hierarchy.",
+  "evidence": [
+   "Returns the ID of the parent of item, or \u2018\u2019 if item is at the top level of the hierarchy."
+  ],
+  "seed_chunk": "py:library/tkinter.ttk.html#s41",
+  "gold_spans": [
+   [
+    [
+     "py:library/tkinter.ttk.html",
+     30654,
+     30743
+    ]
+   ]
+  ],
+  "qid": "q035"
+ },
+ {
+  "category": "single",
+  "question": "In Python's itertools module, what exception is thrown by batched if strict is True and the final grouping has fewer items than n?",
+  "answer": "A ValueError is raised when the final batch contains fewer than n elements and strict is set to True.",
+  "evidence": [
+   "If strict is true, will raise a ValueError if the final batch is shorter than n."
+  ],
+  "seed_chunk": "py:library/itertools.html#s5",
+  "gold_spans": [
+   [
+    [
+     "py:library/itertools.html",
+     5457,
+     5537
+    ]
+   ]
+  ],
+  "qid": "q036"
+ },
+ {
+  "category": "single",
+  "question": "In comparison to Python's pickle module, how does JSON compare regarding portability across non-Python environments?",
+  "answer": "JSON is interoperable and widely used beyond the Python ecosystem, whereas pickle is strictly Python-specific.",
+  "evidence": [
+   "JSON is interoperable and widely used outside of the Python ecosystem,\nwhile pickle is Python-specific;"
+  ],
+  "seed_chunk": "py:library/pickle.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:library/pickle.html",
+     2491,
+     2594
+    ]
+   ]
+  ],
+  "qid": "q037"
+ },
+ {
+  "category": "single",
+  "question": "In Python's asyncio module, what default buffer size limit is applied to the StreamReader returned by asyncio.start_server?",
+  "answer": "The default buffer size limit is 64 KiB.",
+  "evidence": [
+   "limit determines the buffer size limit used by the\nreturned StreamReader instance. By default the limit\nis set to 64 KiB."
+  ],
+  "seed_chunk": "py:library/asyncio-stream.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/asyncio-stream.html",
+     1274,
+     1395
+    ],
+    [
+     "py:library/asyncio-stream.html",
+     2554,
+     2675
+    ]
+   ]
+  ],
+  "qid": "q038"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP authorization specification, what parameter must clients employ to designate target resources when requesting tokens?",
+  "answer": "MCP clients must implement and use the resource parameter as defined in RFC 8707 to indicate the specific target resource.",
+  "evidence": [
+   "MCP clients **MUST** implement and use the `resource` parameter as defined in [RFC 8707 - Resource Indicators for OAuth 2.0](https://www.rfc-editor.org/rfc/rfc8707.html)\nto explicitly specify the target resource for which the token is being requested."
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/authorization/security-considerations.mdx#s8",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/basic/authorization.mdx",
+     19169,
+     19420
+    ],
+    [
+     "mcp:2025-11-25/basic/authorization.mdx",
+     38046,
+     38297
+    ],
+    [
+     "mcp:2026-07-28/basic/authorization/security-considerations.mdx",
+     8993,
+     9244
+    ]
+   ]
+  ],
+  "qid": "q039"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SP 800-207, what specific threat scenarios can a contextual trust algorithm help address?",
+  "answer": "A contextual trust algorithm can mitigate security risks where an adversary or insider attempts to stay close to standard request behavior using a compromised user account.",
+  "evidence": [
+   "A contextual TA can mitigate threats where an attacker stays close to a \u201cnormal\u201d set of access requests for a compromised subject account or insider attack."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-207.pdf#s88",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-207.pdf",
+     73686,
+     73844
+    ]
+   ]
+  ],
+  "qid": "q040"
+ },
+ {
+  "category": "single",
+  "question": "According to NIST AI 100-2e2025, what key attack categories are highlighted for PredAI systems?",
+  "answer": "PredAI platforms are primarily impacted by evasion, poisoning, and privacy attacks.",
+  "evidence": [
+   "Evasion, poisoning, and privacy attacks for PredAI systems"
+  ],
+  "seed_chunk": "nist:NIST.AI.100-2e2025.pdf#s37",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.AI.100-2e2025.pdf",
+     27453,
+     27511
+    ]
+   ]
+  ],
+  "qid": "q041"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP caching specification, what access control requirement is placed on servers regarding public cache scopes?",
+  "answer": "Servers must enforce per-primitive access controls and cannot rely solely on the `cacheScope` setting to block unauthorized access.",
+  "evidence": [
+   "MUST apply appropriate per-primitive access controls, and MUST NOT rely on\n `cacheScope` alone to prevent unauthorized access to primitives."
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/utilities/caching.mdx#s9",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/utilities/caching.mdx",
+     8065,
+     8205
+    ]
+   ]
+  ],
+  "qid": "q042"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST AI 100-2e2025, what goal defines a membership-inference attack against training data?",
+  "answer": "A membership-inference attack focuses on determining whether a specific piece of data was included in the training set.",
+  "evidence": [
+   "MEMBERSHIP-INFERENCE ATTACK [162, 343] (inferring the presence of data in the training set)"
+  ],
+  "seed_chunk": "nist:NIST.AI.100-2e2025.pdf#s49",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.AI.100-2e2025.pdf",
+     39565,
+     39657
+    ]
+   ]
+  ],
+  "qid": "q043"
+ },
+ {
+  "category": "single",
+  "question": "In Python's argparse library, what specific exceptions are intercepted when raised by a type converter function?",
+  "answer": "The argparse module catches ArgumentTypeError, TypeError, and ValueError exceptions and outputs a formatted error message.",
+  "evidence": [
+   "If the function raises ArgumentTypeError, TypeError, or ValueError, the exception is caught and a nicely formatted error message is displayed."
+  ],
+  "seed_chunk": "py:library/argparse.html#s29",
+  "gold_spans": [
+   [
+    [
+     "py:library/argparse.html",
+     32881,
+     33023
+    ]
+   ]
+  ],
+  "qid": "q044"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-63-3, what does the process of re-authentication verify during an active user session?",
+  "answer": "It validates that the subscriber remains present and intends to stay authenticated throughout a prolonged session.",
+  "evidence": [
+   "The process of confirming the subscriber\u2019s continued presence and intent to be authenticated during an extended usage session."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-63-3.pdf#s167",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-63-3.pdf",
+     140160,
+     140287
+    ]
+   ]
+  ],
+  "qid": "q045"
+ },
+ {
+  "category": "single",
+  "question": "In Python's grp module, what data is returned by getgrnam when provided with a valid group name?",
+  "answer": "The grp.getgrnam function returns the group database entry associated with the provided group name.",
+  "evidence": [
+   "Return the group database entry for the given group name."
+  ],
+  "seed_chunk": "py:library/grp.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/grp.html",
+     1250,
+     1307
+    ]
+   ]
+  ],
+  "qid": "q046"
+ },
+ {
+  "category": "single",
+  "question": "In the NIST AI 600-1 Generative AI Profile, how is undesired homogenization defined in model outputs?",
+  "answer": "Undesired homogenization occurs when GAI systems generate skewed and overly uniform output distributions, such as repeated aesthetic styles.",
+  "evidence": [
+   "in which GAI systems produce skewed distributions of outputs that are overly uniform (for example, repetitive aesthetic styles"
+  ],
+  "seed_chunk": "nist:NIST.AI.600-1.pdf#s31",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.AI.600-1.pdf",
+     30290,
+     30417
+    ]
+   ]
+  ],
+  "qid": "q047"
+ },
+ {
+  "category": "single",
+  "question": "In Python's heapq module, what element is guaranteed to reside at index 0 of the heap structure?",
+  "answer": "Index a[0] of a heap array is always guaranteed to store the smallest element.",
+  "evidence": [
+   "The interesting property of a heap is that a[0] is always its smallest element."
+  ],
+  "seed_chunk": "py:library/heapq.html#s7",
+  "gold_spans": [
+   [
+    [
+     "py:library/heapq.html",
+     8081,
+     8160
+    ]
+   ]
+  ],
+  "qid": "q048"
+ },
+ {
+  "category": "single",
+  "question": "In Python's asyncio module, what class serves as a modern replacement for create_task()?",
+  "answer": "The asyncio.TaskGroup class provides a modern alternative to create_task().",
+  "evidence": [
+   "The asyncio.TaskGroup class provides a more modern\nalternative to create_task()."
+  ],
+  "seed_chunk": "py:library/asyncio-task.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:library/asyncio-task.html",
+     2195,
+     2275
+    ]
+   ]
+  ],
+  "qid": "q049"
+ },
+ {
+  "category": "single",
+  "question": "In Python dictionary implementation design, why does copying a list fail as a solution for using lists as dictionary keys?",
+  "answer": "Because lists are mutable objects that can contain self-references, leading to an infinite loop during the copying process.",
+  "evidence": [
+   "This doesn\u2019t work because the list,\nbeing a mutable object, could contain a reference to itself, and then the\ncopying code would run into an infinite loop."
+  ],
+  "seed_chunk": "py:faq/design.html#s23",
+  "gold_spans": [
+   [
+    [
+     "py:faq/design.html",
+     19980,
+     20135
+    ]
+   ]
+  ],
+  "qid": "q050"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP sampling specification, which parameter is compulsory and must be honored by the client?",
+  "answer": "The `maxTokens` parameter is required and must be respected by the client during sampling.",
+  "evidence": [
+   "The client **MUST** respect the `maxTokens` parameter. The client **MAY** modify or ignore `temperature`, `stopSequences` and `metadata`."
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/sampling.mdx#s19",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/client/sampling.mdx",
+     17540,
+     17678
+    ]
+   ]
+  ],
+  "qid": "q051"
+ },
+ {
+  "category": "single",
+  "question": "In Python's logging module, why shouldn't an application instantiate new Logger objects on a connection-by-connection basis?",
+  "answer": "Creating logger objects per connection is discouraged because those Logger instances are not garbage collected, making unbounded growth difficult to manage.",
+  "evidence": [
+   "While it might be tempting to create Logger instances on a per-connection basis, this is not a good idea because these instances are not garbage collected."
+  ],
+  "seed_chunk": "py:howto/logging-cookbook.html#s24",
+  "gold_spans": [
+   [
+    [
+     "py:howto/logging-cookbook.html",
+     26215,
+     26370
+    ]
+   ]
+  ],
+  "qid": "q052"
+ },
+ {
+  "category": "single",
+  "question": "In Python's dis disassembler bytecode instructions, what data does the ext parameter carry in an EXTENDED_ARG opcode?",
+  "answer": "The ext parameter holds an additional byte that serves as the higher-order bits for the opcode's argument.",
+  "evidence": [
+   "ext holds an additional byte which act as higher bits in the argument."
+  ],
+  "seed_chunk": "py:library/dis.html#s32",
+  "gold_spans": [
+   [
+    [
+     "py:library/dis.html",
+     38890,
+     38960
+    ]
+   ]
+  ],
+  "qid": "q053"
+ },
+ {
+  "category": "single",
+  "question": "Under the MCP cancellation guidelines, why are implementations required to maintain an upper limit timeout regardless of progress updates?",
+  "answer": "To minimize the potential system impact caused by misbehaving clients or servers.",
+  "evidence": [
+   "implementations **SHOULD** always enforce a maximum timeout, regardless of progress notifications, to limit the impact of a misbehaving client or server."
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/patterns/cancellation.mdx#s2",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/basic/lifecycle.mdx",
+     6883,
+     7036
+    ],
+    [
+     "mcp:2025-11-25/basic/lifecycle.mdx",
+     7777,
+     7930
+    ],
+    [
+     "mcp:2026-07-28/basic/patterns/cancellation.mdx",
+     2249,
+     2402
+    ]
+   ]
+  ],
+  "qid": "q054"
+ },
+ {
+  "category": "single",
+  "question": "In Python's datetime module, what occurs if an out-of-bounds argument is passed when constructing a time object?",
+  "answer": "Passing an argument outside of the specified numerical limits causes a ValueError to be raised.",
+  "evidence": [
+   "If an argument outside those ranges is given, ValueError is raised."
+  ],
+  "seed_chunk": "py:library/datetime.html#s44",
+  "gold_spans": [
+   [
+    [
+     "py:library/datetime.html",
+     12641,
+     12708
+    ],
+    [
+     "py:library/datetime.html",
+     22416,
+     22483
+    ],
+    [
+     "py:library/datetime.html",
+     49550,
+     49617
+    ]
+   ]
+  ],
+  "qid": "q055"
+ },
+ {
+  "category": "single",
+  "question": "In Python's unittest.mock module, how do attributes of a custom Mock subclass determine their class type?",
+  "answer": "Attributes and return value mocks default to having the exact same mock type as the instance they are accessed from.",
+  "evidence": [
+   "attributes and the return value mocks are of the same type as the mock they are accessed on."
+  ],
+  "seed_chunk": "py:library/unittest.mock-examples.html#s33",
+  "gold_spans": [
+   [
+    [
+     "py:library/unittest.mock-examples.html",
+     32495,
+     32587
+    ]
+   ]
+  ],
+  "qid": "q056"
+ },
+ {
+  "category": "single",
+  "question": "In Python's mailbox module, what is the base class relationship for mailbox.MH?",
+  "answer": "The mailbox.MH class is a subclass of Mailbox configured for MH format mailboxes.",
+  "evidence": [
+   "A subclass of Mailbox for mailboxes in MH format."
+  ],
+  "seed_chunk": "py:library/mailbox.html#s19",
+  "gold_spans": [
+   [
+    [
+     "py:library/mailbox.html",
+     19049,
+     19098
+    ]
+   ]
+  ],
+  "qid": "q057"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST CSF 2.0, how is a Target Profile defined?",
+  "answer": "A Target Profile defines the desired outcomes selected and prioritized by an organization to meet its cybersecurity risk management goals.",
+  "evidence": [
+   "A Target Profile specifies the desired outcomes that an organization has selected and \nprioritized for achieving its cybersecurity risk management objectives."
+  ],
+  "seed_chunk": "nist:NIST.CSWP.29.pdf#s19",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.CSWP.29.pdf",
+     21059,
+     21217
+    ]
+   ]
+  ],
+  "qid": "q058"
+ },
+ {
+  "category": "single",
+  "question": "In NIST CSF 2.0, how are the cybersecurity outcomes within the Core categorized and arranged?",
+  "answer": "The outcomes in the CSF Core are structured hierarchically by Function, then Category, and finally Subcategory.",
+  "evidence": [
+   "a set of cybersecurity outcomes arranged by Function, then Category, and finally Subcategory, as depicted in Fig. 1."
+  ],
+  "seed_chunk": "nist:NIST.CSWP.29.pdf#s13",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.CSWP.29.pdf",
+     13688,
+     13805
+    ]
+   ]
+  ],
+  "qid": "q059"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SP 800-63-2, what primary objective did the substantive modifications to Section 5 serve regarding credential issuance for remote registration?",
+  "answer": "The substantive changes were meant to facilitate using professional credentials during identity proofing and to diminish the necessity of mailing physical letters when issuing credentials for level 3 remote registration.",
+  "evidence": [
+   "facilitate the use of professional credentials in the identity proofing process, and to reduce the need to send postal mail to an address of record to issue credentials for level 3 remote registration."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-63-3.pdf#s43",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-63-3.pdf",
+     43472,
+     43675
+    ]
+   ]
+  ],
+  "qid": "q060"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SP 800-207, why do zero trust architecture tenets fail to apply directly to public web pages accessible without credentials?",
+  "answer": "ZTA tenets do not apply directly because enterprises cannot strictly control the condition of requesting assets, and anonymous public resources do not demand login credentials to be accessed.",
+  "evidence": [
+   "The enterprise cannot strictly control the state of requesting assets, and anonymous public resources (e.g., a public web page) do not require credentials in order to be accessed."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-207.pdf#s112",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-207.pdf",
+     90755,
+     90936
+    ]
+   ]
+  ],
+  "qid": "q061"
+ },
+ {
+  "category": "single",
+  "question": "In NIST AI 100-2e2025, what paper on differential privacy and adversarial robustness was authored by Mathias L\u00e9cuyer and colleagues?",
+  "answer": "Mathias L\u00e9cuyer and co-authors published the paper titled 'Certified robustness to adversarial examples with differential privacy'.",
+  "evidence": [
+   "Mathias L\u00e9cuyer, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, and Suman Jana. Certified robustness to adversarial examples with differential privacy."
+  ],
+  "seed_chunk": "nist:NIST.AI.100-2e2025.pdf#s250",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.AI.100-2e2025.pdf",
+     258031,
+     258185
+    ]
+   ]
+  ],
+  "qid": "q062"
+ },
+ {
+  "category": "single",
+  "question": "In the MCP pagination specification, why is pagination beneficial for local system integrations?",
+  "answer": "Pagination is helpful in local integrations because it prevents performance degradation caused by handling large volumes of data.",
+  "evidence": [
+   "Pagination is especially important when connecting to external services over the\ninternet, but also useful for local integrations to avoid performance issues with large\ndata sets."
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/utilities/pagination.mdx#s0",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/server/utilities/pagination.mdx",
+     228,
+     407
+    ],
+    [
+     "mcp:2025-11-25/server/utilities/pagination.mdx",
+     228,
+     407
+    ],
+    [
+     "mcp:2026-07-28/server/utilities/pagination.mdx",
+     228,
+     407
+    ]
+   ]
+  ],
+  "qid": "q063"
+ },
+ {
+  "category": "single",
+  "question": "In Python's asyncio module, where must a TimeoutError exception be caught when using the asyncio.timeout context manager?",
+  "answer": "A TimeoutError can only be caught outside of the context manager.",
+  "evidence": [
+   "which means the TimeoutError can only be caught\noutside of the context manager."
+  ],
+  "seed_chunk": "py:library/asyncio-task.html#s20",
+  "gold_spans": [
+   [
+    [
+     "py:library/asyncio-task.html",
+     20288,
+     20367
+    ]
+   ]
+  ],
+  "qid": "q064"
+ },
+ {
+  "category": "single",
+  "question": "Under NIST SP 800-37 Rev. 2, how is allocation described regarding security and privacy requirements?",
+  "answer": "Allocation is defined as the mechanism an organization uses to assign security or privacy requirements to an information system or environment, or to assign specific controls to system elements that furnish security or privacy capabilities.",
+  "evidence": [
+   "The process an organization employs to assign security or privacy requirements to an information system or its environment of operation; or to assign controls to specific system elements responsible for providing a security or privacy capability"
+  ],
+  "seed_chunk": "nist:NIST.SP.800-37r2.pdf#s397",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-37r2.pdf",
+     375710,
+     375958
+    ]
+   ]
+  ],
+  "qid": "q065"
+ },
+ {
+  "category": "single",
+  "question": "In NIST SP 800-61 Rev. 3, why can a service provider identify malicious behavior faster than single organizations?",
+  "answer": "A service provider can spot malicious activity faster because it has the capability to correlate events across its entire customer base.",
+  "evidence": [
+   "A service provider may detect malicious activity sooner than individual organizations would \nbecause it can correlate events across its customers."
+  ],
+  "seed_chunk": "nist:NIST.SP.800-61r3.pdf#s36",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-61r3.pdf",
+     31201,
+     31347
+    ]
+   ]
+  ],
+  "qid": "q066"
+ },
+ {
+  "category": "single",
+  "question": "In Python's tempfile module, what function acts as a replacement for TemporaryFile on systems other than Posix or Cygwin?",
+  "answer": "On platforms outside Posix and Cygwin, TemporaryFile functions as an alias for NamedTemporaryFile.",
+  "evidence": [
+   "On platforms that are neither Posix nor Cygwin, TemporaryFile is an alias\nfor NamedTemporaryFile."
+  ],
+  "seed_chunk": "py:library/tempfile.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:library/tempfile.html",
+     2408,
+     2505
+    ]
+   ]
+  ],
+  "qid": "q067"
+ },
+ {
+  "category": "single",
+  "question": "In Python string formatting, how can dictionary values be referenced by name within an unsplit format string?",
+  "answer": "Variable keys in a dictionary can be referenced by passing the dict object to str.format() and employing square brackets '[]' to look up the dictionary keys.",
+  "evidence": [
+   "This can be done by simply passing the dict and using square brackets '[]' to access the keys."
+  ],
+  "seed_chunk": "py:tutorial/inputoutput.html#s7",
+  "gold_spans": [
+   [
+    [
+     "py:tutorial/inputoutput.html",
+     6377,
+     6471
+    ]
+   ]
+  ],
+  "qid": "q068"
+ },
+ {
+  "category": "single",
+  "question": "According to NIST SP 800-88 Rev. 1, when are destructive methods considered the sole remaining choice for media sanitization?",
+  "answer": "Destructive techniques are the only option when media experiences failure and Clear or Purge techniques cannot be effectively executed on it.",
+  "evidence": [
+   "The application of Destructive techniques may be the only option when the media fails and other Clear or Purge techniques cannot be effectively applied to the media"
+  ],
+  "seed_chunk": "nist:NIST.SP.800-88r1.pdf#s81",
+  "gold_spans": [
+   [
+    [
+     "nist:NIST.SP.800-88r1.pdf",
+     82867,
+     83032
+    ]
+   ]
+  ],
+  "qid": "q069"
+ },
+ {
+  "category": "table",
+  "question": "Under the MCP specification, what replacement approach should be taken to migrate off deprecated logging functionality?",
+  "answer": "Log to `stderr` for stdio transports; use [OpenTelemetry](https://opentelemetry.io/) for observability",
+  "evidence": [
+   "| [Logging](/specification/2026-07-28/server/utilities/logging) | [SEP-2577](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2577) | `2026-07-28` | Log to `stderr` for stdio transports; use [OpenTelemetry](https://opentelemetry.io/) for observability | First revision released on or after 2027-07-28 |"
+  ],
+  "seed_chunk": "mcp:2026-07-28/deprecated.mdx#s1",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/deprecated.mdx",
+     1933,
+     2252
+    ]
+   ]
+  ],
+  "qid": "q070"
+ },
+ {
+  "category": "table",
+  "question": "What string identifier does Python's sys.platform return on macOS operating systems?",
+  "answer": "'darwin'",
+  "evidence": [
+   "Linux | 'linux'\nmacOS | 'darwin'\nWindows | 'win32'\nWindows/Cygwin | 'cygwin'"
+  ],
+  "seed_chunk": "py:library/sys.html#s36",
+  "gold_spans": [
+   [
+    [
+     "py:library/sys.html",
+     43528,
+     43604
+    ]
+   ]
+  ],
+  "qid": "q071"
+ },
+ {
+  "category": "table",
+  "question": "In Python's logging.handlers SysLogHandler, which symbolic constant corresponds to panic or emerg priority names?",
+  "answer": "LOG_EMERG",
+  "evidence": [
+   "debug | LOG_DEBUG\nemerg or panic | LOG_EMERG\nerr or error | LOG_ERR"
+  ],
+  "seed_chunk": "py:library/logging.handlers.html#s26",
+  "gold_spans": [
+   [
+    [
+     "py:library/logging.handlers.html",
+     23502,
+     23569
+    ]
+   ]
+  ],
+  "qid": "q072"
+ },
+ {
+  "category": "table",
+  "question": "In Python's re module, how does the DOTALL or S compilation flag alter matching?",
+  "answer": "It allows the period character to match any character, including newline characters.",
+  "evidence": [
+   "DOTALL , S | Make . match any character, including\nnewlines."
+  ],
+  "seed_chunk": "py:howto/regex.html#s20",
+  "gold_spans": [
+   [
+    [
+     "py:howto/regex.html",
+     19156,
+     19216
+    ]
+   ]
+  ],
+  "qid": "q073"
+ },
+ {
+  "category": "table",
+  "question": "In MCP Streamable HTTP specs, what server behavior is mandated if client omits header when the value exists in body?",
+  "answer": "Server MUST reject the request",
+  "evidence": [
+   "| Client omits header but value is in body | Non-conforming client | Server MUST reject the request |"
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/transports/streamable-http.mdx#s18",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/basic/transports/streamable-http.mdx",
+     21857,
+     21958
+    ]
+   ]
+  ],
+  "qid": "q074"
+ },
+ {
+  "category": "table",
+  "question": "In Python's tomllib module, what native data type represents a TOML offset date-time structure?",
+  "answer": "datetime.datetime ( tzinfo attribute set to an instance of datetime.timezone )",
+  "evidence": [
+   "offset date-time | datetime.datetime ( tzinfo attribute set to an instance of datetime.timezone )"
+  ],
+  "seed_chunk": "py:library/tomllib.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:library/tomllib.html",
+     2161,
+     2258
+    ]
+   ]
+  ],
+  "qid": "q075"
+ },
+ {
+  "category": "table",
+  "question": "In Python's curses module, what is the meaning of the curses.BUTTON_SHIFT constant?",
+  "answer": "It means Shift was held down when the mouse button state changed.",
+  "evidence": [
+   "curses. BUTTON_SHIFT | Shift was down during button state change"
+  ],
+  "seed_chunk": "py:library/curses.html#s47",
+  "gold_spans": [
+   [
+    [
+     "py:library/curses.html",
+     53627,
+     53691
+    ]
+   ]
+  ],
+  "qid": "q076"
+ },
+ {
+  "category": "table",
+  "question": "What Control Panel sound name is mapped to 'SystemHand' when calling PlaySound in Python's winsound module?",
+  "answer": "Critical Stop",
+  "evidence": [
+   "'SystemExit' | Exit Windows\n'SystemHand' | Critical Stop\n'SystemQuestion' | Question"
+  ],
+  "seed_chunk": "py:library/winsound.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/winsound.html",
+     2044,
+     2128
+    ]
+   ]
+  ],
+  "qid": "q077"
+ },
+ {
+  "category": "table",
+  "question": "What DB-API 2.0 threadsafety value corresponds to the serialized mode in Python's sqlite3 module?",
+  "answer": "3",
+  "evidence": [
+   "multi-thread | 1 | 2 | Threads may share the module,\nbut not connections\nserialized | 3 | 1 | Threads may share the module,\nconnections and cursors"
+  ],
+  "seed_chunk": "py:library/sqlite3.html#s12",
+  "gold_spans": [
+   [
+    [
+     "py:library/sqlite3.html",
+     14911,
+     15058
+    ]
+   ]
+  ],
+  "qid": "q078"
+ },
+ {
+  "category": "table",
+  "question": "In Python's inspect module, which function attribute holds the default value mapping assigned to keyword-only parameters?",
+  "answer": "__kwdefaults__",
+  "evidence": [
+   " | __kwdefaults__ | mapping of any default\nvalues for keyword-only\nparameters"
+  ],
+  "seed_chunk": "py:library/inspect.html#s2",
+  "gold_spans": [
+   [
+    [
+     "py:library/inspect.html",
+     1891,
+     1967
+    ]
+   ]
+  ],
+  "qid": "q079"
+ },
+ {
+  "category": "table",
+  "question": "In Python's ttk.Treeview widget, what does the 'separator' region identifier signify?",
+  "answer": "Space between two columns headings.",
+  "evidence": [
+   "separator | Space between two columns headings.\ntree | The tree area."
+  ],
+  "seed_chunk": "py:library/tkinter.ttk.html#s40",
+  "gold_spans": [
+   [
+    [
+     "py:library/tkinter.ttk.html",
+     28861,
+     28930
+    ]
+   ]
+  ],
+  "qid": "q080"
+ },
+ {
+  "category": "table",
+  "question": "In Python's logging system, what integer weights are assigned to the CRITICAL, ERROR, and WARNING severity thresholds?",
+  "answer": "CRITICAL is 50, ERROR is 40, and WARNING is 30",
+  "evidence": [
+   "Level | Numeric value\nCRITICAL | 50\nERROR | 40\nWARNING | 30"
+  ],
+  "seed_chunk": "py:howto/logging.html#s32",
+  "gold_spans": [
+   [
+    [
+     "py:howto/logging.html",
+     31025,
+     31084
+    ]
+   ]
+  ],
+  "qid": "q081"
+ },
+ {
+  "category": "table",
+  "question": "In Python turtle Shape class, what data value is assigned for compound type_?",
+  "answer": "None",
+  "evidence": [
+   "\u201ccompound\u201d | None (a compound shape has to be constructed using the addcomponent() method)"
+  ],
+  "seed_chunk": "py:library/turtle.html#s40",
+  "gold_spans": [
+   [
+    [
+     "py:library/turtle.html",
+     44503,
+     44593
+    ]
+   ]
+  ],
+  "qid": "q082"
+ },
+ {
+  "category": "table",
+  "question": "In Python's http library, what numerical status range is evaluated by the is_informational property?",
+  "answer": "100 <= status <= 199",
+  "evidence": [
+   "is_informational | 100 <= status <= 199 | HTTP Semantics RFC 9110 , Section 15"
+  ],
+  "seed_chunk": "py:library/http.html#s8",
+  "gold_spans": [
+   [
+    [
+     "py:library/http.html",
+     6126,
+     6204
+    ]
+   ]
+  ],
+  "qid": "q083"
+ },
+ {
+  "category": "table",
+  "question": "When converting a MaildirMessage to a BabylMessage in Python's mailbox module, which flags map to the unseen, deleted, and answered labels?",
+  "answer": "\u201cunseen\u201d label corresponds to no S flag, \u201cdeleted\u201d label corresponds to T flag, and \u201canswered\u201d label corresponds to R flag.",
+  "evidence": [
+   "Resulting state | MaildirMessage state\n\u201cunseen\u201d label | no S flag\n\u201cdeleted\u201d label | T flag\n\u201canswered\u201d label | R flag"
+  ],
+  "seed_chunk": "py:library/mailbox.html#s40",
+  "gold_spans": [
+   [
+    [
+     "py:library/mailbox.html",
+     40141,
+     40257
+    ]
+   ]
+  ],
+  "qid": "q084"
+ },
+ {
+  "category": "table",
+  "question": "In Python string formatting specification, which presentation type serves as default for strings?",
+  "answer": "'s'",
+  "evidence": [
+   "'s' | String format. This is the default type for strings and\nmay be omitted."
+  ],
+  "seed_chunk": "py:library/string.html#s15",
+  "gold_spans": [
+   [
+    [
+     "py:library/string.html",
+     15741,
+     15818
+    ]
+   ]
+  ],
+  "qid": "q085"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `ftplib` module, what exception is raised when an FTP server rejects a REST command, and what default character encoding was established for FTP objects in Python 3.9?",
+  "answer": "If an FTP server does not recognize the REST command, an `error_reply` exception is raised. In Python 3.9, the default encoding was set to UTF-8 (following RFC 2640).",
+  "evidence": [
+   "If the server does not recognize the REST command, an error_reply exception\nwill be raised.",
+   "The encoding parameter was added, and the default was changed from\nLatin-1 to UTF-8 to follow RFC 2640."
+  ],
+  "seed_chunk": "py:library/ftplib.html#s9+py:library/ftplib.html#s3",
+  "gold_spans": [
+   [
+    [
+     "py:library/ftplib.html",
+     9365,
+     9456
+    ]
+   ],
+   [
+    [
+     "py:library/ftplib.html",
+     3012,
+     3115
+    ],
+    [
+     "py:library/ftplib.html",
+     14517,
+     14620
+    ]
+   ]
+  ],
+  "qid": "q086"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `curses` library, what is the default character assigned to the top parameter in `window.border()`, and what fallback characters does `curses.textpad.rectangle()` use on unsupported terminals?",
+  "answer": "The top border parameter (`ts`) in `window.border()` defaults to `ACS_HLINE`. When terminal emulators cannot render VT100/IBM PC forms characters, `curses.textpad.rectangle()` falls back to using ASCII dashes, vertical bars, and plus signs.",
+  "evidence": [
+   "The defaults are listed\nin this table:\n\n[TABLE]\nParameter | Description | Default value\nls | Left side | ACS_VLINE\nrs | Right side | ACS_VLINE\nts | Top | ACS_HLINE",
+   "Otherwise it will be drawn\nwith ASCII dashes, vertical bars, and plus signs."
+  ],
+  "seed_chunk": "py:library/curses.html#s23+py:library/curses.html#s48",
+  "gold_spans": [
+   [
+    [
+     "py:library/curses.html",
+     27252,
+     27415
+    ]
+   ],
+   [
+    [
+     "py:library/curses.html",
+     55253,
+     55329
+    ]
+   ]
+  ],
+  "qid": "q087"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python AST processing, what attributes comprise an `ast.If` node, and what features does Parso offer compared to LibCST?",
+  "answer": "An `ast.If` node takes `test` (a single condition node), `body` (a list of execution nodes), and `orelse` (a list of fallback nodes). Parso is a Python parser supporting error recovery, round-trip parsing across versions, and reporting multiple syntax errors in a file.",
+  "evidence": [
+   "class ast.If(test, body, orelse)\n\nAn if statement. test holds a single node, such as a Compare\nnode. body and orelse each hold a list of nodes.",
+   "Parso is a Python parser that supports\nerror recovery and round-trip parsing for different Python versions (in\nmultiple Python versions). Parso is also able to list multiple syntax errors\nin your Python file."
+  ],
+  "seed_chunk": "py:library/ast.html#s27+py:library/ast.html#s55",
+  "gold_spans": [
+   [
+    [
+     "py:library/ast.html",
+     31170,
+     31313
+    ]
+   ],
+   [
+    [
+     "py:library/ast.html",
+     66023,
+     66231
+    ]
+   ]
+  ],
+  "qid": "q088"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's standard library sorting utilities, which helper function reduces multi-argument functions for key-function usage, and which function converts a relative comparison function into a key function?",
+  "answer": "The `functools.partial()` function can reduce the arity of a multi-argument function to make it usable as a key function, while `functools.cmp_to_key` wraps two-argument comparison functions to make them compatible with key-based sorting.",
+  "evidence": [
+   "The partial() function can reduce the\narity of a multi-argument\nfunction making it suitable for use as a key-function.",
+   "To accommodate those situations, Python provides\nfunctools.cmp_to_key to wrap the comparison function\nto make it usable as a key function:"
+  ],
+  "seed_chunk": "py:howto/sorting.html#s3+py:howto/sorting.html#s8",
+  "gold_spans": [
+   [
+    [
+     "py:howto/sorting.html",
+     3496,
+     3614
+    ]
+   ],
+   [
+    [
+     "py:howto/sorting.html",
+     7898,
+     8036
+    ]
+   ]
+  ],
+  "qid": "q089"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `zlib` module, where is unconsumed input saved when `max_length` restricts decompression output, and what range of integers can be passed as the `level` parameter in `zlib.compress()`?",
+  "answer": "Unconsumed compressed data is saved in the `unconsumed_tail` attribute. The `level` parameter in `zlib.compress()` accepts an integer ranging from 0 to 9, or -1.",
+  "evidence": [
+   "This may mean that not all of the compressed input\ncan be processed; and unconsumed data will be stored in the attribute\nunconsumed_tail.",
+   "level is an integer from 0 to 9 or -1 controlling the level of compression;"
+  ],
+  "seed_chunk": "py:library/zlib.html#s9+py:library/zlib.html#s1",
+  "gold_spans": [
+   [
+    [
+     "py:library/zlib.html",
+     10272,
+     10409
+    ]
+   ],
+   [
+    [
+     "py:library/zlib.html",
+     1653,
+     1728
+    ]
+   ]
+  ],
+  "qid": "q090"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's http.server module, what default HTTP Content-Type is configured for error responses in BaseHTTPRequestHandler, and what default filenames are assigned to index_pages in SimpleHTTPRequestHandler?",
+  "answer": "In http.server, BaseHTTPRequestHandler sets the default error content type to 'text/html', while SimpleHTTPRequestHandler defaults index_pages to the tuple ('index.html', 'index.htm').",
+  "evidence": [
+   "Specifies the Content-Type HTTP header of error responses sent to the\nclient. The default value is 'text/html'.",
+   "Specifies the filenames that are treated as directory index pages.\n\nDefaults to (\"index.html\", \"index.htm\")."
+  ],
+  "seed_chunk": "py:library/http.server.html#s3+py:library/http.server.html#s9",
+  "gold_spans": [
+   [
+    [
+     "py:library/http.server.html",
+     4734,
+     4845
+    ]
+   ],
+   [
+    [
+     "py:library/http.server.html",
+     11606,
+     11714
+    ]
+   ]
+  ],
+  "qid": "q091"
+ },
+ {
+  "category": "multihop",
+  "question": "In the Model Context Protocol (MCP) specification, what network targets must be blocked at a minimum if external reference resolution is manually enabled during schema validation, and which basic image formats are mandatory for client icon display?",
+  "answer": "When resolving non-local `$ref` values in opt-in mode, implementations must at minimum reject loopback, link-local, and private network addresses. For icon rendering, clients must support at least `image/png` and `image/jpeg` (or `image/jpg`).",
+  "evidence": [
+   "reject loopback, link-local, and private network addresses, apply timeouts and\nsize limits, and log dereferenced URIs.",
+   "Clients that support rendering icons **MUST** support at least the following MIME types:\n\n- `image/png` - PNG images (safe, universal compatibility)\n- `image/jpeg` (and `image/jpg`) - JPEG images (safe, universal compatibility)"
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/index.mdx#s13+mcp:2026-07-28/basic/index.mdx#s20",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/basic/index.mdx",
+     12859,
+     12977
+    ]
+   ],
+   [
+    [
+     "mcp:2025-11-25/basic/index.mdx",
+     8017,
+     8244
+    ],
+    [
+     "mcp:2026-07-28/basic/index.mdx",
+     21062,
+     21289
+    ]
+   ]
+  ],
+  "qid": "q092"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's mobile platform support for Android, where are standard output and standard error messages redirected, and what missing IPC API prevents using the multiprocessing module?",
+  "answer": "On Android, standard output and standard error streams are redirected to the system log under the tags `python.stdout` and `python.stderr`. Multiprocessing cannot be used because Android does not support any part of the System V IPC API.",
+  "evidence": [
+   "Python installs its own streams which redirect messages to the\nsystem log. These can be seen under the tags python.stdout and\npython.stderr respectively.",
+   "In particular, Android does not support any part of the System V IPC API,\nso multiprocessing is not available."
+  ],
+  "seed_chunk": "py:library/intro.html#s6+py:library/intro.html#s5",
+  "gold_spans": [
+   [
+    [
+     "py:library/intro.html",
+     5843,
+     5996
+    ]
+   ],
+   [
+    [
+     "py:library/intro.html",
+     5035,
+     5145
+    ]
+   ]
+  ],
+  "qid": "q093"
+ },
+ {
+  "category": "multihop",
+  "question": "In the Model Context Protocol (MCP) authentication flow, what HTTP endpoint is queried on the resource server to retrieve resource metadata, and what required parameter identifies the target server?",
+  "answer": "Clients discover authorization server metadata by sending a GET request to `/.well-known/oauth-protected-resource` on the resource server. Additionally, clients must include the `resource` parameter specifying the MCP server's canonical URI in authorization and token requests.",
+  "evidence": [
+   "The `resource` parameter:\n\n1. **MUST** be included in both authorization requests and token requests.\n2. **MUST** identify the MCP server that the client intends to use the token with.",
+   "C->>M: GET /.well-known/oauth-protected-resource\n M-->>C: Resource metadata with authorization server URL"
+  ],
+  "seed_chunk": "mcp:2025-06-18/basic/authorization.mdx#s7+mcp:2025-06-18/basic/authorization.mdx#s4",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/basic/authorization.mdx",
+     8522,
+     8706
+    ],
+    [
+     "mcp:2025-11-25/basic/authorization.mdx",
+     20261,
+     20445
+    ],
+    [
+     "mcp:2026-07-28/basic/authorization/index.mdx",
+     13507,
+     13691
+    ]
+   ],
+   [
+    [
+     "mcp:2025-06-18/basic/authorization.mdx",
+     5273,
+     5378
+    ]
+   ]
+  ],
+  "qid": "q094"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `tempfile` module, what default mode is used for temporary files, and when is a file deleted if `delete` is set to true but `delete_on_close` is set to false?",
+  "answer": "The mode parameter defaults to `'w+b'`. If `delete` is true and `delete_on_close` is false, deletion occurs only upon context manager exit or when the file-like object undergoes finalization.",
+  "evidence": [
+   "The mode parameter defaults to 'w+b' so that the file created can\nbe read and written without being closed.",
+   "If delete is true\nand delete_on_close is false, the file is deleted on context manager exit\nonly, or else when the file-like object is finalized."
+  ],
+  "seed_chunk": "py:library/tempfile.html#s1+py:library/tempfile.html#s3",
+  "gold_spans": [
+   [
+    [
+     "py:library/tempfile.html",
+     1742,
+     1849
+    ]
+   ],
+   [
+    [
+     "py:library/tempfile.html",
+     3778,
+     3923
+    ]
+   ]
+  ],
+  "qid": "q095"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `itertools` library, how should infinite sequences be constrained when passed to `zip_longest()`, and what argument restriction exists for `islice()`?",
+  "answer": "When handling potentially infinite iterables in `zip_longest()`, the call should be wrapped with a function that caps calls, such as `islice()`. When using `islice()`, negative values cannot be passed for start, stop, or step.",
+  "evidence": [
+   "Works like sequence slicing but does not support negative values for\nstart, stop, or step.",
+   "If one of the iterables is potentially infinite, then the zip_longest()\nfunction should be wrapped with something that limits the number of calls\n(for example islice() or takewhile())."
+  ],
+  "seed_chunk": "py:library/itertools.html#s12+py:library/itertools.html#s20",
+  "gold_spans": [
+   [
+    [
+     "py:library/itertools.html",
+     14017,
+     14107
+    ]
+   ],
+   [
+    [
+     "py:library/itertools.html",
+     22897,
+     23081
+    ]
+   ]
+  ],
+  "qid": "q096"
+ },
+ {
+  "category": "multihop",
+  "question": "In Python's `string` module, what exact literal values are assigned to `digits` and `hexdigits`, and what parameters are defined for the `check_unused_args` custom formatting method?",
+  "answer": "`string.digits` is set to '0123456789' and `string.hexdigits` is set to '0123456789abcdefABCDEF'. The `check_unused_args()` function accepts `used_args`, `args`, and `kwargs`.",
+  "evidence": [
+   "string.digits\n\nThe string '0123456789'.\n\nstring.hexdigits\n\nThe string '0123456789abcdefABCDEF'.",
+   "check_unused_args(used_args, args, kwargs)\n\nImplement checking for unused arguments if desired."
+  ],
+  "seed_chunk": "py:library/string.html#s0+py:library/string.html#s3",
+  "gold_spans": [
+   [
+    [
+     "py:library/string.html",
+     536,
+     631
+    ]
+   ],
+   [
+    [
+     "py:library/string.html",
+     4469,
+     4564
+    ]
+   ]
+  ],
+  "qid": "q097"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, what field in a completed tool response carries array elements formatted according to structured output schema?",
+  "answer": "The response result object uses structuredContent alongside content when returning structured array items.",
+  "evidence": [
+   " \"resultType\": \"complete\",\n \"content\": [\n {\n \"type\": \"text\",\n \"text\": \"Found 2 users: Alice (alice@example.com) and Bob (bob@example.com).\"\n }\n ],\n \"structuredContent\": ["
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/tools.mdx#s16",
+  "target_doc": "mcp:2026-07-28/server/tools.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/tools.mdx",
+     16364,
+     16532
+    ]
+   ]
+  ],
+  "qid": "q098"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2025-06-18 MCP spec, during which phase must clients register their support for sampling?",
+  "answer": "Clients offering sampling functionality must declare the capability during the initialization phase.",
+  "evidence": [
+   "Clients that support sampling **MUST** declare the `sampling` capability during\n[initialization](/specification/2025-06-18/basic/lifecycle#initialization):"
+  ],
+  "seed_chunk": "mcp:2025-06-18/client/sampling.mdx#s2",
+  "target_doc": "mcp:2025-06-18/client/sampling.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/client/sampling.mdx",
+     1153,
+     1308
+    ]
+   ]
+  ],
+  "qid": "q099"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, what metadata fields are mandatory for every request even though example calls omit them?",
+  "answer": "Every request is required to include the mandatory _meta fields, such as clientCapabilities, clientInfo, and protocolVersion.",
+  "evidence": [
+   "For brevity, the request examples on this page omit the `_meta` request\n metadata (`io.modelcontextprotocol/protocolVersion`,\n `io.modelcontextprotocol/clientInfo`, and\n `io.modelcontextprotocol/clientCapabilities`). Every request **MUST** include\n the required `_meta` fields;"
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/tools.mdx#s0",
+  "target_doc": "mcp:2026-07-28/server/tools.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/tools.mdx",
+     356,
+     633
+    ]
+   ]
+  ],
+  "qid": "q100"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, why are servers advised to provide tools in a deterministic sequence across requests?",
+  "answer": "Deterministic tool ordering allows clients to reliably cache tool lists and enhances hit rates for LLM prompt caching when tools are in context.",
+  "evidence": [
+   "Deterministic ordering enables\nclients to reliably cache the tool list and improves LLM prompt cache hit rates when tools\nare included in model context."
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/tools.mdx#s2",
+  "target_doc": "mcp:2026-07-28/server/tools.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/tools.mdx",
+     2419,
+     2571
+    ]
+   ]
+  ],
+  "qid": "q101"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2025-06-18 MCP spec, what note is included regarding the maturity and future evolution of elicitation?",
+  "answer": "Elicitation is described as newly introduced in this specification version, and its design may undergo changes in upcoming protocol revisions.",
+  "evidence": [
+   "Elicitation is newly introduced in this version of the MCP specification and its design may evolve in future protocol versions."
+  ],
+  "seed_chunk": "mcp:2025-06-18/client/elicitation.mdx#s0",
+  "target_doc": "mcp:2025-06-18/client/elicitation.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/client/elicitation.mdx",
+     37,
+     164
+    ]
+   ]
+  ],
+  "qid": "q102"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2025-06-18 MCP spec, what utility framework is supported when clients list available resources?",
+  "answer": "The resources/list request operation specifically supports pagination.",
+  "evidence": [
+   "To discover available resources, clients send a `resources/list` request. This operation\nsupports [pagination](/specification/2025-06-18/server/utilities/pagination)."
+  ],
+  "seed_chunk": "mcp:2025-06-18/server/resources.mdx#s2",
+  "target_doc": "mcp:2025-06-18/server/resources.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/server/resources.mdx",
+     1929,
+     2095
+    ]
+   ]
+  ],
+  "qid": "q103"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2025-06-18 MCP spec, how is the ref/resource completion reference type described?",
+  "answer": "It is described as referencing a resource URI.",
+  "evidence": [
+   "| `ref/resource` | References a resource URI | `{\"type\": \"ref/resource\", \"uri\": \"file:///{path}\"}` |"
+  ],
+  "seed_chunk": "mcp:2025-06-18/server/utilities/completion.mdx#s2",
+  "target_doc": "mcp:2025-06-18/server/utilities/completion.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/server/utilities/completion.mdx",
+     2329,
+     2429
+    ]
+   ]
+  ],
+  "qid": "q104"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2025-06-18 MCP spec, what outer structure wraps an elicitation action result in response messages?",
+  "answer": "Elicitation responses are formatted as standard JSON-RPC 2.0 messages with an id and a result field framing the action.",
+  "evidence": [
+   "{\n \"jsonrpc\": \"2.0\",\n \"id\": 1,\n \"result\": {\n \"action\": \"accept\", // or \"decline\" or \"cancel\""
+  ],
+  "seed_chunk": "mcp:2025-06-18/client/elicitation.mdx#s6",
+  "target_doc": "mcp:2025-06-18/client/elicitation.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2025-06-18/client/elicitation.mdx",
+     5149,
+     5240
+    ]
+   ]
+  ],
+  "qid": "q105"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, what specific property must be present inside a result response object to identify its type?",
+  "answer": "A result response MUST include a resultType field that indicates the type of the result.",
+  "evidence": [
+   "- The `result` **MUST** include a `resultType` field to indicate the type of the result."
+  ],
+  "seed_chunk": "mcp:2026-07-28/basic/index.mdx#s2",
+  "target_doc": "mcp:2026-07-28/basic/index.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/basic/index.mdx",
+     2401,
+     2489
+    ]
+   ]
+  ],
+  "qid": "q106"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, what rule governs maintaining message history between distinct sampling requests?",
+  "answer": "The message list within a sampling request should not be persisted or retained across separate requests.",
+  "evidence": [
+   "The list of messages in a sampling request **SHOULD NOT** be retained between\nseparate requests."
+  ],
+  "seed_chunk": "mcp:2026-07-28/client/sampling.mdx#s15",
+  "target_doc": "mcp:2026-07-28/client/sampling.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/client/sampling.mdx",
+     14125,
+     14221
+    ]
+   ]
+  ],
+  "qid": "q107"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP specification, how can prompt messages reference contextual data without embedding its contents directly?",
+  "answer": "Prompt messages can incorporate resource links that provide a URI for the client to fetch, rather than embedding the underlying data directly.",
+  "evidence": [
+   "Prompt messages **MAY** include links to\n[Resources](/specification/2026-07-28/server/resources), to provide additional context or\ndata without embedding the resource contents directly."
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/prompts.mdx#s8",
+  "target_doc": "mcp:2026-07-28/server/prompts.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/prompts.mdx",
+     6891,
+     7076
+    ]
+   ]
+  ],
+  "qid": "q108"
+ },
+ {
+  "category": "neardup",
+  "question": "In the 2026-07-28 MCP spec, which clients are supposed to receive tool change notifications when list updates occur?",
+  "answer": "Notifications should be delivered to clients that have established a subscriptions/listen stream with toolsListChanged set to true.",
+  "evidence": [
+   "clients that have opened a\n[`subscriptions/listen`](/specification/2026-07-28/basic/patterns/subscriptions) stream with\n`toolsListChanged: true`:"
+  ],
+  "seed_chunk": "mcp:2026-07-28/server/tools.mdx#s6",
+  "target_doc": "mcp:2026-07-28/server/tools.mdx",
+  "gold_spans": [
+   [
+    [
+     "mcp:2026-07-28/server/tools.mdx",
+     5557,
+     5702
+    ]
+   ]
+  ],
+  "qid": "q109"
+ },
+ {
+  "category": "noanswer",
+  "question": "How do I deploy an MCP server on AWS Lambda using the official AWS-managed MCP Terraform module?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q110"
+ },
+ {
+  "category": "noanswer",
+  "question": "How much does a commercial enterprise license for Synopsys Coverity cost when used to enforce NIST SP 800-218 SSDF task PW.4?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q111"
+ },
+ {
+  "category": "noanswer",
+  "question": "What are the step-by-step instructions for compiling TensorFlow with CUDA acceleration on a Python 3.13 environment?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q112"
+ },
+ {
+  "category": "noanswer",
+  "question": "How does the execution speed of Python 3.13's free-threaded build compare to Julia 1.10 in benchmarked matrix multiplication tasks?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q113"
+ },
+ {
+  "category": "noanswer",
+  "question": "How do I run an automated evasion attack simulation against an image classifier using the IBM Adversarial Robustness Toolbox to test NIST AI 100-2e2024 compliance?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q114"
+ },
+ {
+  "category": "noanswer",
+  "question": "What is the monthly subscription cost per user for Microsoft Defender for Cloud's NIST CSF 2.0 compliance assessment module?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q115"
+ },
+ {
+  "category": "noanswer",
+  "question": "What is the step-by-step setup guide for configuring Palo Alto Networks Prisma Access as a Policy Decision Point under NIST SP 800-207?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q116"
+ },
+ {
+  "category": "noanswer",
+  "question": "What is the complete line-by-line mapping table between ISO 27001:2022 Annex A controls and NIST CSF 2.0 Governance subcategories?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q117"
+ },
+ {
+  "category": "noanswer",
+  "question": "How do I integrate PyQt6 with Python 3.13's new memory management features for desktop application development?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q118"
+ },
+ {
+  "category": "noanswer",
+  "question": "Which commercial LLM guardrail software (e.g., NeMo Guardrails or Lakera AI) achieves the highest benchmark score against the risks in the NIST Generative AI Profile?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q119"
+ },
+ {
+  "category": "noanswer",
+  "question": "What is the official release schedule and planned end-of-life date for Python 3.15?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q120"
+ },
+ {
+  "category": "noanswer",
+  "question": "How do I install and configure the pydantic library to validate data structures in Python 3.13?",
+  "answer": "",
+  "evidence": [],
+  "gold_spans": [],
+  "seed_chunk": "",
+  "qid": "q121"
+ }
+]
