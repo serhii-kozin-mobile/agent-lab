@@ -1,0 +1,29 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+wiki,snap50,q015,single,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q018,single,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q019,single,wrong,3,"Based on the provided context, the server indicates it wants to request LLM generation with tool capabilities by sending a **tool-enabled sampling request**, but it MUST first verify that the client has declared the `sampling.tools` capability (source: mcp:2025-11-25/client/sampling.mdx).
+
+Specifically:
+- Clients MUST declare support for tool use via `sampling.tools` capability to receive tool-enabled sampling requests (source: mcp:2025-11-25/client/sampling.mdx)
+- Servers MUST NOT send tool-enabled sampling requests to clients that have not declared `sampling.tools` capability (source: mcp:2025-11-25/client/sampling.mdx)
+- Tool-enabled requests can include `tool_use` and `tool_result` content types (source: mcp:2025-11-25/client/sampling.mdx)
+
+The exact parameters or structure the server uses to indicate tool capabilities in the `sampling/createMessage` request is not detailed in the provided context."
+wiki,snap50,q022,single,correct,0,"The root `uri` **MUST** be a `file://` URI (sources: mcp:2025-06-18/client/roots.mdx, mcp:2025-11-25/client/roots.mdx, mcp:2026-07-28/client/roots.mdx)."
+wiki,snap50,q035,single,partial,1,"Based on the context provided, the root item in tkinter.ttk.Treeview is named `{}` (source: py:library/tkinter.ttk.html (python-docs-3.13)). Therefore, for an item located at the root level, the parent method would return `{}` (an empty string)."
+wiki,snap50,q036,single,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q037,single,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q046,single,correct,4,"`grp.getgrnam(name)` returns a group database entry as a tuple-like object with the following attributes:
+- `gr_name` (index 0): group name
+- `gr_passwd` (index 1): encrypted password  
+- `gr_gid` (index 2): numerical group ID
+- `gr_mem` (index 3): member list
+
+(source: py:library/grp.html (python-docs-3.13))"
+wiki,snap50,q051,single,correct,0,"`maxTokens` parameter is required (source: mcp:2025-11-25/client/sampling.mdx, mcp:2026-07-28/client/sampling.mdx)"
+wiki,snap50,q053,single,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q071,table,correct,0,`'darwin'` (source: py:library/sys.html (python-docs-3.13))
+wiki,snap50,q072,table,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q080,table,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q090,multihop,wrong_abstention,0,NOT_FOUND
+wiki,snap50,q099,neardup,correct,1,"During the **Initialization** phase. Specifically, clients that support sampling MUST declare the `sampling` capability during initialization (source: mcp:2025-06-18/client/sampling.mdx), which is sent in the `initialize` request containing client capabilities (source: mcp:2025-06-18/basic/lifecycle.mdx)."

@@ -1,0 +1,106 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+wiki_full,cap36,q059,single,correct,3,"In NIST CSF 2.0, cybersecurity outcomes within the Core are arranged hierarchically as **Function → Category → Subcategory** (source: nist:NIST.CSWP.29.pdf).
+
+Specifically:
+- **Functions**: Six high-level outcomes named with verbs - GOVERN (GV), IDENTIFY (ID), PROTECT (PR), DETECT (DE), RESPOND (RS), RECOVER (RC) (source: nist:NIST.CSWP.29.pdf)
+- **Categories**: Related cybersecurity outcomes that collectively comprise a Function (source: nist:NIST.CSWP.29.pdf)
+- **Subcategories**: Detailed outcomes of technical and management activities that support each Category (source: nist:NIST.CSWP.29.pdf)"
+wiki_full,cap36,q058,single,correct,0,"Under NIST CSF 2.0, a Target Profile specifies the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives (source: nist:NIST.CSWP.29.pdf)."
+wiki_full,cap36,q015,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q005,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q018,single,correct,0,`PyRun_SimpleString()` returns **0 for success** and **-1 when an exception occurred** (including SyntaxError) (source: py:faq/extending.html (python-docs-3.13)).
+wiki_full,cap36,q064,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q042,single,correct,0,"Servers MUST apply appropriate per-primitive access controls, and MUST NOT rely on `cacheScope` alone to prevent unauthorized access (source: mcp:2026-07-28/server/utilities/caching.mdx)."
+wiki_full,cap36,q039,single,correct,2,"According to the MCP authorization specification, clients must employ the **resource parameter** to designate target resources when requesting tokens (source: mcp:2025-11-25/basic/authorization.mdx, mcp:2025-06-18/basic/authorization.mdx).
+
+Specifically:
+- MCP clients MUST implement Resource Indicators per RFC 8707 (source: mcp:2025-11-25/basic/authorization.mdx)
+- The resource parameter MUST be included in both authorization requests and token requests (source: mcp:2025-11-25/basic/authorization.mdx)
+- The resource parameter MUST use the canonical URI of the MCP server as defined in RFC 8707 Section 2 (source: mcp:2025-06-18/basic/authorization.mdx)"
+wiki_full,cap36,q051,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q019,single,correct,2,"A server indicates it wants to request LLM generation with tool capabilities by **providing a `tools` array and optional `toolChoice` configuration** in the sampling request (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx).
+
+The tool definitions in the `tools` array are scoped to that sampling request and don't need to correspond to registered tools (source: mcp:2026-07-28/client/sampling.mdx).
+
+However, servers MUST NOT send tool-enabled sampling requests to clients that have not declared the `sampling.tools` capability (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx)."
+wiki_full,cap36,q006,single,correct,0,"In Python's cmath module, functions always return a **complex number** even if the answer can be expressed as a real number. When the result has no imaginary component, the complex number has an imaginary part of zero (source: py:library/cmath.html (python-docs-3.13))."
+wiki_full,cap36,q054,single,partial,2,"To prevent hung connections and resource exhaustion (source: mcp:2026-07-28/basic/patterns/cancellation.mdx).
+
+While implementations MAY reset the timeout clock when receiving progress notifications, they SHOULD always enforce a maximum timeout regardless of progress notifications (source: mcp:2026-07-28/basic/patterns/cancellation.mdx). This ensures that even requests that continue sending progress updates cannot run indefinitely and consume resources."
+wiki_full,cap36,q036,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q049,single,correct,2,`asyncio.TaskGroup` serves as the modern replacement for `create_task()`. It was added in version 3.11 as a modern alternative to `create_task()` with stronger safety guarantees (source: py:library/asyncio-task.html (python-docs-3.13)).
+wiki_full,cap36,q038,single,correct,0,The default buffer size limit is **65536 bytes (64 KiB)** for the StreamReader returned by `asyncio.start_server()` (source: py:library/asyncio-stream.html).
+wiki_full,cap36,q031,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q020,single,correct,0,"BEGIN DEFERRED
+
+(source: concepts/sqlite3-transaction-control.md - ""sqlite3 uses BEGIN DEFERRED statements when opening transactions in autocommit=False mode"")"
+wiki_full,cap36,q057,single,correct,0,`mailbox.MH` is a format-specific subclass of `mailbox.Mailbox` (source: py:library/mailbox.html (python-docs-3.13)).
+wiki_full,cap36,q063,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q046,single,correct,4,"`grp.getgrnam(name)` returns a group database entry as a tuple-like object with the following attributes (source: py:library/grp.html (python-docs-3.13)):
+
+- **gr_name** (index 0): group name
+- **gr_passwd** (index 1): encrypted password  
+- **gr_gid** (index 2): numerical group ID
+- **gr_mem** (index 3): member list"
+wiki_full,cap36,q022,single,correct,0,"The root definition's `uri` field **MUST** be a `file://` URI (source: mcp:2025-06-18/client/roots.mdx, mcp:2025-11-25/client/roots.mdx, mcp:2026-07-28/client/roots.mdx)."
+wiki_full,cap36,q037,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q035,single,correct,1,"According to the context, the root item in tkinter.ttk.Treeview is named `{}` (empty string) (source: py:library/tkinter.ttk.html (python-docs-3.13)). Therefore, for an item located at the root level, the parent method would return an empty string `''`."
+wiki_full,cap36,q053,single,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q084,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q082,table,correct,0,"For compound `type_`, the data value is `None` (source: py:library/turtle.html (python-docs-3.13)). The compound shape is then constructed using the `addcomponent()` method."
+wiki_full,cap36,q076,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q072,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q085,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q080,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q073,table,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q071,table,correct,0,`'darwin'` (source: py:library/sys.html (python-docs-3.13))
+wiki_full,cap36,q091,multihop,correct,0,"In Python's http.server module:
+
+1. **BaseHTTPRequestHandler error Content-Type**: `'text/html'` (source: py:library/http.server.html (python-docs-3.13))
+
+2. **SimpleHTTPRequestHandler default index_pages**: `(""index.html"", ""index.htm"")` (source: py:library/http.server.html (python-docs-3.13))"
+wiki_full,cap36,q093,multihop,correct,0,"On Android, standard output and standard error redirect to the system log under tags `python.stdout` and `python.stderr` (source: py:library/intro.html (python-docs-3.13)).
+
+Android does not support any part of the System V IPC API, which prevents the `multiprocessing` module from being available (source: py:library/intro.html (python-docs-3.13))."
+wiki_full,cap36,q090,multihop,correct,0,"Unconsumed input is saved in the `unconsumed_tail` attribute when `max_length` restricts decompression output (source: py:library/zlib.html (python-docs-3.13)).
+
+The `level` parameter in `zlib.compress()` accepts integers from 0 to 9 or -1 (source: py:library/zlib.html (python-docs-3.13))."
+wiki_full,cap36,q097,multihop,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q094,multihop,correct,2,"The HTTP endpoint queried on the resource server to retrieve resource metadata is `/.well-known/oauth-protected-resource` (either at root or with path insertion based on the MCP endpoint path). For example, if the MCP endpoint is `https://example.com/public/mcp`, the metadata is hosted at `https://example.com/.well-known/oauth-protected-resource/public/mcp` (source: mcp:2025-11-25/basic/authorization.mdx).
+
+The required parameter that identifies the target server is the `resource` parameter, which MCP clients MUST include in authorization and token requests per Resource Indicators for OAuth 2.0 (RFC 8707) (source: mcp:2025-11-25/basic/authorization.mdx, mcp:2026-07-28/basic/authorization/index.mdx)."
+wiki_full,cap36,q088,multihop,wrong_abstention,0,NOT_FOUND
+wiki_full,cap36,q108,neardup,correct,3,"In the 2026-07-28 MCP specification, prompt messages can reference contextual data without embedding its contents directly by using the **`resource_link` content type**.
+
+The format is: `{""type"": ""resource_link"", ""uri"": ""..."", ""name"": ""..."", ""description"": ""..."", ""mimeType"": ""...""}` (source: mcp:2026-07-28/server/prompts.mdx)
+
+This is distinct from the `resource` content type, which embeds the actual resource data: `{""type"": ""resource"", ""resource"": {""uri"": ""..."", ""mimeType"": ""..."", ""text"": ""...""}}` (source: mcp:2026-07-28/server/prompts.mdx)
+
+Resource links support the same Resource annotations as regular resources (source: mcp:2026-07-28/server/prompts.mdx)."
+wiki_full,cap36,q101,neardup,correct,0,"According to the 2026-07-28 MCP spec, servers should return tools in a deterministic order to **enable reliable caching and improve LLM prompt cache hit rates** (source: mcp:2026-07-28/server/tools.mdx)."
+wiki_full,cap36,q109,neardup,partial,0,"According to the 2026-07-28 MCP spec, servers SHOULD send `notifications/tools/list_changed` to **clients with open `subscriptions/listen` stream** (source: mcp:2026-07-28/server/tools.mdx)."
+wiki_full,cap36,q098,neardup,correct,1,"`structuredContent` (source: mcp:2026-07-28/server/tools.mdx)
+
+This field can contain any JSON value including arrays that conform to the tool's `outputSchema` if one is defined."
+wiki_full,cap36,q104,neardup,correct,0,"In the 2025-06-18 MCP spec, the `ref/resource` completion reference type is described as **references a resource URI**, with the example: `{""type"": ""ref/resource"", ""uri"": ""file:///{path}""}` (source: mcp:2025-06-18/server/utilities/completion.mdx)."
+wiki_full,cap36,q099,neardup,correct,1,"**Initialization phase**
+
+Clients that support sampling MUST declare the `sampling` capability during initialization (source: mcp:2025-06-18/client/sampling.mdx). This occurs when the client sends the `initialize` request containing protocol version, client capabilities, and client implementation information (source: mcp:2025-06-18/basic/lifecycle.mdx)."
+wiki_full,cap36,q106,neardup,correct,1,"`resultType` (source: mcp:2026-07-28/basic/index.mdx)
+
+Result responses MUST include a `resultType` field to indicate the type of the result, with values `""complete""` for successful completion or `""input_required""` for incomplete requests needing more information (source: mcp:2026-07-28/basic/index.mdx)."
+wiki_full,cap36,q107,neardup,wrong,3,"According to the 2026-07-28 MCP specification, message history between distinct sampling requests is governed by the **statelessness principle**: ""State that needs to span multiple requests MUST be referenced by an explicit identifier the client passes on each request"" (source: mcp:2026-07-28/basic/index.mdx).
+
+MCP is a stateless protocol where servers process each request independently with no inferred state from previous requests. Servers ""MUST NOT rely on prior requests over the same connection to establish context"" and ""must not treat connection or process identity as a proxy for conversation or session continuity"" (source: mcp:2026-07-28/basic/index.mdx).
+
+Therefore, any message history needed across distinct sampling requests must be explicitly passed via identifiers in each request's parameters, not maintained implicitly by the server."
+wiki_full,cap36,q110,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q120,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q121,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q111,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q114,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q115,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q119,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q116,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q117,noanswer,correct_abstention,0,NOT_FOUND
+wiki_full,cap36,q112,noanswer,correct_abstention,0,NOT_FOUND

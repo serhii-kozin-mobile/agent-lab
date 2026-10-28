@@ -1,0 +1,51 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+wiki,synth,s00,synthesis,wrong_abstention,0,NOT_FOUND
+wiki,synth,s01,synthesis,wrong_abstention,0,NOT_FOUND
+wiki,synth,s02,synthesis,wrong,6,"Based on the MCP 2026-07-28 specification:
+
+**Server caching access control (mandatory):**
+- Servers MUST include caching hints on results with `resultType: ""complete""` for operations: `server/discover`, `tools/list`, `prompts/list`, `resources/list`, `resources/templates/list`, `resources/read` (source: mcp:2026-07-28/server/utilities/caching.mdx)
+- Servers MUST provide `ttlMs` value that is `>= 0` (source: mcp:2026-07-28/server/utilities/caching.mdx)
+- Servers MUST apply same `cacheScope` to all response pages for a given list request (source: mcp:2026-07-28/server/utilities/caching.mdx)
+- `cacheScope` must be either `""public""` or `""private""` (source: mcp:2026-07-28/server/utilities/caching.mdx)
+
+**Client sampling request parameters (mandatory/optional):**
+- `maxTokens` parameter is required (source: mcp:2026-07-28/client/sampling.mdx)
+- `includeContext` parameter has defined values: `""none""`, `""thisServer""` (deprecated), `""allServers""` (deprecated), but the context does not specify whether this parameter is mandatory or optional (source: mcp:2026-07-28/client/sampling.mdx)
+
+**Comparison:** Servers have multiple mandatory requirements for caching access control (must provide hints, ttlMs, consistent cacheScope). For clients handling sampling, only `maxTokens` is explicitly stated as required in the provided context."
+wiki,synth,s03,synthesis,partial,2,"For **long-running requests that send progress notifications**, the spec recommends:
+
+- Implementations **SHOULD establish timeouts for all sent requests** to prevent hung connections and resource exhaustion (source: mcp:2026-07-28/basic/patterns/cancellation.mdx)
+- SDKs and other middleware **SHOULD allow timeouts to be configured on a per-request basis** (source: mcp:2026-07-28/basic/patterns/cancellation.mdx)
+
+For **access to cached primitives**, the provided context does NOT contain specific requirements or recommendations for protecting against misbehaving peers.
+
+**Answer:** Timeouts (SHOULD be established for all sent requests, configurable per-request) for long-running requests; NOT_FOUND for cached primitives protection."
+wiki,synth,s04,synthesis,partial,1,"Based on the provided context:
+
+1. **Root URI scheme**: A root's `uri` MUST be a `file://` URI (source: mcp:2026-07-28/client/roots.mdx)
+
+2. **cacheScope for access control**: The context does not address whether `cacheScope` can be used to stop unauthorized access to primitives. The caching documentation only describes `cacheScope` as having values ""public"" or ""private"" for caching behavior (source: mcp:2026-07-28/server/utilities/caching.mdx), but does not discuss its role in access control or authorization."
+wiki,synth,s05,synthesis,partial,1,"Based on the provided context:
+
+**Resource parameter (from MCP 2025-06-18 authorization):**
+- MUST be included in **both authorization requests and token requests** (source: mcp:2025-06-18/basic/authorization.mdx)
+- MUST use **canonical URI of MCP server** as defined in RFC 8707 Section 2 (source: mcp:2025-06-18/basic/authorization.mdx)
+
+**Extra server-side protection in 2026-07-28 caching spec beyond `cacheScope`:**
+NOT_FOUND
+
+The 2026-07-28 caching specification only defines `cacheScope` (""public"" or ""private"") and `ttlMs` for caching hints, with no additional server-side protection mechanisms mentioned in the provided context."
+wiki,synth,s06,synthesis,partial,2,"Based on the provided context:
+
+**Caching benefit from deterministic tool-list ordering:** Servers should return tools in deterministic order to enable **reliable caching and improve LLM prompt cache hit rates** (source: mcp:2026-07-28/server/tools.mdx).
+
+**Access-control rule that still applies:** The tool set **MAY vary by authorization presented on request since credentials are per-request input** (source: mcp:2026-07-28/server/tools.mdx). Additionally, servers **MUST implement proper access controls** (source: mcp:2026-07-28/server/tools.mdx), even when caching is in use."
+wiki,synth,s07,synthesis,partial,1,"Based on the provided context:
+
+**Client sampling declaration (MCP 2025-06-18):**
+Clients that support sampling MUST declare `sampling` capability during initialization (source: mcp:2025-06-18/client/sampling.mdx)
+
+**Server access control (MCP 2026-07-28 caching spec):**
+NOT_FOUND - The 2026-07-28 caching spec describes `cacheScope` (""public"" or ""private"") as one of two required fields for cacheable results, but does not specify what servers must do about access control instead of relying on `cacheScope`."

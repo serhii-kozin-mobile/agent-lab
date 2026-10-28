@@ -1,0 +1,25 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+wiki,snap25,q015,single,wrong_abstention,0,NOT_FOUND
+wiki,snap25,q018,single,correct,0,`PyRun_SimpleString()` returns **0 for success** and **-1 when an exception occurred** (including SyntaxError) (source: py:faq/extending.html (python-docs-3.13)).
+wiki,snap25,q019,single,correct,1,"A server indicates it wants to request LLM generation with tool capabilities by providing a `tools` array and optional `toolChoice` configuration in the sampling request (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx).
+
+However, servers MUST NOT send tool-enabled sampling requests to clients that have not declared the `sampling.tools` capability (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx)."
+wiki,snap25,q035,single,correct,2,"For an item located at the root level in tkinter.ttk.Treeview, the parent method returns an empty string `''` (represented as `{}` in the documentation), which is the identifier of the root item (source: py:library/tkinter.ttk.html (python-docs-3.13))."
+wiki,snap25,q051,single,correct,1,"The `maxTokens` parameter is compulsory and must be honored by the client (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx). 
+
+The specification states that ""`maxTokens` parameter is required"" and ""Client MUST respect the `maxTokens` parameter"" (source: mcp:2026-07-28/client/sampling.mdx).
+
+In contrast, other parameters like `temperature`, `stopSequences`, `topP`, and `topK` MAY be modified or ignored by the client based on model capabilities or policies (source: mcp:2026-07-28/client/sampling.mdx)."
+wiki,snap25,q053,single,wrong_abstention,0,NOT_FOUND
+wiki,snap25,q080,table,wrong_abstention,0,NOT_FOUND
+wiki,snap25,q099,neardup,correct,0,"In the 2025-06-18 MCP spec, clients must register their support for sampling during the **Initialization** phase. Specifically, clients that support sampling MUST declare the `sampling` capability during initialization (source: mcp:2025-06-18/client/sampling.mdx)."
+wiki,snap25,q106,neardup,correct,2,"The `resultType` field MUST be present in result responses to indicate the type of the result (source: mcp:2026-07-28/basic/index.mdx). 
+
+Valid values are `""complete""` (request completed successfully with final content) and `""input_required""` (request is incomplete and more information is needed). For backward compatibility, clients MUST treat an absent `resultType` as `""complete""` (source: mcp:2026-07-28/basic/index.mdx)."
+wiki,snap25,q107,neardup,partial,3,"MCP's statelessness principle governs this: **no message history is automatically maintained between distinct sampling requests**. 
+
+Per the protocol specification (mcp:2026-07-28/basic/index.mdx):
+- ""A server processes each request independently; no state should be inferred from previous requests, even those on the same connection or stream""
+- ""State that needs to span multiple requests MUST be referenced by an explicit identifier the client passes on each request""
+
+This means each `sampling/createMessage` request must be self-contained with all necessary message history explicitly included in that request's `messages` parameter. The protocol does not maintain or carry forward conversation history between sampling calls."

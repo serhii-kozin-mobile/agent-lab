@@ -1,0 +1,577 @@
+{
+ "home_advantage": {
+  "n": 46,
+  "all_quotes_inside_one_chunk_each": 46,
+  "per_quote_inside_single_chunk": 52,
+  "n_quotes": 52
+ },
+ "arms": {
+  "wiki_main": {
+   "misses": 33,
+   "classes": {
+    "retrieval_miss": 17,
+    "compile_loss": 16
+   },
+   "rows": [
+    {
+     "qid": "q059",
+     "category": "single",
+     "verdict": "partial",
+     "not_found": false,
+     "method": "judge",
+     "pages": [
+      "concepts/csf-core.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q058",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/csf-organizational-profiles.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q015",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q005",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q018",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/python-c-api-execution.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q064",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q042",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-caching.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q019",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-sampling-tool-use.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q054",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-lifecycle.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q036",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q031",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q020",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "string",
+     "pages": [
+      "concepts/sqlite3-transaction-control.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q057",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "entities/mailbox-class.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q037",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q035",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q053",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q084",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q082",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "entities/shape-class.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q076",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q072",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q085",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q080",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q073",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "entities/re-module.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q091",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "entities/basehttprequesthandler-class.md, entities/python-http-server-module.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q093",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mobile-platforms.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q090",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "entities/zlib-decompress-object.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q097",
+     "category": "multihop",
+     "verdict": "partial",
+     "not_found": false,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q094",
+     "category": "multihop",
+     "verdict": "partial",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-authorization-discovery.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q088",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q108",
+     "category": "neardup",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-prompts.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q109",
+     "category": "neardup",
+     "verdict": "partial",
+     "not_found": false,
+     "method": "judge",
+     "pages": [
+      "entities/mcp-tools.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q098",
+     "category": "neardup",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-tool-results.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q107",
+     "category": "neardup",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    }
+   ]
+  },
+  "wiki_bm25_main": {
+   "misses": 18,
+   "classes": {
+    "compile_loss": 16,
+    "retrieval_miss": 1,
+    "in_context_but_missed": 1
+   },
+   "rows": [
+    {
+     "qid": "q015",
+     "category": "single",
+     "verdict": "partial",
+     "not_found": false,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q005",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q064",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q019",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [
+      "concepts/mcp-sampling-tool-use.md"
+     ],
+     "has": true,
+     "class": "retrieval_miss"
+    },
+    {
+     "qid": "q036",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q031",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q037",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q035",
+     "category": "single",
+     "verdict": "wrong",
+     "not_found": false,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q053",
+     "category": "single",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q084",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q076",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q072",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q085",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q080",
+     "category": "table",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q097",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q088",
+     "category": "multihop",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    },
+    {
+     "qid": "q109",
+     "category": "neardup",
+     "verdict": "partial",
+     "not_found": false,
+     "method": "judge",
+     "pages": [
+      "entities/mcp-tools.md"
+     ],
+     "has": true,
+     "class": "in_context_but_missed"
+    },
+    {
+     "qid": "q107",
+     "category": "neardup",
+     "verdict": "wrong_abstention",
+     "not_found": true,
+     "method": "judge",
+     "pages": [],
+     "has": false,
+     "class": "compile_loss"
+    }
+   ]
+  }
+ }
+}

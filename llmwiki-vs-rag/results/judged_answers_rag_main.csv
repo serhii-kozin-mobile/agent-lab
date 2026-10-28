@@ -1,0 +1,187 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+rag,main,q059,single,correct,4,"In NIST CSF 2.0, the cybersecurity outcomes within the Core are arranged hierarchically by **Function, then Category, and finally Subcategory** [NIST.CSWP.29 p.7].
+
+The six **Functions** organize cybersecurity outcomes at their highest level: GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER [NIST.CSWP.29 p.7].
+
+Each Function is divided into **Categories**, which are related cybersecurity outcomes that collectively comprise the Function. **Subcategories** further divide each Category into more specific outcomes of technical and management activities [NIST.CSWP.29 p.10].
+
+The order and size of Functions, Categories, and Subcategories does not imply their sequence or importance [NIST.CSWP.29 p.7]."
+rag,main,q058,single,correct,1,"Under NIST CSF 2.0, a Target Profile specifies the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives. A Target Profile considers anticipated changes to the organization's cybersecurity posture, such as new requirements, new technology adoption, and threat intelligence trends. (NIST.CSWP.29 p.11)"
+rag,main,q015,single,correct,1,"According to the Python lzma documentation, when `lzma.decompress()` is provided input containing multiple distinct compressed streams, it will **decompress all of these streams, and return the concatenation of the results** (py:library/lzma.html#f9).
+
+This is in contrast to the `LZMADecompressor` class, which ""does not transparently handle inputs containing multiple compressed streams"" and requires creating a new decompressor for each stream (py:library/lzma.html#f7)."
+rag,main,q005,single,correct,1,"According to the context, when `getcontext()` automatically creates a new context for a thread, it copies the settings from a prototype context called **`DefaultContext`**.
+
+Source: ""The new context is copied from a prototype context called DefaultContext. To control the defaults so that each thread will use the same values throughout the application, directly modify the DefaultContext object."" (decimal.html#f30)"
+rag,main,q018,single,correct,0,"`PyRun_SimpleString()` returns **0 for success** and **-1 when an exception occurred** (including `SyntaxError`). [Source: py:faq/extending.html#f1, py:faq/extending.html#f2]"
+rag,main,q064,single,correct,1,"According to the context, **TimeoutError can only be caught outside of the context manager**.
+
+The documentation explicitly states: ""The asyncio.timeout() context manager is what transforms the asyncio.CancelledError into a TimeoutError, which means the TimeoutError can only be caught outside of the context manager."" (py:library/asyncio-task.html#f18)
+
+Example:
+```python
+async def main():
+    try:
+        async with asyncio.timeout(10):
+            await long_running_task()
+        except TimeoutError:
+            print(""The long operation timed out, but we've handled it."")
+```"
+rag,main,q042,single,correct,1,"According to the MCP caching specification, servers **MUST apply appropriate per-primitive access controls, and MUST NOT rely on `cacheScope` alone to prevent unauthorized access to primitives** (mcp:2026-07-28/server/utilities/caching.mdx#f6).
+
+This requirement exists because responses with a `""public""` `cacheScope` may be shared between callers even if the result is from an authenticated endpoint, meaning different access tokens can leverage the same cache."
+rag,main,q039,single,correct,2,"MCP clients **MUST** employ the `resource` parameter to designate target resources when requesting tokens. This parameter is defined in RFC 8707 (Resource Indicators for OAuth 2.0) and must be included in authorization and token requests to explicitly specify the target resource for which the token is being requested, ensuring that access tokens are bound to their intended resources and cannot be misused across different services. (Sources: mcp:2026-07-28/basic/authorization/security-considerations.mdx, mcp:2025-06-18/basic/authorization.mdx)"
+rag,main,q051,single,correct,0,"Based on the context, the **`maxTokens`** parameter is compulsory and must be honored by the client.
+
+According to the specification: ""The client **MUST** respect the `maxTokens` parameter."" In contrast, the client **MAY** modify or ignore other parameters like `temperature`, `stopSequences`, and `metadata`. (Source: mcp:2026-07-28/client/sampling.mdx#f14)"
+rag,main,q019,single,correct,2,"Under the MCP Sampling protocol, a server indicates it wants to request LLM generation with tool capabilities by including `tools` and optionally `toolChoice` in the `sampling/createMessage` request. (Source: mcp:2025-11-25/client/sampling.mdx#f3, mcp:2026-07-28/client/sampling.mdx#f4)
+
+The request includes:
+- `tools`: An array defining available tools with their names, descriptions, and input schemas
+- `toolChoice` (optional): An object specifying the mode (e.g., `{""mode"": ""auto""}`)"
+rag,main,q006,single,wrong_abstention,0,NOT_FOUND
+rag,main,q054,single,correct,1,"To limit the impact of a misbehaving client or server.
+
+While implementations MAY reset the timeout clock when receiving progress notifications (as this implies work is actually happening), they SHOULD always enforce a maximum timeout regardless of progress notifications. This prevents a malicious or faulty client/server from indefinitely extending request execution by continuously sending progress updates.
+
+**Source:** mcp:2025-11-25/basic/lifecycle.mdx, mcp:2026-07-28/basic/patterns/cancellation.mdx, mcp:2025-06-18/basic/lifecycle.mdx"
+rag,main,q036,single,correct,0,"`ValueError` (source: py:library/itertools.html#f5 - ""If strict is true, will raise a ValueError if the final batch is shorter than n"")"
+rag,main,q049,single,correct,1,"According to the context, **asyncio.TaskGroup** serves as a modern replacement for create_task().
+
+The documentation states: ""The asyncio.TaskGroup class provides a more modern alternative to create_task()."" This class was added in version 3.11 of Python. (Source: py:library/asyncio-task.html#f1)"
+rag,main,q038,single,correct,0,"According to the documentation, the default buffer size limit for the StreamReader returned by `asyncio.start_server()` is **64 KiB** (65536 bytes). 
+
+This is specified by the `limit` parameter, which ""determines the buffer size limit used by the returned StreamReader instance. By default the limit is set to 64 KiB."" [py:library/asyncio-stream.html#f1]"
+rag,main,q031,single,partial,0,"Set `stderr=subprocess.STDOUT` when calling `run()`. This redirects stderr into the same file handle as stdout [py:library/subprocess.html#f8, py:library/subprocess.html#f5]."
+rag,main,q020,single,correct,1,"According to the documentation, sqlite3 uses **BEGIN DEFERRED statements** when opening transactions in PEP 249-compliant mode [py:library/sqlite3.html#f32].
+
+Specifically, when `autocommit` is set to `False` (which enables PEP 249-compliant transaction control), ""sqlite3 uses BEGIN DEFERRED statements when opening transactions."""
+rag,main,q057,single,correct,0,`mailbox.MH` is a subclass of `Mailbox` [py:library/mailbox.html#f18].
+rag,main,q063,single,correct,0,"According to the MCP pagination specification, pagination is beneficial for local system integrations **to avoid performance issues with large data sets** (mcp:2026-07-28/server/utilities/pagination.mdx, mcp:2025-11-25/server/utilities/pagination.mdx, mcp:2025-06-18/server/utilities/pagination.mdx)."
+rag,main,q046,single,correct,4,"`grp.getgrnam()` returns a tuple-like object containing the group database entry with the following attributes:
+
+- **Index 0** (`gr_name`): the name of the group (string)
+- **Index 1** (`gr_passwd`): the (encrypted) group password; often empty (string)
+- **Index 2** (`gr_gid`): the numerical group ID (integer)
+- **Index 3** (`gr_mem`): all the group member's user names (list of strings)
+
+[Source: py:library/grp.html#f0]"
+rag,main,q022,single,correct,0,"The `uri` field in a root definition **MUST** be a `file://` URI in the current specification. (Source: mcp:2025-06-18/client/roots.mdx#f1, mcp:2025-11-25/client/roots.mdx#f1, mcp:2026-07-28/client/roots.mdx#f1)"
+rag,main,q037,single,correct,1,"JSON is **interoperable and widely used outside of the Python ecosystem, while pickle is Python-specific** (py:library/pickle.html#f2).
+
+The pickle data format is Python-specific, which ""means that non-Python programs may not be able to reconstruct pickled Python objects"" (py:library/pickle.html#f3).
+
+In summary: JSON is portable across non-Python environments, while pickle is not."
+rag,main,q035,single,correct,0,"According to the tkinter.ttk documentation, the `parent(item)` method returns `''` (an empty string) if the item is at the top level of the hierarchy.
+
+Source: tkinter.ttk documentation (py:library/tkinter.ttk.html#f30) - ""Returns the ID of the parent of item, or '' if item is at the top level of the hierarchy."""
+rag,main,q053,single,correct,2,"According to the documentation, in the `EXTENDED_ARG(ext)` opcode, the `ext` parameter holds **an additional byte which acts as higher bits in the argument** [py:library/dis.html#f25].
+
+This opcode is used to prefix any opcode that has an argument too big to fit into the default one byte. At most three prefixal `EXTENDED_ARG` operations are allowed, forming an argument from two-byte to four-byte."
+rag,main,q084,table,correct,0,"Based on the conversion table in the context, when converting a MaildirMessage to a BabylMessage:
+
+- **""unseen"" label**: no S flag (S flag is not set)
+- **""deleted"" label**: T flag
+- **""answered"" label**: R flag
+
+Source: py:library/mailbox.html#f33"
+rag,main,q082,table,correct,0,"According to the context, for the compound type_ in Python turtle Shape class, the data value is **None**.
+
+Source: ""compound | None (a compound shape has to be constructed using the addcomponent() method)"" (py:library/turtle.html#f30)"
+rag,main,q076,table,correct,0,"According to the mouse button constants table in Python's curses module, `curses.BUTTON_SHIFT` means ""Shift was down during button state change"" (source: py:library/curses.html#f31)."
+rag,main,q072,table,correct,0,"According to the Priorities table in the SysLogHandler documentation, the symbolic constant **LOG_EMERG** corresponds to both ""panic"" and ""emerg"" priority names (py:library/logging.handlers.html#f23)."
+rag,main,q085,table,correct,1,"According to the Python string formatting specification, **'s'** is the default presentation type for strings and may be omitted. Additionally, **None** (no type specified) is equivalent to 's' [py:library/string.html#f15]."
+rag,main,q080,table,correct,0,"According to the `identify_region(x, y)` method documentation, the 'separator' region identifier signifies **""Space between two columns headings""** [py:library/tkinter.ttk.html#f28]."
+rag,main,q073,table,correct,0,"According to the Python regex documentation, the `re.DOTALL` (or `re.S`) flag ""makes the '.' special character match any character at all, including a newline; without this flag, '.' will match anything except a newline"" (py:howto/regex.html#f23).
+
+In summary: **DOTALL/S makes `.` match newlines**, whereas normally `.` matches everything *except* newlines."
+rag,main,q071,table,correct,0,"According to the Python documentation, `sys.platform` returns **`'darwin'`** on macOS systems (source: py:library/sys.html#f39, py:library/sys.html#f40)."
+rag,main,q091,multihop,correct,1,"In `BaseHTTPRequestHandler`, the default HTTP Content-Type for error responses is `'text/html'` (from `error_content_type` attribute). In `SimpleHTTPRequestHandler`, the default filenames assigned to `index_pages` are `(""index.html"", ""index.htm"")`.
+
+**Sources:** CHUNK py:library/http.server.html#f4, CHUNK py:library/http.server.html#f10"
+rag,main,q093,multihop,correct,0,"On Android, standard output and standard error are redirected to the **system log**, visible under the tags `python.stdout` and `python.stderr` respectively [py:library/intro.html#f5].
+
+The **System V IPC API** is not supported on Android, which prevents using the multiprocessing module [py:library/intro.html#f4]."
+rag,main,q090,multihop,partial,1,"Unconsumed input is saved in the **`unconsumed_tail` attribute** when `max_length` restricts decompression output (py:library/zlib.html#f10, #f9).
+
+However, the provided context does not contain explicit documentation of the `level` parameter range for `zlib.compress()`. The context only shows compression level constants: -1 (Z_DEFAULT_COMPRESSION), 0 (Z_NO_COMPRESSION), 1 (Z_BEST_SPEED), and 9 (Z_BEST_COMPRESSION), but doesn't specify the complete valid range for the level parameter.
+
+**Partial answer**: unconsumed_tail; level parameter range: NOT_FOUND in provided context."
+rag,main,q097,multihop,correct,1,"Based on the provided context:
+
+**`string.digits`**: `'0123456789'` (source: CHUNK py:library/string.html#f0)
+
+**`string.hexdigits`**: `'0123456789abcdefABCDEF'` (source: CHUNK py:library/string.html#f0)
+
+**`check_unused_args` parameters**: `used_args`, `args`, `kwargs` (source: CHUNK py:library/string.html#f4)
+
+Where `used_args` is the set of all argument keys actually referred to in the format string (integers for positional arguments, and strings for named arguments), and `args` and `kwargs` are references to the arguments passed to `vformat()`."
+rag,main,q094,multihop,correct,0,"Based on the provided context:
+
+**HTTP Endpoint:** `/.well-known/oauth-protected-resource` (cited from mcp:2025-06-18/basic/authorization.mdx#f3)
+
+**Required Parameter:** `resource` parameter (cited from mcp:2025-11-25/basic/authorization.mdx#f13, which shows ""Include resource parameter"" in the authorization flow and ""Authorization request with resource parameter"" and ""Token request + code_verifier + resource"")"
+rag,main,q088,multihop,correct,1,"Based on the provided context:
+
+**`ast.If` node attributes:**
+An `ast.If` node has three attributes:
+- `test`: holds a single node (such as a Compare node)
+- `body`: holds a list of nodes
+- `orelse`: holds a list of nodes
+
+[Source: py:library/ast.html#f21]
+
+**Parso features compared to LibCST:**
+Parso offers:
+- **Error recovery** support
+- **Round-trip parsing for different Python versions** (in multiple Python versions)
+- Ability to **list multiple syntax errors** in a Python file
+
+In contrast, LibCST ""keeps all formatting details"" and is ""useful for building automated refactoring (codemod) applications and linters.""
+
+[Source: py:library/ast.html#f28]"
+rag,main,q108,neardup,correct,2,"In the 2026-07-28 MCP specification, prompt messages can reference contextual data without embedding its contents directly by using **resource links** with content type `""resource_link""`:
+
+```json
+{
+ ""type"": ""resource_link"",
+ ""uri"": ""file:///project/src/main.rs"",
+ ""name"": ""main.rs"",
+ ""description"": ""Primary application entry point"",
+ ""mimeType"": ""text/x-rust""
+}
+```
+
+This returns a URI that can be fetched by the client rather than embedding the resource contents directly in the message. Resource links support the same Resource annotations as regular resources to help clients understand how to use them.
+
+(Source: mcp:2026-07-28/server/prompts.mdx#f5)"
+rag,main,q101,neardup,correct,0,"According to the 2026-07-28 MCP specification, servers are advised to return tools in a deterministic order for two reasons:
+
+1. **Enables clients to reliably cache the tool list**
+2. **Improves LLM prompt cache hit rates** when tools are included in model context
+
+Source: mcp:2026-07-28/server/tools.mdx - ""Deterministic ordering enables clients to reliably cache the tool list and improves LLM prompt cache hit rates when tools are included in model context."""
+rag,main,q109,neardup,correct,0,Clients that have opened a [`subscriptions/listen`](/specification/2026-07-28/basic/patterns/subscriptions) stream with `toolsListChanged: true` (Source: mcp:2026-07-28/server/tools.mdx#f4).
+rag,main,q098,neardup,correct,2,"`structuredContent` [CHUNK mcp:2026-07-28/server/tools.mdx#f11, #f12]
+
+This field can contain any JSON value (object, array, string, number, boolean, or null) that conforms to the tool's `outputSchema`. For array outputs, the `structuredContent` field directly contains the array, as shown in the example where a `list_users` tool returns `""structuredContent"": [{""id"": ""1"", ""name"": ""Alice"", ""email"": ""alice@example.com""}, {""id"": ""2"", ""name"": ""Bob"", ""email"": ""bob@example.com""}]`."
+rag,main,q104,neardup,correct,0,"In the 2025-06-18 MCP spec, the `ref/resource` completion reference type is described as ""References a resource URI"" with the example `{""type"": ""ref/resource"", ""uri"": ""file:///{path}""}` (source: mcp:2025-06-18/server/utilities/completion.mdx#f1)."
+rag,main,q099,neardup,correct,0,"During the **initialization** phase ([mcp:2025-06-18/basic/lifecycle.mdx#f0], [mcp:2025-06-18/client/sampling.mdx#f0]).
+
+The spec states: ""Clients that support sampling **MUST** declare the `sampling` capability during [initialization](/specification/2025-06-18/basic/lifecycle#initialization)"" by including it in the client capabilities of the `initialize` request."
+rag,main,q106,neardup,correct,0,"According to the 2026-07-28 MCP spec, the **`resultType`** property must be present inside a result response object to identify its type.
+
+Source: mcp:2026-07-28/basic/index.mdx states ""The `result` **MUST** include a `resultType` field to indicate the type of the result."""
+rag,main,q107,neardup,correct,1,"According to the 2026-07-28 MCP specification, **the list of messages in a sampling request SHOULD NOT be retained between separate requests** (mcp:2026-07-28/client/sampling.mdx).
+
+This aligns with MCP's stateless protocol design, where each request must be processed independently without relying on prior request context."
+rag,main,q110,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q120,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q121,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q111,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q114,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q115,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q119,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q116,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q117,noanswer,correct_abstention,0,NOT_FOUND
+rag,main,q112,noanswer,correct_abstention,0,NOT_FOUND

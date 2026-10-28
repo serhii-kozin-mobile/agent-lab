@@ -1,0 +1,58 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+rag,synth,s00,synthesis,correct,0,"Based on the context provided:
+
+**Where TimeoutError can be caught:** The TimeoutError can only be caught **outside of the context manager** (outside the `async with asyncio.timeout()` block). According to the documentation: ""The asyncio.timeout() context manager is what transforms the asyncio.CancelledError into a TimeoutError, which means the TimeoutError can only be caught outside of the context manager."" [py:library/asyncio-task.html#f18]
+
+**Default buffer size limit:** The default buffer size limit is **64 KiB (65,536 bytes)**. The documentation states: ""limit determines the buffer size limit used by the returned StreamReader instance. By default the limit is set to 64 KiB."" [py:library/asyncio-stream.html#f0]"
+rag,synth,s01,synthesis,correct,0,"Based on the MCP 2026-07-28 specification chunks:
+
+**Server requirement (cacheScope and primitive access):**
+- Server implementors ""MUST apply appropriate per-primitive access controls, and MUST NOT rely on `cacheScope` alone to prevent unauthorized access to primitives."" (from server/utilities/caching.mdx)
+
+**Client requirement (OAuth token requests):**
+- MCP clients ""MUST include the `resource` parameter in authorization and token requests as specified in the Resource Parameter Implementation section"" (from basic/authorization/security-considerations.mdx)
+
+These work together: the server must enforce per-primitive access controls regardless of cacheScope, while the client must use the `resource` parameter to ensure tokens are properly bound to their intended audience."
+rag,synth,s02,synthesis,partial,3,"Based on the MCP 2026-07-28 specification:
+
+**Server caching (mandatory):**
+- Servers **MUST** include caching hints on results with `resultType: ""complete""` for: `server/discover`, `tools/list`, `prompts/list`, `resources/list`, `resources/templates/list`, and `resources/read` [mcp:2026-07-28/server/utilities/caching.mdx]
+
+**Client sampling parameters (mandatory vs optional):**
+- **MUST** respect: `maxTokens` parameter
+- **MAY** modify or ignore: `systemPrompt`, `includeContext`, `temperature`, `stopSequences`, and `metadata` [mcp:2026-07-28/client/sampling.mdx]
+
+Note: The Sampling feature is deprecated as of protocol version 2026-07-28 [mcp:2026-07-28/client/sampling.mdx]."
+rag,synth,s03,synthesis,partial,3,"Based on the provided context from MCP 2026-07-28:
+
+**For long-running requests with progress notifications:**
+
+Implementations **SHOULD** always enforce a **maximum timeout, regardless of progress notifications**, to limit the impact of a misbehaving client or server. While implementations **MAY** reset the timeout clock when receiving a progress notification (implying work is happening), they **SHOULD** still enforce this maximum timeout cap.
+
+Additionally, implementations **SHOULD** establish timeouts for all sent requests to prevent hung connections and resource exhaustion.
+
+*(Source: mcp:2026-07-28/basic/patterns/cancellation.mdx)*
+
+**For access to cached primitives:**
+
+Results produced by retrying a request through the multi round-trip requests mechanism (requests carrying `inputResponses` or `requestState`) **MUST NOT** be cached, as they depend on inputs that are not part of the cache key. This prevents caching of state-dependent results.
+
+*(Source: mcp:2026-07-28/server/utilities/caching.mdx)*
+
+The provided context does not contain additional specific protections for cached primitives beyond this prohibition."
+rag,synth,s04,synthesis,correct,0,"In MCP 2026-07-28, a root's `uri` **MUST** be a `file://` URI (source: mcp:2026-07-28/client/roots.mdx#f1).
+
+No, a server **MUST NOT** rely on `cacheScope` alone to prevent unauthorized access to primitives. Server implementors **MUST** apply appropriate per-primitive access controls (source: mcp:2026-07-28/server/utilities/caching.mdx#f6)."
+rag,synth,s05,synthesis,wrong_abstention,0,NOT_FOUND
+rag,synth,s06,synthesis,partial,0,"Based on the provided context:
+
+**Caching benefit from deterministic tool-list ordering:** Deterministic ordering ""improves LLM prompt cache hit rates when tools are included in model context"" (mcp:2026-07-28/server/tools.mdx#f2).
+
+**Access-control rule:** Server implementors ""MUST apply appropriate per-primitive access controls, and MUST NOT rely on `cacheScope` alone to prevent unauthorized access to primitives"" (mcp:2026-07-28/server/utilities/caching.mdx#f6)."
+rag,synth,s07,synthesis,correct,0,"Based on the provided context:
+
+**Client requirement for sampling:**
+Clients that support sampling **MUST** declare the `sampling` capability during initialization with the structure: `{""capabilities"": {""sampling"": {}}}` [mcp:2025-06-18/client/sampling.mdx#f1].
+
+**Server requirement for access control:**
+Server implementors **MUST** apply appropriate per-primitive access controls, and **MUST NOT** rely on `cacheScope` alone to prevent unauthorized access to primitives [mcp:2026-07-28/server/utilities/caching.mdx#f6]."

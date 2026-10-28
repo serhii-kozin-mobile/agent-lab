@@ -1,0 +1,314 @@
+{
+ "rag_main": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.957,
+   "accuracy_strict": 0.935,
+   "correct": 43,
+   "partial": 2,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 2,
+  "tokens_est": {
+   "mean": 2044.174,
+   "ci": [
+    1980.978,
+    2108.585
+   ]
+  },
+  "latency_s": {
+   "mean": 8.632,
+   "ci": [
+    7.777,
+    9.779
+   ]
+  }
+ },
+ "rag_rep2": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.957,
+   "accuracy_strict": 0.935,
+   "correct": 43,
+   "partial": 2,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 3,
+  "tokens_est": {
+   "mean": 2042.58,
+   "ci": [
+    1979.196,
+    2106.759
+   ]
+  },
+  "latency_s": {
+   "mean": 9.039,
+   "ci": [
+    8.301,
+    9.901
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": 0.0,
+   "ci": [
+    -0.033,
+    0.033
+   ]
+  }
+ },
+ "wiki_bm25_rep2": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.63,
+   "accuracy_strict": 0.609,
+   "correct": 28,
+   "partial": 2,
+   "wrong": 16,
+   "abstain_wrong": 15
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 16,
+  "tokens_est": {
+   "mean": 2488.286,
+   "ci": [
+    2200.156,
+    2801.911
+   ]
+  },
+  "latency_s": {
+   "mean": 8.371,
+   "ci": [
+    7.783,
+    9.007
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.326,
+   "ci": [
+    -0.478,
+    -0.174
+   ]
+  }
+ },
+ "wiki_full_cap36": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.587,
+   "accuracy_strict": 0.565,
+   "correct": 26,
+   "partial": 2,
+   "wrong": 18,
+   "abstain_wrong": 17
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 17,
+  "tokens_est": {
+   "mean": 13936.746,
+   "ci": [
+    13651.473,
+    14235.112
+   ]
+  },
+  "latency_s": {
+   "mean": 17.087,
+   "ci": [
+    16.16,
+    18.085
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.37,
+   "ci": [
+    -0.522,
+    -0.217
+   ]
+  },
+  "vs_wiki_full_main": {
+   "n": 46,
+   "diff": 0.065,
+   "ci": [
+    -0.054,
+    0.196
+   ]
+  }
+ },
+ "wiki_main": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.326,
+   "accuracy_strict": 0.283,
+   "correct": 13,
+   "partial": 4,
+   "wrong": 29,
+   "abstain_wrong": 29
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 30,
+  "tokens_est": {
+   "mean": 5329.83,
+   "ci": [
+    5134.183,
+    5557.911
+   ]
+  },
+  "latency_s": {
+   "mean": 15.829,
+   "ci": [
+    14.718,
+    17.047
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.63,
+   "ci": [
+    -0.772,
+    -0.489
+   ]
+  }
+ },
+ "wiki_full_main": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.522,
+   "accuracy_strict": 0.5,
+   "correct": 23,
+   "partial": 2,
+   "wrong": 21,
+   "abstain_wrong": 20
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 20,
+  "tokens_est": {
+   "mean": 13841.786,
+   "ci": [
+    13561.263,
+    14140.464
+   ]
+  },
+  "latency_s": {
+   "mean": 17.214,
+   "ci": [
+    16.432,
+    18.038
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.435,
+   "ci": [
+    -0.587,
+    -0.283
+   ]
+  }
+ },
+ "wiki_links_main": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.62,
+   "accuracy_strict": 0.587,
+   "correct": 27,
+   "partial": 3,
+   "wrong": 16,
+   "abstain_wrong": 16
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 16,
+  "tokens_est": {
+   "mean": 14893.393,
+   "ci": [
+    14353.567,
+    15482.491
+   ]
+  },
+  "latency_s": {
+   "mean": 23.049,
+   "ci": [
+    20.712,
+    25.641
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.337,
+   "ci": [
+    -0.478,
+    -0.196
+   ]
+  },
+  "vs_wiki_full_main": {
+   "n": 46,
+   "diff": 0.098,
+   "ci": [
+    -0.033,
+    0.228
+   ]
+  },
+  "hop": {
+   "queries_with_hop": 4,
+   "hop_pages_total": 4,
+   "mean_links_offered": 1.1
+  },
+  "vs_wiki_full_cap36": {
+   "n": 46,
+   "diff": 0.033,
+   "ci": [
+    -0.076,
+    0.141
+   ]
+  }
+ },
+ "wiki_bm25_main": {
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.63,
+   "accuracy_strict": 0.609,
+   "correct": 28,
+   "partial": 2,
+   "wrong": 16,
+   "abstain_wrong": 15
+  },
+  "noanswer_ok": "10/10",
+  "not_found_on_answerable": 15,
+  "tokens_est": {
+   "mean": 2488.156,
+   "ci": [
+    2198.049,
+    2801.071
+   ]
+  },
+  "latency_s": {
+   "mean": 8.526,
+   "ci": [
+    7.807,
+    9.349
+   ]
+  },
+  "vs_rag_main": {
+   "n": 46,
+   "diff": -0.326,
+   "ci": [
+    -0.478,
+    -0.174
+   ]
+  },
+  "vs_wiki_full_main": {
+   "n": 46,
+   "diff": 0.109,
+   "ci": [
+    -0.011,
+    0.228
+   ]
+  }
+ },
+ "wiki_bm25_repeat_same_verdict": "54/56",
+ "wiki_full_cap26_vs_cap36_same_verdict": "44/56",
+ "rag_repeat_same_verdict": "54/56"
+}

@@ -1,0 +1,96 @@
+system,label,qid,category,verdict,unsupported_claims,answer
+wiki_bm25,main,q059,single,correct,3,"In NIST CSF 2.0, the cybersecurity outcomes within the Core are arranged hierarchically by **Function, then Category, then Subcategory** (source: nist:NIST.CSWP.29.pdf).
+
+Specifically:
+- **Six Functions**: GOVERN (GV), IDENTIFY (ID), PROTECT (PR), DETECT (DE), RESPOND (RS), RECOVER (RC) - named with verbs that summarize their contents (source: nist:NIST.CSWP.29.pdf)
+- **Categories**: Related cybersecurity outcomes that collectively comprise a Function (source: nist:NIST.CSWP.29.pdf)
+- **Subcategories**: Detailed outcomes of technical and management activities that support each Category (source: nist:NIST.CSWP.29.pdf)"
+wiki_bm25,main,q058,single,correct,0,A Target Profile specifies the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives (source: nist:NIST.CSWP.29.pdf).
+wiki_bm25,main,q015,single,partial,1,"When reading, if the input file is a concatenation of multiple separate compressed streams, they are decoded as a single logical stream (source: py:library/lzma.html from lzmafile-class.md)."
+wiki_bm25,main,q005,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q018,single,correct,0,`PyRun_SimpleString()` returns **0 for success** and **-1 when an exception occurred** (including SyntaxError) (source: py:faq/extending.html (python-docs-3.13)).
+wiki_bm25,main,q064,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q042,single,correct,1,"Servers MUST apply appropriate per-primitive access controls and MUST NOT rely on `cacheScope` alone to prevent unauthorized access (source: mcp:2026-07-28/server/utilities/caching.mdx).
+
+Additionally, servers MUST ensure `cacheScope` correctly reflects the intended visibility of the primitive (source: mcp:2026-07-28/server/utilities/caching.mdx)."
+wiki_bm25,main,q039,single,correct,2,"MCP clients MUST use the `resource` parameter to designate target resources when requesting tokens (source: mcp:2026-07-28/basic/authorization/security-considerations.mdx, mcp:2025-06-18/basic/authorization.mdx).
+
+The `resource` parameter MUST be included in both authorization requests and token requests (source: mcp:2025-06-18/basic/authorization.mdx) and MUST use the canonical URI of the MCP server as defined in RFC 8707 Section 2 (source: mcp:2025-06-18/basic/authorization.mdx)."
+wiki_bm25,main,q051,single,correct,1,"The `maxTokens` parameter is compulsory and must be honored by the client (source: mcp:2026-07-28/client/sampling.mdx, mcp:2025-11-25/client/sampling.mdx). The client MUST respect this parameter, while other parameters like `temperature`, `stopSequences`, `topP`, and `topK` MAY be modified or ignored based on model capabilities or policies (source: mcp:2026-07-28/client/sampling.mdx)."
+wiki_bm25,main,q019,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q006,single,correct,0,"Functions in Python's cmath module always return a **complex number** even when the result has no imaginary component. In such cases, the complex number has an imaginary part of zero (source: py:library/cmath.html (python-docs-3.13))."
+wiki_bm25,main,q054,single,correct,2,"According to the MCP specification, implementations SHOULD always enforce a maximum timeout regardless of progress notifications **to limit the impact of a misbehaving client or server** (source: mcp:2025-11-25/basic/lifecycle.mdx).
+
+While implementations MAY reset the timeout clock when receiving progress notifications, maintaining an upper limit prevents scenarios where a faulty or malicious client/server could indefinitely extend request processing by continuously sending progress updates, which would lead to hung connections and resource exhaustion."
+wiki_bm25,main,q036,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q049,single,correct,2,`asyncio.TaskGroup` serves as a modern replacement for `create_task()`. It was added in version 3.11 as a modern alternative with stronger safety guarantees (source: py:library/asyncio-task.html (python-docs-3.13)).
+wiki_bm25,main,q038,single,correct,0,The default buffer size limit is **64 KiB (65536 bytes)** (source: py:library/asyncio-stream.html).
+wiki_bm25,main,q031,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q020,single,correct,0,"BEGIN DEFERRED statements (source: concepts/sqlite3-transaction-control.md, py:library/sqlite3.html (python-docs-3.13))"
+wiki_bm25,main,q057,single,correct,0,`mailbox.MH` is a subclass of `mailbox.Mailbox` (source: py:library/mailbox.html (python-docs-3.13)).
+wiki_bm25,main,q063,single,correct,0,Pagination is beneficial for local system integrations to **avoid performance issues with large data sets** (source: mcp:2025-06-18/server/utilities/pagination.mdx).
+wiki_bm25,main,q046,single,correct,4,"`grp.getgrnam(name)` returns a group database entry as a tuple-like object with four attributes:
+- `gr_name` (index 0): group name
+- `gr_passwd` (index 1): encrypted password  
+- `gr_gid` (index 2): numerical group ID
+- `gr_mem` (index 3): member list
+
+(source: py:library/grp.html (python-docs-3.13))"
+wiki_bm25,main,q022,single,correct,0,"Root `uri` MUST be a `file://` URI (source: mcp:2025-06-18/client/roots.mdx, mcp:2025-11-25/client/roots.mdx, mcp:2026-07-28/client/roots.mdx)"
+wiki_bm25,main,q037,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q035,single,wrong,2,"According to the documentation, the root item in a Treeview widget is named `{}` (source: py:library/tkinter.ttk.html (python-docs-3.13)). Therefore, for items located at the root level, the parent method would return `'{}'` (an empty string in braces)."
+wiki_bm25,main,q053,single,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q084,table,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q082,table,correct,0,"For compound type_, data is **None** (source: py:library/turtle.html (python-docs-3.13)). The compound shape is constructed using the `addcomponent()` method (source: py:library/turtle.html (python-docs-3.13))."
+wiki_bm25,main,q076,table,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q072,table,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q085,table,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q080,table,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q073,table,correct,0,The `re.DOTALL` or `re.S` flag makes `.` match any character including newline (source: py:howto/regex.html (python-docs-3.13)).
+wiki_bm25,main,q071,table,correct,0,`'darwin'` (source: py:library/sys.html (python-docs-3.13))
+wiki_bm25,main,q091,multihop,correct,1,"In Python's `http.server` module:
+
+1. **BaseHTTPRequestHandler error Content-Type**: `'text/html'` - the `error_content_type` class attribute defaults to `'text/html'` (source: py:library/http.server.html (python-docs-3.13))
+
+2. **SimpleHTTPRequestHandler index_pages**: `(""index.html"", ""index.htm"")` - added in version 3.12 (source: py:library/http.server.html (python-docs-3.13))"
+wiki_bm25,main,q093,multihop,correct,0,"On Android, standard output and standard error redirect to the system log under tags `python.stdout` and `python.stderr` (source: py:library/intro.html). The System V IPC API is not supported on Android, which prevents using the `multiprocessing` module (source: py:library/intro.html)."
+wiki_bm25,main,q090,multihop,correct,0,"Unconsumed input is saved in the `unconsumed_tail` attribute (source: py:library/zlib.html (python-docs-3.13)), and the `level` parameter accepts integers from 0 to 9 or -1 (source: py:library/zlib.html (python-docs-3.13))."
+wiki_bm25,main,q097,multihop,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q094,multihop,correct,2,"The HTTP endpoint queried to retrieve resource metadata is the **well-known URI**: `/.well-known/oauth-protected-resource` (either at the path of the server's MCP endpoint or at the root per RFC 9728) (source: mcp:2025-11-25/basic/authorization.mdx).
+
+The required parameter that identifies the target server is the **`resource` parameter**, which must use the canonical URI of the MCP server as defined in RFC 8707 Section 2 (source: mcp:2025-11-25/basic/authorization.mdx, mcp:2025-06-18/basic/authorization.mdx)."
+wiki_bm25,main,q088,multihop,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q108,neardup,correct,2,"In the 2026-07-28 MCP specification, prompt messages can reference contextual data without embedding its contents directly by using the **resource_link content type**.
+
+Format: `{""type"": ""resource_link"", ""uri"": ""..."", ""name"": ""..."", ""description"": ""..."", ""mimeType"": ""...""}` (source: mcp:2026-07-28/server/prompts.mdx)
+
+Resource links support the same Resource annotations as regular resources (source: mcp:2026-07-28/server/prompts.mdx).
+
+This allows prompt messages to point to Resources via URI reference rather than including the full content inline (source: mcp:2026-07-28/server/prompts.mdx)."
+wiki_bm25,main,q101,neardup,correct,0,Servers are advised to return tools in deterministic order to **enable reliable caching and improve LLM prompt cache hit rates** (source: mcp:2026-07-28/server/tools.mdx).
+wiki_bm25,main,q109,neardup,partial,1,"According to the 2026-07-28 MCP specification, servers declaring the `listChanged` capability SHOULD send `notifications/tools/list_changed` to **clients with open `subscriptions/listen` streams** (source: mcp:2026-07-28/server/tools.mdx)."
+wiki_bm25,main,q098,neardup,correct,1,"`structuredContent` (source: mcp:2026-07-28/server/tools.mdx)
+
+The `structuredContent` field can contain any JSON value (object, array, string, number, boolean, or null) that conforms to the tool's `outputSchema` if one is defined."
+wiki_bm25,main,q104,neardup,correct,0,"In the 2025-06-18 MCP spec, `ref/resource` is described as ""references a resource URI, e.g. `{""type"": ""ref/resource"", ""uri"": ""file:///{path}""}`"" (source: mcp:2025-06-18/server/utilities/completion.mdx)."
+wiki_bm25,main,q099,neardup,correct,0,"During **initialization** (source: mcp:2025-06-18/client/sampling.mdx).
+
+Clients that support sampling MUST declare the `sampling` capability during initialization."
+wiki_bm25,main,q106,neardup,correct,2,"According to the 2026-07-28 MCP specification, result responses **MUST include a `resultType` field** to indicate the type of the result (source: mcp:2026-07-28/basic/index.mdx).
+
+The `resultType` can have the following values:
+- `""complete""` - indicates request completed successfully with final content
+- `""input_required""` - indicates request is incomplete and more information is needed
+
+For backward compatibility, clients MUST treat an absent `resultType` as `""complete""` (source: mcp:2026-07-28/basic/index.mdx)."
+wiki_bm25,main,q107,neardup,wrong_abstention,0,NOT_FOUND
+wiki_bm25,main,q110,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q120,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q121,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q111,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q114,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q115,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q119,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q116,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q117,noanswer,correct_abstention,0,NOT_FOUND
+wiki_bm25,main,q112,noanswer,correct_abstention,0,NOT_FOUND

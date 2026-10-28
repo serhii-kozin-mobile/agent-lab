@@ -1,0 +1,146 @@
+{
+ "n": 20,
+ "agree": 19,
+ "items": [
+  {
+   "arm": "rag_main",
+   "qid": "q022",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q019",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q082",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q098",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q005",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q018",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "rag_main",
+   "qid": "q090",
+   "judge1": "partial",
+   "judge2": "partial",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q042",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q053",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q088",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q005",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q091",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_main",
+   "qid": "q049",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q015",
+   "judge1": "partial",
+   "judge2": "correct",
+   "agree": false
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q064",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q072",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q076",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q018",
+   "judge1": "correct",
+   "judge2": "correct",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q031",
+   "judge1": "wrong_abstention",
+   "judge2": "wrong",
+   "agree": true
+  },
+  {
+   "arm": "wiki_bm25_main",
+   "qid": "q117",
+   "judge1": "correct_abstention",
+   "judge2": "correct_abstention",
+   "agree": true
+  }
+ ]
+}

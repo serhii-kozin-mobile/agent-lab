@@ -1,0 +1,102 @@
+{
+ "n": 16,
+ "still_absent": 16,
+ "rows": [
+  {
+   "qid": "q005",
+   "category": "single",
+   "pages_checked": 15,
+   "found_page": null
+  },
+  {
+   "qid": "q015",
+   "category": "single",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q031",
+   "category": "single",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q035",
+   "category": "single",
+   "pages_checked": 17,
+   "found_page": null
+  },
+  {
+   "qid": "q036",
+   "category": "single",
+   "pages_checked": 17,
+   "found_page": null
+  },
+  {
+   "qid": "q037",
+   "category": "single",
+   "pages_checked": 17,
+   "found_page": null
+  },
+  {
+   "qid": "q053",
+   "category": "single",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q064",
+   "category": "single",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q072",
+   "category": "table",
+   "pages_checked": 17,
+   "found_page": null
+  },
+  {
+   "qid": "q076",
+   "category": "table",
+   "pages_checked": 15,
+   "found_page": null
+  },
+  {
+   "qid": "q080",
+   "category": "table",
+   "pages_checked": 17,
+   "found_page": null
+  },
+  {
+   "qid": "q084",
+   "category": "table",
+   "pages_checked": 18,
+   "found_page": null
+  },
+  {
+   "qid": "q085",
+   "category": "table",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q088",
+   "category": "multihop",
+   "pages_checked": 15,
+   "found_page": null
+  },
+  {
+   "qid": "q097",
+   "category": "multihop",
+   "pages_checked": 16,
+   "found_page": null
+  },
+  {
+   "qid": "q107",
+   "category": "neardup",
+   "pages_checked": 15,
+   "found_page": null
+  }
+ ]
+}

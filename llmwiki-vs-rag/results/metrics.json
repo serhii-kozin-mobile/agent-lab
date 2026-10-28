@@ -1,0 +1,557 @@
+{
+ "judged_answers_wiki_main.csv": {
+  "overall": {
+   "n": 56,
+   "accuracy_half": 0.268,
+   "accuracy_strict": 0.232,
+   "correct": 13,
+   "partial": 4,
+   "wrong": 29,
+   "abstain_wrong": 29
+  },
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.326,
+   "accuracy_strict": 0.283,
+   "correct": 13,
+   "partial": 4,
+   "wrong": 29,
+   "abstain_wrong": 29
+  },
+  "per_category": {
+   "multihop": {
+    "n": 6,
+    "accuracy_half": 0.167,
+    "accuracy_strict": 0.0,
+    "correct": 0,
+    "partial": 2,
+    "wrong": 4,
+    "abstain_wrong": 4
+   },
+   "neardup": {
+    "n": 8,
+    "accuracy_half": 0.562,
+    "accuracy_strict": 0.5,
+    "correct": 4,
+    "partial": 1,
+    "wrong": 3,
+    "abstain_wrong": 3
+   },
+   "single": {
+    "n": 24,
+    "accuracy_half": 0.354,
+    "accuracy_strict": 0.333,
+    "correct": 8,
+    "partial": 1,
+    "wrong": 15,
+    "abstain_wrong": 15
+   },
+   "table": {
+    "n": 8,
+    "accuracy_half": 0.125,
+    "accuracy_strict": 0.125,
+    "correct": 1,
+    "partial": 0,
+    "wrong": 7,
+    "abstain_wrong": 7
+   }
+  },
+  "noanswer_correct_abstention": "10/10",
+  "hallucination_rate_answered": 0.471,
+  "answers_with_unsupported_claims": 8,
+  "n_answered": 17,
+  "latency_mean_s": {
+   "mean": 15.829,
+   "ci": [
+    14.718,
+    17.047
+   ]
+  },
+  "tokens_per_query_est": {
+   "mean": 5329.83,
+   "ci": [
+    5134.183,
+    5557.911
+   ]
+  }
+ },
+ "judged_answers_rag_main.csv": {
+  "overall": {
+   "n": 56,
+   "accuracy_half": 0.786,
+   "accuracy_strict": 0.768,
+   "correct": 43,
+   "partial": 2,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.957,
+   "accuracy_strict": 0.935,
+   "correct": 43,
+   "partial": 2,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "per_category": {
+   "multihop": {
+    "n": 6,
+    "accuracy_half": 0.917,
+    "accuracy_strict": 0.833,
+    "correct": 5,
+    "partial": 1,
+    "wrong": 0,
+    "abstain_wrong": 0
+   },
+   "neardup": {
+    "n": 8,
+    "accuracy_half": 1.0,
+    "accuracy_strict": 1.0,
+    "correct": 8,
+    "partial": 0,
+    "wrong": 0,
+    "abstain_wrong": 0
+   },
+   "single": {
+    "n": 24,
+    "accuracy_half": 0.938,
+    "accuracy_strict": 0.917,
+    "correct": 22,
+    "partial": 1,
+    "wrong": 1,
+    "abstain_wrong": 1
+   },
+   "table": {
+    "n": 8,
+    "accuracy_half": 1.0,
+    "accuracy_strict": 1.0,
+    "correct": 8,
+    "partial": 0,
+    "wrong": 0,
+    "abstain_wrong": 0
+   }
+  },
+  "noanswer_correct_abstention": "10/10",
+  "hallucination_rate_answered": 0.489,
+  "answers_with_unsupported_claims": 22,
+  "n_answered": 45,
+  "latency_mean_s": {
+   "mean": 8.632,
+   "ci": [
+    7.777,
+    9.779
+   ]
+  },
+  "tokens_per_query_est": {
+   "mean": 2044.174,
+   "ci": [
+    1980.978,
+    2108.585
+   ]
+  }
+ },
+ "judged_answers_wiki_bm25_main.csv": {
+  "overall": {
+   "n": 56,
+   "accuracy_half": 0.518,
+   "accuracy_strict": 0.5,
+   "correct": 28,
+   "partial": 2,
+   "wrong": 16,
+   "abstain_wrong": 15
+  },
+  "answerable": {
+   "n": 46,
+   "accuracy_half": 0.63,
+   "accuracy_strict": 0.609,
+   "correct": 28,
+   "partial": 2,
+   "wrong": 16,
+   "abstain_wrong": 15
+  },
+  "per_category": {
+   "multihop": {
+    "n": 6,
+    "accuracy_half": 0.667,
+    "accuracy_strict": 0.667,
+    "correct": 4,
+    "partial": 0,
+    "wrong": 2,
+    "abstain_wrong": 2
+   },
+   "neardup": {
+    "n": 8,
+    "accuracy_half": 0.812,
+    "accuracy_strict": 0.75,
+    "correct": 6,
+    "partial": 1,
+    "wrong": 1,
+    "abstain_wrong": 1
+   },
+   "single": {
+    "n": 24,
+    "accuracy_half": 0.646,
+    "accuracy_strict": 0.625,
+    "correct": 15,
+    "partial": 1,
+    "wrong": 8,
+    "abstain_wrong": 7
+   },
+   "table": {
+    "n": 8,
+    "accuracy_half": 0.375,
+    "accuracy_strict": 0.375,
+    "correct": 3,
+    "partial": 0,
+    "wrong": 5,
+    "abstain_wrong": 5
+   }
+  },
+  "noanswer_correct_abstention": "10/10",
+  "hallucination_rate_answered": 0.484,
+  "answers_with_unsupported_claims": 15,
+  "n_answered": 31,
+  "latency_mean_s": {
+   "mean": 8.526,
+   "ci": [
+    7.807,
+    9.349
+   ]
+  },
+  "tokens_per_query_est": {
+   "mean": 2488.156,
+   "ci": [
+    2198.049,
+    2801.071
+   ]
+  }
+ },
+ "judged_answers_wiki_synth.csv": {
+  "overall": {
+   "n": 8,
+   "accuracy_half": 0.312,
+   "accuracy_strict": 0.0,
+   "correct": 0,
+   "partial": 5,
+   "wrong": 3,
+   "abstain_wrong": 2
+  },
+  "answerable": {
+   "n": 8,
+   "accuracy_half": 0.312,
+   "accuracy_strict": 0.0,
+   "correct": 0,
+   "partial": 5,
+   "wrong": 3,
+   "abstain_wrong": 2
+  },
+  "per_category": {
+   "synthesis": {
+    "n": 8,
+    "accuracy_half": 0.312,
+    "accuracy_strict": 0.0,
+    "correct": 0,
+    "partial": 5,
+    "wrong": 3,
+    "abstain_wrong": 2
+   }
+  },
+  "noanswer_correct_abstention": "0/0",
+  "hallucination_rate_answered": 1.0,
+  "answers_with_unsupported_claims": 6,
+  "n_answered": 6,
+  "latency_mean_s": {
+   "mean": 27.733,
+   "ci": null,
+   "note": "n too small"
+  },
+  "tokens_per_query_est": {
+   "mean": 6870.625,
+   "ci": null,
+   "note": "n too small"
+  }
+ },
+ "judged_answers_rag_synth.csv": {
+  "overall": {
+   "n": 8,
+   "accuracy_half": 0.688,
+   "accuracy_strict": 0.5,
+   "correct": 4,
+   "partial": 3,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "answerable": {
+   "n": 8,
+   "accuracy_half": 0.688,
+   "accuracy_strict": 0.5,
+   "correct": 4,
+   "partial": 3,
+   "wrong": 1,
+   "abstain_wrong": 1
+  },
+  "per_category": {
+   "synthesis": {
+    "n": 8,
+    "accuracy_half": 0.688,
+    "accuracy_strict": 0.5,
+    "correct": 4,
+    "partial": 3,
+    "wrong": 1,
+    "abstain_wrong": 1
+   }
+  },
+  "noanswer_correct_abstention": "0/0",
+  "hallucination_rate_answered": 0.286,
+  "answers_with_unsupported_claims": 2,
+  "n_answered": 7,
+  "latency_mean_s": {
+   "mean": 10.767,
+   "ci": null,
+   "note": "n too small"
+  },
+  "tokens_per_query_est": {
+   "mean": 2304.781,
+   "ci": null,
+   "note": "n too small"
+  }
+ },
+ "judged_answers_wiki_snap25.csv": {
+  "overall": {
+   "n": 10,
+   "accuracy_half": 0.65,
+   "accuracy_strict": 0.6,
+   "correct": 6,
+   "partial": 1,
+   "wrong": 3,
+   "abstain_wrong": 3
+  },
+  "answerable": {
+   "n": 10,
+   "accuracy_half": 0.65,
+   "accuracy_strict": 0.6,
+   "correct": 6,
+   "partial": 1,
+   "wrong": 3,
+   "abstain_wrong": 3
+  },
+  "per_category": {
+   "neardup": {
+    "n": 3,
+    "accuracy_half": 0.833,
+    "accuracy_strict": 0.667,
+    "correct": 2,
+    "partial": 1,
+    "wrong": 0,
+    "abstain_wrong": 0
+   },
+   "single": {
+    "n": 6,
+    "accuracy_half": 0.667,
+    "accuracy_strict": 0.667,
+    "correct": 4,
+    "partial": 0,
+    "wrong": 2,
+    "abstain_wrong": 2
+   },
+   "table": {
+    "n": 1,
+    "accuracy_half": 0.0,
+    "accuracy_strict": 0.0,
+    "correct": 0,
+    "partial": 0,
+    "wrong": 1,
+    "abstain_wrong": 1
+   }
+  },
+  "noanswer_correct_abstention": "0/0",
+  "hallucination_rate_answered": 0.714,
+  "answers_with_unsupported_claims": 5,
+  "n_answered": 7,
+  "latency_mean_s": {
+   "mean": 17.412,
+   "ci": [
+    15.558,
+    19.613
+   ]
+  },
+  "tokens_per_query_est": {
+   "mean": 5838.525,
+   "ci": [
+    5114.6,
+    6561.675
+   ]
+  }
+ },
+ "judged_answers_wiki_snap50.csv": {
+  "overall": {
+   "n": 15,
+   "accuracy_half": 0.367,
+   "accuracy_strict": 0.333,
+   "correct": 5,
+   "partial": 1,
+   "wrong": 9,
+   "abstain_wrong": 8
+  },
+  "answerable": {
+   "n": 15,
+   "accuracy_half": 0.367,
+   "accuracy_strict": 0.333,
+   "correct": 5,
+   "partial": 1,
+   "wrong": 9,
+   "abstain_wrong": 8
+  },
+  "per_category": {
+   "multihop": {
+    "n": 1,
+    "accuracy_half": 0.0,
+    "accuracy_strict": 0.0,
+    "correct": 0,
+    "partial": 0,
+    "wrong": 1,
+    "abstain_wrong": 1
+   },
+   "neardup": {
+    "n": 1,
+    "accuracy_half": 1.0,
+    "accuracy_strict": 1.0,
+    "correct": 1,
+    "partial": 0,
+    "wrong": 0,
+    "abstain_wrong": 0
+   },
+   "single": {
+    "n": 10,
+    "accuracy_half": 0.35,
+    "accuracy_strict": 0.3,
+    "correct": 3,
+    "partial": 1,
+    "wrong": 6,
+    "abstain_wrong": 5
+   },
+   "table": {
+    "n": 3,
+    "accuracy_half": 0.333,
+    "accuracy_strict": 0.333,
+    "correct": 1,
+    "partial": 0,
+    "wrong": 2,
+    "abstain_wrong": 2
+   }
+  },
+  "noanswer_correct_abstention": "0/0",
+  "hallucination_rate_answered": 0.571,
+  "answers_with_unsupported_claims": 4,
+  "n_answered": 7,
+  "latency_mean_s": {
+   "mean": 16.437,
+   "ci": [
+    14.518,
+    18.715
+   ]
+  },
+  "tokens_per_query_est": {
+   "mean": 5501.167,
+   "ci": [
+    5338.733,
+    5657.167
+   ]
+  }
+ },
+ "paired_wiki_minus_rag": {
+  "n": 46,
+  "diff": -0.63,
+  "ci": [
+   -0.772,
+   -0.489
+  ]
+ },
+ "paired_synth_wiki_minus_rag": {
+  "n": 8,
+  "diff": null,
+  "ci": null,
+  "note": "n too small for CI"
+ },
+ "usage_by_tag": {
+  "ingest": {
+   "calls": 100,
+   "tokens_est": 935327,
+   "latency_s": 4507.6
+  },
+  "judge-batch": {
+   "calls": 27,
+   "tokens_est": 39291,
+   "latency_s": 174.9
+  },
+  "rag-answer": {
+   "calls": 64,
+   "tokens_est": 132918,
+   "latency_s": 569.5
+  },
+  "synthesis-gen": {
+   "calls": 1,
+   "tokens_est": 3045,
+   "latency_s": 32.4
+  },
+  "wiki-answer": {
+   "calls": 89,
+   "tokens_est": 92468,
+   "latency_s": 715.1
+  },
+  "wiki-pick": {
+   "calls": 89,
+   "tokens_est": 401860,
+   "latency_s": 813.9
+  },
+  "wikibm25-answer": {
+   "calls": 56,
+   "tokens_est": 139334,
+   "latency_s": 477.4
+  }
+ },
+ "ingest": {
+  "docs": 100,
+  "ok": 100,
+  "tokens_est_total": 935284,
+  "latency_sum_s": 4507.6
+ },
+ "lint_final": {
+  "pages": 303,
+  "chars": 530307,
+  "broken_links": 3,
+  "broken_sample": [
+   [
+    "entities/resourcereader-class.md",
+    "traversableresources-class"
+   ],
+   [
+    "entities/__future__-module.md",
+    "_Feature-class"
+   ],
+   [
+    "entities/traversableresources-class.md",
+    "resourcereader-class"
+   ]
+  ],
+  "orphans": 98,
+  "not_in_index": 0
+ },
+ "lint_wiki_25": {
+  "pages": 85,
+  "chars": 136419,
+  "broken_links": 0,
+  "broken_sample": [],
+  "orphans": 25,
+  "not_in_index": 0
+ },
+ "lint_wiki_50": {
+  "pages": 161,
+  "chars": 258245,
+  "broken_links": 0,
+  "broken_sample": [],
+  "orphans": 50,
+  "not_in_index": 0
+ }
+}
